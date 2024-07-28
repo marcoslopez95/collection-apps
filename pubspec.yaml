@@ -1,0 +1,366 @@
+name: prokit_flutter
+description: A new Flutter application.
+version: 6.7.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Basee
+  cupertino_icons: ^1.0.8
+  nb_utils: ^7.0.3
+  intl: ^0.19.0
+  flutter_vector_icons: ^2.0.0
+  google_fonts: ^6.2.1
+
+  # FIREBASE PACKAGES
+  firebase_core: ^3.2.0
+  firebase_messaging: ^15.0.3
+  cloud_firestore: ^5.1.0
+  firebase_auth: ^5.1.2
+  firebase_remote_config: ^5.0.3
+
+  # Common
+  share_plus: ^9.0.0
+  url_launcher: ^6.3.0
+  http: ^1.2.1
+  html: ^0.15.4
+
+  # IMAGE
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  file_picker: ^8.0.6
+  card_swiper: ^3.0.1
+
+  # AUTHENTICATION
+  google_sign_in: ^6.2.1
+  local_auth: ^2.2.0
+  the_apple_sign_in: ^1.1.1
+
+  # STATE MANAGEMENT
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.2.1+1
+
+  # MAP
+  google_maps_flutter: ^2.7.0
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+  # WEB TOOLS
+  webview_flutter: ^4.8.0
+
+  # ADS
+  # google_mobile_ads: ^5.1.0
+
+  # UI
+  simple_animations: ^5.0.2
+  flutter_svg: ^2.0.10+1
+  flutter_slidable: ^3.1.1
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_colorpicker: ^1.1.0
+  signature: ^5.5.0
+  dots_indicator: ^3.0.0
+  percent_indicator: ^4.2.3
+  carousel_slider: ^4.2.1
+  animations: ^2.0.10
+  lottie: ^3.1.2
+  liquid_swipe: ^3.1.0
+  clippy_flutter: ^1.1.1
+  showcaseview: ^3.0.0
+  fl_chart: ^0.68.0
+  syncfusion_flutter_charts: ^26.1.38
+  flutter_reaction_button: ^3.0.0+3
+  smooth_star_rating_null_safety: ^1.0.4+2
+  country_calling_code_picker: ^2.0.1
+  simple_gradient_text: ^1.3.0
+  photo_view: ^0.15.0
+
+  # VIDEOS
+  video_player: ^2.9.1
+
+  # NOTIFICATION
+  flutter_local_notifications: ^17.2.1+2
+  onesignal_flutter: ^5.0.4
+
+  # Dimond kit
+  sleek_circular_slider: ^2.0.1
+  sliding_up_panel: ^2.0.0+1
+
+  otp_text_field: ^1.1.3
+
+  # Cloud Storage #
+  multi_image_picker_plus: ^0.0.4
+  collection: ^1.18.0
+
+  # PDF VIEWER #
+#  syncfusion_flutter_pdfviewer: ^26.1.38
+  easy_pdf_viewer: ^1.0.8
+
+  # Generate QR Code #
+  qr_flutter: ^4.1.0
+  scan: 1.6.0
+
+  # ProScan #
+  flutter_switch: ^0.3.2
+
+  cunning_document_scanner: ^1.2.3
+  syncfusion_flutter_signaturepad: ^26.1.41
+
+  # Potea #
+  otp_pin_field: ^1.2.9
+  dashed_stepper: ^0.0.4
+  order_tracker: ^0.0.2
+
+  # Adoptify #
+  animated_splash_screen: ^1.3.0
+  get: ^4.6.6
+  social_signin_buttons_plugin: ^0.0.2
+  motion_tab_bar: ^2.0.4
+  intl_phone_field: ^3.2.0
+  share: ^2.0.4
+
+  # Scribblr #
+  country_picker: ^2.0.26
+  ionicons: ^0.2.2
+
+  # ChatGpt #
+  chat_gpt_flutter: ^1.0.16
+  flutter_spinkit: ^5.2.1
+  flutter_tts: ^4.0.2
+  speech_to_text: ^6.5.0
+
+  # Payment #
+  razorpay_flutter: ^1.3.7
+  #flutter_stripe: ^1.3.0
+  #flutter_paystack: ^1.0.5+1
+  flutter_inappwebview: ^5.8.0
+  #pay: ^1.0.6
+  http_auth: ^1.0.4
+  flutter_paystack:
+    git:
+      url: https://github.com/iqonic-design/flutter_paystack.git
+      ref: 1.0.0
+
+  #Temporarily disabled due to lake of null safety
+  #geocoder: 0.2.1
+  #geohash: ^0.2.1
+  #snaplist: 0.1.8
+
+  # SMART HOME #
+  syncfusion_flutter_gauges: ^26.1.38
+  dotted_line: ^3.2.2
+  country_code_picker: ^3.0.0
+
+  # COINPRO
+  smooth_page_indicator: ^1.2.0
+
+  # SOCIAL V
+  story_view: ^0.16.5
+
+  path_drawing: ^1.0.1
+  just_audio: ^0.9.39
+  camera: ^0.11.0+1
+  flutter_zoom_drawer: ^3.2.0
+
+  flutter_localizations:
+    sdk: flutter
+
+dependency_overrides:
+  intl: ^0.17.0-nullsafety.2
+  http: ^0.13.0
+  clippy_flutter: 2.0.0-nullsafety.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.11
+  # flutter packages pub run build_runner build --delete-conflicting-outputs
+  # flutter run -d chrome --web-browser-flag "--disable-web-security"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - fonts/
+    - assets/
+    - assets/integrations/pay/
+    - images/
+    - images/app/icons/
+    - images/app/
+    - images/app/socialIcons/
+    - images/widgets/
+    - images/widgets/materialWidgets/
+    - images/widgets/interactionModelWidgets/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/
+    - images/widgets/materialWidgets/mwDialogAlertPanelWidgets/
+    - images/widgets/paintingAndEffectWidgets/
+    - images/widgets/animationAndMotionWidgets/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/MWUserAccountDrawerHeaderWidget/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/MWListTile/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/BottomNavigation/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/TabBar/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/switch/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/Checkbox/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/cards/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/gridview/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/listView/
+    - images/widgets/paintingAndEffectWidgets/opacity/
+    - images/integrations/img/
+    - images/integrations/icons/
+    - images/integrations/
+    - images/theme1/
+    - images/theme2/
+    - images/theme3/
+    - images/theme4/
+    - images/theme5/
+    - images/theme7/
+    - images/theme6/
+    - images/theme8/
+    - images/theme9/
+    - images/theme10/
+    - images/theme11/
+    - images/theme12/
+    - images/theme13/
+    - images/theme14/
+    - images/walletApp/
+    - images/Tinder/images/
+    - assets/defaultTheme/
+    - images/shophop/img/
+    - assets/shophop_data/
+    - assets/integrations/
+    - assets/medium/
+    - assets/integrations/lang/
+    - images/shophop/img/products/
+    - images/shophop/img/products/shoes/
+    - images/shophop/img/products/dress/
+    - images/qibus/
+    - images/pricingPlans/
+    - images/shophop/img/products/banners/
+    - images/shophop/img/products/decor/
+    - images/newsBlog/
+    - images/medium/
+    - images/banking/
+    - images/orapay/
+    - assets/meadium_data/
+    - images/defaultTheme/
+    - images/mediLab/
+    - images/quiz/
+    - images/eventApp/
+    - images/defaultTheme/banner/
+    - images/flag/
+    - images/dating/
+    - images/dashboard/
+    - images/dashboard/smart_home/
+    - images/dashboard/split_bill/
+    - images/dashboard/health_medical/
+    - images/dashboard/utility_tracker/
+    - images/dashboard/analytics/
+    - images/dashboard/banking_dashboard/
+    - images/social/
+    - images/shophop/
+    - images/Reaction/images/
+    - images/defaultTheme/category/
+    - images/Reaction/
+    - images/cloudStorage/
+    - images/Tinder/
+    - images/smartDeck/
+    - images/learner/
+    - images/Reaction/images/SocialMedia/
+    - images/smartDeck/images/
+    - images/hairSalon/
+    - images/food/
+    - images/grocery/
+    - assets/pdf/
+    - images/webDashboard1/
+    - images/webDashboard2/
+    - images/webDashBoard3/
+    - images/emptyScreen1/
+    - images/errorScreens/
+    - images/shHome/
+    - images/sneakerShopping/
+    - images/coinPro/
+    - images/appetit/
+    - images/juberCarBooking/
+    - images/juberCarBooking/jcbGifs/
+    - images/juberCarBooking/jcbIcons/
+    - images/socialv/
+    - images/socialv/icons/
+    - images/beauty_master/
+    - images/mealime/
+    - images/recipe/
+    - images/recipe/walkThroughImages/
+    - images/roomFinding/
+    - images/carea/
+    - images/homeService/
+    - images/evSpot/
+    - images/relixMusicApp/
+    - images/relixMusicApp/icons/
+    - images/proScan/icons/
+    - images/proScan/icons/dashboard_icons/
+    - images/proScan/icons/bottom_navigation_icons/
+    - images/proScan/icons/contact_us_screen_icons/
+    - images/proScan/images/
+    - images/proScan/images/sign_in_screen_images/
+    - images/proScan/images/payment_screen_images/
+    - assets/mapStyles/
+    - images/stockMarket/icons/
+    - images/stockMarket/stock/
+    - images/chatgpt/
+    - images/stockMarket/
+    - images/flixv2/
+    - images/flixv2/movieposter/
+    - images/flixv2/actors/
+    - images/flixv2/actors/andrew_garfield/
+    - images/flixv2/actors/chris_evans/
+    - images/flixv2/actors/chris_hemsworth/
+    - images/flixv2/actors/emma_watson/
+    - images/flixv2/actors/hrithik_roshan/
+    - images/flixv2/actors/robert_downey/
+    - images/flixv2/actors/tom_holland/
+    - images/flixv2/user/
+    - images/flixv2/walkthrough/
+    - images/flixv2/logo/
+    - images/flixv2/genre/
+    - images/theme15/
+    - images/theme15/account_images/
+    - images/theme15/dashboard/
+    - images/theme15/flags/
+    - images/theme15/icons/
+    - images/theme15/payment_images/
+    - images/theme15/pets_images/
+    - images/theme15/pets_screen/
+    - images/theme15/walkthrough_images/
+    - images/scribblr/
+    - images/scribblr/authors/
+    - images/scribblr/articles/
+    - images/scribblr/icons/
+    - images/scribblr/lottie/
+
+  fonts:
+    - family: Andina
+      fonts:
+        - asset: fonts/andina.ttf
+
+    - family: Regular
+      fonts:
+        - asset: fonts/googlesansregular.ttf
+
+    - family: Medium
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Semibold
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Bold
+      fonts:
+        - asset: fonts/googlesansebold.ttf
+
