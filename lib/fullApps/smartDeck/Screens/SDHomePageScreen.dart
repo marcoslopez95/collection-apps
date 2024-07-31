@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:prokit_flutter/helper.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDChatScreen.dart';
@@ -16,6 +17,7 @@ class SDHomePageScreen extends StatefulWidget {
 
 class _SDHomePageScreenState extends State<SDHomePageScreen> {
   int currentIndex = 0;
+  Helper helper = Helper();
 
   @override
   Widget build(BuildContext context) {

@@ -11,8 +11,10 @@ import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDExamScreen.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDLessonsChapterDetailsScreen.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDNotificationScreen.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDSearchScreen.dart';
+import 'package:prokit_flutter/helper.dart';
 import 'package:prokit_flutter/main.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:prokit_flutter/src/Model/UserAuth.dart';
 
 import 'SdViewAllLivevideoScreen.dart';
 
@@ -22,6 +24,19 @@ class SDDashboard extends StatefulWidget {
 }
 
 class SDDashboardState extends State<SDDashboard> {
+  Helper helper = Helper();
+  String great = 'Hi ';
+  UserAuth? _userAuth;
+
+  Future<String> getGreat() async{
+    UserAuth userAuth = await helper.getUserAuth();
+    _userAuth = userAuth;
+    print('--get great--');
+    print(userAuth);
+    print(userAuth.name);
+    print('--end get great--');
+    return 'Hi, Mark '+ userAuth.name;
+  }
   @override
   void initState() {
     super.initState();
@@ -29,6 +44,7 @@ class SDDashboardState extends State<SDDashboard> {
   }
 
   Future<void> init() async {
+    great = await getGreat();
     changeStatusColor(appStore.isDarkModeOn ? scaffoldDarkColor : white);
   }
 
@@ -102,7 +118,7 @@ class SDDashboardState extends State<SDDashboard> {
                 SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text('Hi, Mark', style: boldTextStyle(size: 20)),
+                  child: Text(great + (_userAuth?.name ?? ' nada'), style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),
                 Container(

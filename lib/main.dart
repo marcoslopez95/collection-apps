@@ -6,11 +6,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-// import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
+import 'package:prokit_flutter/defaultTheme/screen/DTSignUpScreen.dart';
 import 'package:prokit_flutter/firebase_options.dart';
 import 'package:prokit_flutter/fullApps/cloudStorage/model/CSDataModel.dart';
+import 'package:prokit_flutter/fullApps/stockMarket/screens/signup_screen.dart';
 import 'package:prokit_flutter/locale/AppLocalizations.dart';
 import 'package:prokit_flutter/main/screens/AppSplashScreen.dart';
 import 'package:prokit_flutter/main/store/AppStore.dart';
@@ -98,13 +99,14 @@ class MyApp extends StatelessWidget {
           builder: (_) => GetMaterialApp(
             debugShowCheckedModeBanner: false,
             title: '$mainAppName${!isMobile ? ' ${platformName()}' : ''}',
-            // home: AppSplashScreen(),
+            home: DTSignUpScreen(),
             theme: !appStore.isDarkModeOn ? AppThemeData.lightTheme : AppThemeData.darkTheme,
-            initialRoute: AppSplashScreen.tag,
+            // initialRoute: '/event',
+            // initialRoute: AppSplashScreen.tag,
             routes: routes(),
-            onGenerateInitialRoutes: (route) => [
-              MaterialPageRoute(builder: (_) => AppSplashScreen(routeName: route.validate())),
-            ],
+            // onGenerateInitialRoutes: (route) => [
+            //   MaterialPageRoute(builder: (_) => AppSplashScreen(routeName: route.validate())),
+            // ],
             navigatorKey: navigatorKey,
             scrollBehavior: AppScrollBehavior(),
             supportedLocales: LanguageDataModel.languageLocales(),

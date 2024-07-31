@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
+import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
 import 'package:prokit_flutter/main/utils/AppColors.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:prokit_flutter/src/auth/LoginController.dart';
 
 import '../../main.dart';
 import 'DTDrawerWidget.dart';
@@ -16,13 +18,31 @@ class DTSignUpScreen extends StatefulWidget {
 class DTSignUpScreenState extends State<DTSignUpScreen> {
   bool obscureText = true;
   bool autoValidate = false;
-  var emailCont = TextEditingController();
-  var passCont = TextEditingController();
+  var emailCont = TextEditingController(text: 'testing@c.c');
+  var passCont = TextEditingController(text: 'sologuillermo');
   var nameCont = TextEditingController();
 
   var emailFocus = FocusNode();
   var passFocus = FocusNode();
 
+  final LoginController _loginController = LoginController();
+  Future<void> _login() async {
+    print('Formulario validado');
+    bool success = await _loginController.login(
+      emailCont.text,
+      passCont.text,
+    );
+
+    if (success) {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => SDHomePageScreen()),
+      );
+    } else {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text('Fallo al iniciar sesión. Intente de nuevo')));
+    }
+  }
   @override
   void initState() {
     super.initState();
@@ -42,7 +62,7 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      appBar: appBar(context, 'Sign Up'),
+      //appBar: appBar(context, 'Sign Up'),
       drawer: DTDrawerWidget(),
       body: Center(
         child: Container(
@@ -53,9 +73,9 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text('Sign Up', style: boldTextStyle(size: 24)),
+                Text('Iniciar Sesión', style: boldTextStyle(size: 24)),
                 30.height,
-                TextFormField(
+                /*TextFormField(
                   controller: nameCont,
                   style: primaryTextStyle(),
                   decoration: InputDecoration(
@@ -69,14 +89,14 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
                   keyboardType: TextInputType.text,
                   onFieldSubmitted: (s) => FocusScope.of(context).requestFocus(emailFocus),
                   textInputAction: TextInputAction.next,
-                ),
+                ),*/
                 16.height,
                 TextFormField(
                   controller: emailCont,
                   focusNode: emailFocus,
                   style: primaryTextStyle(),
                   decoration: InputDecoration(
-                    labelText: 'Email',
+                    labelText: 'Correo Electrónico',
                     labelStyle: secondaryTextStyle(),
                     contentPadding: EdgeInsets.all(16),
                     border: OutlineInputBorder(),
@@ -94,7 +114,7 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
                   controller: passCont,
                   style: primaryTextStyle(),
                   decoration: InputDecoration(
-                    labelText: 'Password',
+                    labelText: 'Contraseña',
                     contentPadding: EdgeInsets.all(16),
                     labelStyle: secondaryTextStyle(),
                     border: OutlineInputBorder(),
@@ -111,10 +131,10 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
                   alignment: Alignment.center,
                   padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
                   decoration: BoxDecoration(color: appColorPrimary, borderRadius: BorderRadius.circular(8), boxShadow: defaultBoxShadow()),
-                  child: Text('Sign Up', style: boldTextStyle(color: white, size: 18)),
+                  child: Text('Iniciar', style: boldTextStyle(color: white, size: 18)),
                 ).onTap(() {
                   finish(context);
-
+                  _login();
                   /// Remove comment if you want enable validation
                   /* if (formKey.currentState.validate()) {
                       formKey.currentState.save();
@@ -124,10 +144,10 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
                     }
                     setState(() {});*/
                 }),
-                20.height,
+                /*20.height,
                 Text('Already Registered?', style: boldTextStyle(color: appColorPrimary)).center().onTap(() {
                   finish(context);
-                }),
+                }),*/
               ],
             ),
           ).center(),
