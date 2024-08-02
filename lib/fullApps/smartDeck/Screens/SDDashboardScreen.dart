@@ -25,26 +25,27 @@ class SDDashboard extends StatefulWidget {
 
 class SDDashboardState extends State<SDDashboard> {
   Helper helper = Helper();
-  String great = 'Hi ';
   UserAuth? _userAuth;
 
-  Future<String> getGreat() async{
-    UserAuth userAuth = await helper.getUserAuth();
-    _userAuth = userAuth;
-    print('--get great--');
-    print(userAuth);
-    print(userAuth.name);
-    print('--end get great--');
-    return 'Hi, Mark '+ userAuth.name;
+  Future<void> getGreat() async{
+      UserAuth userAuth = await helper.getUserAuth();
+    setState(() {
+      _userAuth = userAuth;
+      print('--get great--');
+      print(userAuth);
+      print(userAuth.name);
+      print('--end get great--');
+    });
   }
+
   @override
   void initState() {
     super.initState();
     init();
   }
 
-  Future<void> init() async {
-    great = await getGreat();
+  Future<void> init() async{
+    await getGreat();
     changeStatusColor(appStore.isDarkModeOn ? scaffoldDarkColor : white);
   }
 
@@ -55,6 +56,7 @@ class SDDashboardState extends State<SDDashboard> {
 
   @override
   Widget build(BuildContext context) {
+
     return SafeArea(
       child: Scaffold(
         body: Container(
@@ -118,7 +120,7 @@ class SDDashboardState extends State<SDDashboard> {
                 SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text(great + (_userAuth?.name ?? ' nada'), style: boldTextStyle(size: 20)),
+                  child: Text('Hi, ${_userAuth?.name}', style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),
                 Container(
