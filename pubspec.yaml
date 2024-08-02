@@ -9,6 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  qr_code_scanner: ^1.0.1
   # Basee
   cupertino_icons: ^1.0.8
   nb_utils: ^7.0.3

@@ -65,6 +65,7 @@
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>ProKit Flutter requires access to Speech recognition  when you will be used to determine which words you speak into this device microphone.</string>
 	<key>SKAdNetworkItems</key>
+
 	<array>
 		<dict>
 			<key>SKAdNetworkIdentifier</key>
@@ -98,5 +99,10 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+    <string>This app needs camera access to scan QR codes</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs photos access to get QR code from photo library</string>
 </dict>
 </plist>
