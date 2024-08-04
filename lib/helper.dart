@@ -22,5 +22,9 @@ class Helper extends ChangeNotifier{
     return this.userAuth;
   }
 
+  Future<String?> getToken() async{
+    return await storage.read(key: 'token');
+  }
+
 
 }

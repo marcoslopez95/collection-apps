@@ -18,6 +18,7 @@ class DTSignUpScreen extends StatefulWidget {
 class DTSignUpScreenState extends State<DTSignUpScreen> {
   bool obscureText = true;
   bool autoValidate = false;
+  bool isTaped = false;
   var emailCont = TextEditingController(text: 'testing@c.c');
   var passCont = TextEditingController(text: 'sologuillermo');
   var nameCont = TextEditingController();
@@ -28,6 +29,7 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
   final LoginController _loginController = LoginController();
   Future<void> _login() async {
     print('Formulario validado');
+
     bool success = await _loginController.login(
       emailCont.text,
       passCont.text,
@@ -131,10 +133,15 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
                   alignment: Alignment.center,
                   padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
                   decoration: BoxDecoration(color: appColorPrimary, borderRadius: BorderRadius.circular(8), boxShadow: defaultBoxShadow()),
-                  child: Text('Iniciar', style: boldTextStyle(color: white, size: 18)),
+                  child: Text('${isTaped ? 'Iniciando...' : 'Iniciar'}', style: boldTextStyle(color: white, size: 18)),
                 ).onTap(() {
                   finish(context);
-                  _login();
+                  if(!isTaped){
+                    _login();
+                  }
+                  setState((){
+                    isTaped = true;
+                  });
                   /// Remove comment if you want enable validation
                   /* if (formKey.currentState.validate()) {
                       formKey.currentState.save();

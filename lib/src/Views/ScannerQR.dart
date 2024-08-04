@@ -3,6 +3,9 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
+import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
+import 'package:prokit_flutter/src/Services/MaketicketService.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 
 class QRViewExample extends StatefulWidget {
@@ -14,6 +17,7 @@ class QRViewExample extends StatefulWidget {
 
 class _QRViewExampleState extends State<QRViewExample> {
   Barcode? result;
+  var response;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
 
@@ -43,7 +47,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                 children: <Widget>[
                   if (result != null)
                     Text(
-                        'Barcode Type: ${describeEnum(result!.format)}   Data: ${result!.code}')
+                        'Data: ${response!.message}')
                   else
                     const Text('Scan a code'),
                   Row(
@@ -85,11 +89,11 @@ class _QRViewExampleState extends State<QRViewExample> {
                       )
                     ],
                   ),
-                  Row(
+                  /*Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
-                      Container(
+                      *//*Container(
                         margin: const EdgeInsets.all(8),
                         child: ElevatedButton(
                           onPressed: () async {
@@ -98,7 +102,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                           child: const Text('pause',
                               style: TextStyle(fontSize: 20)),
                         ),
-                      ),
+                      ),*//*
                       Container(
                         margin: const EdgeInsets.all(8),
                         child: ElevatedButton(
@@ -110,7 +114,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                         ),
                       )
                     ],
-                  ),
+                  ),*/
                 ],
               ),
             ),
@@ -141,13 +145,24 @@ class _QRViewExampleState extends State<QRViewExample> {
     );
   }
 
+  MacketicketService _maketicketServive = MacketicketService();
   void _onQRViewCreated(QRViewController controller) {
     setState(() {
       this.controller = controller;
     });
-    controller.scannedDataStream.listen((scanData) {
+    controller.scannedDataStream.listen((scanData) async {
+      var res;
+      if(scanData.code != ''){
+        print('''
+        --------- uuid --------
+        ${scanData.code}
+        ------- end uuid --------
+        ''');
+        res = await _maketicketServive.scanUuid(scanData.code!);
+      }
       setState(() {
         result = scanData;
+        response = res;
       });
     });
   }
