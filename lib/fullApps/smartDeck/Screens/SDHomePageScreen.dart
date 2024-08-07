@@ -61,7 +61,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
                   activeIcon: Image.asset('images/smartDeck/images/sdexamcard.png', height: 28, width: 28, color: sdPrimaryColor),
                   label: 'a',
                 ),
-                BottomNavigationBarItem(
+                /*BottomNavigationBarItem(
                   icon: Image.asset('images/smartDeck/images/sdleaderboard.png', height: 28, width: 28, color: sdIconColor),
                   activeIcon: Image.asset('images/smartDeck/images/sdleaderboard.png', height: 28, width: 28, color: sdPrimaryColor),
                   label: 'a',
@@ -88,7 +88,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
                     ],
                   ),
                   label: 'a',
-                ),
+                ),*/
                 BottomNavigationBarItem(
                   icon: Container(
                     decoration: BoxDecoration(shape: BoxShape.circle),

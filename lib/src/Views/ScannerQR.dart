@@ -18,6 +18,7 @@ class QRViewExample extends StatefulWidget {
 class _QRViewExampleState extends State<QRViewExample> {
   Barcode? result;
   var response;
+  String? message;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
 
@@ -47,7 +48,12 @@ class _QRViewExampleState extends State<QRViewExample> {
                 children: <Widget>[
                   if (result != null)
                     Text(
-                        'Data: ${response!.message}')
+                        '${response['message']} \n ${message}',
+                        style: TextStyle(
+                              color: response['success'] == true ? Colors.green : Colors.red,
+                              fontWeight: FontWeight.bold
+                           ),
+                        )
                   else
                     const Text('Scan a code'),
                   Row(
@@ -152,6 +158,7 @@ class _QRViewExampleState extends State<QRViewExample> {
     });
     controller.scannedDataStream.listen((scanData) async {
       var res;
+      var msg;
       if(scanData.code != ''){
         print('''
         --------- uuid --------
@@ -159,10 +166,15 @@ class _QRViewExampleState extends State<QRViewExample> {
         ------- end uuid --------
         ''');
         res = await _maketicketServive.scanUuid(scanData.code!);
+        if(res['success'] == true){
+          msg = res['data']['relationships']['user']['attributes']['name'];
+        }
+
       }
       setState(() {
         result = scanData;
         response = res;
+        message = msg ?? '';
       });
     });
   }
