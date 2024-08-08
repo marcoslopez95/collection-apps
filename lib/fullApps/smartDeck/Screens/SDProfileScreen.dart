@@ -66,16 +66,16 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                       ).cornerRadiusWithClipRRect(40),
                       Container(
                         margin: EdgeInsets.only(top: 20),
-                        child: Text('Mark Paul', style: boldTextStyle(color: Colors.white)),
+                        child: Text('Usuario', style: boldTextStyle(color: Colors.white)),
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 10),
                         child: Text(
-                          'Senior High School - 12th Grade',
+                          'Rol',
                           style: secondaryTextStyle(size: 12, color: Colors.white.withOpacity(0.7)),
                         ),
                       ),
-                      FittedBox(
+                      /*FittedBox(
                         child: Container(
                           margin: EdgeInsets.only(top: 20),
                           padding: EdgeInsets.fromLTRB(10, 4, 10, 4),
@@ -86,7 +86,7 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                         ),
                       ).onTap(() {
                         SDEditProfileScreen().launch(context);
-                      })
+                      })*/
                     ],
                   ),
                 ),
@@ -106,11 +106,11 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              Text('Highest Score', style: boldTextStyle(size: 16)),
+                              Text('Escaneado', style: boldTextStyle(size: 16)),
                               8.height,
                               Text('98', style: boldTextStyle(color: Colors.green.withOpacity(0.8), size: 26)),
                               8.height,
-                              Text('Chemist', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
+                              Text('Codigos', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
                             ],
                           ),
                         ),
@@ -127,11 +127,11 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              Text('Lowest Score', style: boldTextStyle(size: 16)),
+                              Text('Eventos Asignados', style: boldTextStyle(size: 16)),
                               8.height,
                               Text('67', style: boldTextStyle(color: sdSecondaryColorYellow.withOpacity(0.7), size: 26)),
                               8.height,
-                              Text('Maths', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
+                              Text('eventos', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
                             ],
                           ),
                         ),

@@ -1,14 +1,28 @@
-abstract class Model   {
-  Attributes? attributes;
-  Relationships? relationships;
+import 'dart:convert';
 
-  Model({required this.attributes, required this.relationships});
+class BaseModel{
+  final int id;
+  final Attributes attributes;
+  /*final R? relationships;*/
+
+  BaseModel({
+    required this.id,
+    required this.attributes,
+    /*this.relationships,*/
+  });
+
+  factory BaseModel.fromJson(Map<String, dynamic> json) {
+    return BaseModel(
+      id: json['id'],
+      attributes: Attributes.fromJson(json['attributes']),
+      /*relationships: R.fromJson(json['relationships']),*/
+    );
+  }
 }
 
-abstract class Attributes {
-  Map<String, dynamic> toJson();
-}
-
-abstract class Relationships {
-  Map<String, dynamic> toJson();
+class Attributes{
+  Attributes();
+  factory Attributes.fromJson(Map<String, dynamic> json) {
+    return Attributes();
+  }
 }

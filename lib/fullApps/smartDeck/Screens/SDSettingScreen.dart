@@ -47,22 +47,24 @@ class _SDSettingScreenState extends State<SDSettingScreen> {
       child: Scaffold(
         appBar: AppBar(
           iconTheme: IconThemeData(color: appStore.isDarkModeOn ? white : black),
-          title: Text('Settings', style: boldTextStyle(size: 20)),
+          title: Text('Configuraciones', style: boldTextStyle(size: 20)),
           backgroundColor: Colors.transparent,
           elevation: 0.0,
           automaticallyImplyLeading: true,
         ),
         body: Column(
           children: <Widget>[
-            mOption(Icons.language, "Preferences"),
-            mDivider(),
-            mOption(Icons.lock_outline, "Privacy and Security"),
+            /*mOption(Icons.language, "Preferences"),*/
+            /*mDivider(),*/
+            /*mOption(Icons.lock_outline, "Privacy and Security"),
             mDivider(),
             mOption(Icons.notifications_none, "Notification Settings"),
             mDivider(),
             mOption(Icons.help_outline, "Help Center"),
-            mDivider(),
-            mOption(Icons.launch, "Logout"),
+            mDivider(),*/
+            mOption(Icons.launch, "Salir").onTap((){
+              
+            }),
           ],
         ),
       ),

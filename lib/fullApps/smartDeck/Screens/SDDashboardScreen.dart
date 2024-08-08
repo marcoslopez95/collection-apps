@@ -14,11 +14,18 @@ import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDSearchScreen.dart';
 import 'package:prokit_flutter/helper.dart';
 import 'package:prokit_flutter/main.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:prokit_flutter/src/Model/AccessDetail.dart';
 import 'package:prokit_flutter/src/Model/UserAuth.dart';
+import 'package:prokit_flutter/src/Model/AccessDetail.dart';
+import 'package:prokit_flutter/src/Services/MaketicketService.dart';
 
 import 'SdViewAllLivevideoScreen.dart';
 
 class SDDashboard extends StatefulWidget {
+  int? event_id;
+
+  SDDashboard(this.event_id);
+
   @override
   SDDashboardState createState() => SDDashboardState();
 }
@@ -26,6 +33,8 @@ class SDDashboard extends StatefulWidget {
 class SDDashboardState extends State<SDDashboard> {
   Helper helper = Helper();
   UserAuth? _userAuth;
+  List<AccessDetail> accessDetails = [];
+  final MacketicketService macketicketService = MacketicketService();
 
   Future<void> getGreat() async{
       UserAuth userAuth = await helper.getUserAuth();
@@ -47,6 +56,15 @@ class SDDashboardState extends State<SDDashboard> {
   Future<void> init() async{
     await getGreat();
     changeStatusColor(appStore.isDarkModeOn ? scaffoldDarkColor : white);
+
+    print('estoy desde ${widget.event_id}');
+    if(widget.event_id != null){
+      var details = await macketicketService.getAccessDetailByEvent(widget.event_id!);
+
+      setState((){
+        accessDetails = details;
+      });
+    }
   }
 
   @override
@@ -85,13 +103,13 @@ class SDDashboardState extends State<SDDashboard> {
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
                               border: InputBorder.none,
-                              hintText: 'Search',
+                              hintText: 'Buscar',
                               prefixIcon: Icon(Icons.search, color: Colors.black),
                             ),
                           ),
                         ),
                       ),
-                      Stack(
+                     /* Stack(
                         children: <Widget>[
                           Container(
                             margin: EdgeInsets.only(left: 10),
@@ -113,31 +131,32 @@ class SDDashboardState extends State<SDDashboard> {
                             ),
                           )
                         ],
-                      ),
+                      ),*/
                     ],
                   ),
                 ),
                 SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text('Hi, ${_userAuth?.name}', style: boldTextStyle(size: 20)),
+                  child: Text('Saludos, ${_userAuth?.name}', style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),
-                Container(
+               /* Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Text('You have 3 exams pending', style: secondaryTextStyle(size: 14)),
-                ),
+                ),*/
                 SizedBox(height: 15),
                 Container(
                   height: 250,
                   child: ListView.builder(
                     padding: EdgeInsets.only(right: 16),
                     scrollDirection: Axis.horizontal,
-                    itemCount: cards.length,
+                    itemCount: accessDetails.length,
+                      /*itemCount: cards.length,accessDetails*/
                     itemBuilder: (BuildContext context, int index) {
                       return GestureDetector(
                         onTap: () {
-                          SDExamScreen(cards[index].examName, cards[index].image, cards[index].startColor, cards[index].endColor).launch(context);
+                          /*SDExamScreen(cards[index].examName, cards[index].image, cards[index].startColor, cards[index].endColor).launch(context);*/
                         },
                         child: Container(
                           width: 180.0,
@@ -145,27 +164,27 @@ class SDDashboardState extends State<SDDashboard> {
                           padding: EdgeInsets.all(10),
                           decoration: boxDecorationWithRoundedCorners(
                             borderRadius: BorderRadius.circular(8),
-                            gradient: LinearGradient(colors: [cards[index].startColor!, cards[index].endColor!]),
+                            gradient: LinearGradient(colors: [Color(0xFF2889EB), Color(0xFF0B56CB)]),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget>[
-                              CircleAvatar(
+                             /* CircleAvatar(
                                 radius: 40,
                                 backgroundColor: Colors.white30,
                                 child: Image.asset(cards[index].image!, height: 60, width: 60),
-                              ),
+                              ),*/
                               SizedBox(height: 15),
-                              Text(cards[index].examName!, style: secondaryTextStyle(color: Colors.white, size: 20)),
+                              Text(accessDetails[index].access_status_name, style: secondaryTextStyle(color: Colors.white, size: 20)),
                               SizedBox(height: 15),
-                              Row(
+                             /* Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(cards[index].time!, style: secondaryTextStyle(color: Colors.white54, size: 18)),
                                   cards[index].icon!,
                                 ],
-                              ),
+                              ),*/
                             ],
                           ),
                         ),
@@ -173,7 +192,7 @@ class SDDashboardState extends State<SDDashboard> {
                     },
                   ),
                 ),
-                SizedBox(height: 25),
+                /*SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Row(
@@ -190,13 +209,13 @@ class SDDashboardState extends State<SDDashboard> {
                       ),
                     ],
                   ),
-                ),
-                SizedBox(height: 5),
+                ),*/
+                /*SizedBox(height: 5),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Text('Senior High School - 12th Grade', style: secondaryTextStyle(size: 14)),
-                ),
-                SizedBox(height: 5),
+                ),*/
+                /*SizedBox(height: 5),
                 Container(
                   height: 150,
                   child: ListView.builder(
@@ -225,8 +244,8 @@ class SDDashboardState extends State<SDDashboard> {
                           ),
                         );
                       }),
-                ),
-                SizedBox(height: 25),
+                ),*/
+                /*SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Row(
@@ -243,8 +262,8 @@ class SDDashboardState extends State<SDDashboard> {
                       ),
                     ],
                   ),
-                ),
-                SizedBox(height: 20),
+                ),*/
+               /* SizedBox(height: 20),
                 Container(
                   height: 130,
                   child: ListView.builder(
@@ -316,7 +335,7 @@ class SDDashboardState extends State<SDDashboard> {
                       );
                     },
                   ),
-                )
+                )*/
               ],
             ),
           ),

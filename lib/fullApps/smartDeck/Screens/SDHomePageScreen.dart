@@ -12,6 +12,10 @@ import 'package:nb_utils/nb_utils.dart';
 import 'package:prokit_flutter/src/Views/ScannerQR.dart';
 
 class SDHomePageScreen extends StatefulWidget {
+  int? event_id;
+
+  SDHomePageScreen({this.event_id = null});
+
   @override
   _SDHomePageScreenState createState() => _SDHomePageScreenState();
 }
@@ -24,11 +28,11 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     final tab = [
-      SDDashboard(),
+      SDDashboard(widget.event_id),
       //SDExamCompletionBoardScreen(),
       QRViewExample(),
-      SDLeaderboardScreen(context, size),
-      SDChatScreen(),
+      //SDLeaderboardScreen(context, size),
+      //SDChatScreen(),
       sdPRofileScreen(),
     ];
 
