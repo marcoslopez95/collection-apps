@@ -36,8 +36,8 @@ class SDDashboardState extends State<SDDashboard> {
   List<AccessDetail> accessDetails = [];
   final MacketicketService macketicketService = MacketicketService();
 
-  Future<void> getGreat() async{
-      UserAuth userAuth = await helper.getUserAuth();
+  Future<void> getGreat() async {
+    UserAuth userAuth = await helper.getUserAuth();
     setState(() {
       _userAuth = userAuth;
       print('--get great--');
@@ -53,15 +53,16 @@ class SDDashboardState extends State<SDDashboard> {
     init();
   }
 
-  Future<void> init() async{
+  Future<void> init() async {
     await getGreat();
     changeStatusColor(appStore.isDarkModeOn ? scaffoldDarkColor : white);
 
     print('estoy desde ${widget.event_id}');
-    if(widget.event_id != null){
-      var details = await macketicketService.getAccessDetailByEvent(widget.event_id!);
+    if (widget.event_id != null) {
+      var details =
+          await macketicketService.getAccessDetailByEvent(widget.event_id!);
 
-      setState((){
+      setState(() {
         accessDetails = details;
       });
     }
@@ -74,7 +75,6 @@ class SDDashboardState extends State<SDDashboard> {
 
   @override
   Widget build(BuildContext context) {
-
     return SafeArea(
       child: Scaffold(
         body: Container(
@@ -104,12 +104,13 @@ class SDDashboardState extends State<SDDashboard> {
                             decoration: InputDecoration(
                               border: InputBorder.none,
                               hintText: 'Buscar',
-                              prefixIcon: Icon(Icons.search, color: Colors.black),
+                              prefixIcon:
+                                  Icon(Icons.search, color: Colors.black),
                             ),
                           ),
                         ),
                       ),
-                     /* Stack(
+                      /* Stack(
                         children: <Widget>[
                           Container(
                             margin: EdgeInsets.only(left: 10),
@@ -138,10 +139,11 @@ class SDDashboardState extends State<SDDashboard> {
                 SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text('Saludos, ${_userAuth?.name}', style: boldTextStyle(size: 20)),
+                  child: Text('Saludos, ${_userAuth?.name}',
+                      style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),
-               /* Container(
+                /* Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Text('You have 3 exams pending', style: secondaryTextStyle(size: 14)),
                 ),*/
@@ -152,7 +154,7 @@ class SDDashboardState extends State<SDDashboard> {
                     padding: EdgeInsets.only(right: 16),
                     scrollDirection: Axis.horizontal,
                     itemCount: accessDetails.length,
-                      /*itemCount: cards.length,accessDetails*/
+                    /*itemCount: cards.length,accessDetails*/
                     itemBuilder: (BuildContext context, int index) {
                       return GestureDetector(
                         onTap: () {
@@ -164,21 +166,33 @@ class SDDashboardState extends State<SDDashboard> {
                           padding: EdgeInsets.all(10),
                           decoration: boxDecorationWithRoundedCorners(
                             borderRadius: BorderRadius.circular(8),
-                            gradient: LinearGradient(colors: [Color(0xFF2889EB), Color(0xFF0B56CB)]),
+                            gradient: LinearGradient(
+                                colors: [Color(0xFF2889EB), Color(0xFF0B56CB)]),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget>[
-                             /* CircleAvatar(
+                              /* CircleAvatar(
                                 radius: 40,
                                 backgroundColor: Colors.white30,
                                 child: Image.asset(cards[index].image!, height: 60, width: 60),
                               ),*/
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text('${accessDetails[index].total}',
+                                      style: secondaryTextStyle(
+                                          color: Colors.white54, size: 18)),
+                                ],
+                              ),
                               SizedBox(height: 15),
-                              Text(accessDetails[index].access_status_name, style: secondaryTextStyle(color: Colors.white, size: 20)),
+                              Text(accessDetails[index].access_status_name,
+                                  style: secondaryTextStyle(
+                                      color: Colors.white, size: 20)),
                               SizedBox(height: 15),
-                             /* Row(
+                              /* Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(cards[index].time!, style: secondaryTextStyle(color: Colors.white54, size: 18)),
@@ -263,7 +277,7 @@ class SDDashboardState extends State<SDDashboard> {
                     ],
                   ),
                 ),*/
-               /* SizedBox(height: 20),
+                /* SizedBox(height: 20),
                 Container(
                   height: 130,
                   child: ListView.builder(
@@ -349,48 +363,57 @@ List<LessonsModel> lessons = [
   LessonsModel(
     image: 'images/smartDeck/images/sdearth.png',
     title: 'GeoGraphy',
-    backgroundImages: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSePqEkOx6meh5aP5W0wRjvqCwDMFrpKyjFQA&usqp=CAU',
+    backgroundImages:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSePqEkOx6meh5aP5W0wRjvqCwDMFrpKyjFQA&usqp=CAU',
   ),
   LessonsModel(
     image: 'images/smartDeck/images/sdruler.png',
     title: 'Math',
-    backgroundImages: 'https://d2c7ipcroan06u.cloudfront.net/wp-content/uploads/2019/07/mathematics-696x364.jpg',
+    backgroundImages:
+        'https://d2c7ipcroan06u.cloudfront.net/wp-content/uploads/2019/07/mathematics-696x364.jpg',
   ),
   LessonsModel(
     image: 'images/smartDeck/images/sdbiology.png',
     title: 'Biology',
-    backgroundImages: 'https://physicsworld.com/wp-content/uploads/2019/09/dna-binary-code-255618778-Shutterstock_ymgerman.jpg',
+    backgroundImages:
+        'https://physicsworld.com/wp-content/uploads/2019/09/dna-binary-code-255618778-Shutterstock_ymgerman.jpg',
   ),
   LessonsModel(
     image: 'images/smartDeck/images/sdcomputer.png',
     title: 'Computer',
-    backgroundImages: 'https://previews.123rf.com/images/aleksander1/aleksander11302/aleksander1130200018/18017241-bulb-made-of-computer-subjects-.jpg',
+    backgroundImages:
+        'https://previews.123rf.com/images/aleksander1/aleksander11302/aleksander1130200018/18017241-bulb-made-of-computer-subjects-.jpg',
   ),
   LessonsModel(
     image: 'images/smartDeck/images/sdmusic.png',
     title: 'Music',
-    backgroundImages: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSePqEkOx6meh5aP5W0wRjvqCwDMFrpKyjFQA&usqp=CAU',
+    backgroundImages:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSePqEkOx6meh5aP5W0wRjvqCwDMFrpKyjFQA&usqp=CAU',
   ),
   LessonsModel(
     image: 'images/smartDeck/images/sddance.png',
     title: 'Dance',
-    backgroundImages: 'https://i.pinimg.com/originals/30/45/9c/30459c328f5f535509d3131f773ab10f.jpg',
+    backgroundImages:
+        'https://i.pinimg.com/originals/30/45/9c/30459c328f5f535509d3131f773ab10f.jpg',
   ),
 ];
 
 List<LiveVideoModel> liveVideo = [
   LiveVideoModel(
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFX3JNvflemOpVIwXGd_BdLChYZefcPNWCAQ&usqp=CAU',
+      image:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFX3JNvflemOpVIwXGd_BdLChYZefcPNWCAQ&usqp=CAU',
       title: 'Talkshow',
       message: 'Top 10 eco campus in \nindonesia that you can be..',
       status: 'LIVE NOW'),
   LiveVideoModel(
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4sfk7iQgjlNupZAy_A2HSv2hpgRm__UedzdvidFN8GAwd0SSKazIR2DwP39tHc0qUrNOERBaWBVvsds_wivtmBwjtOh8zRTz6kQ&usqp=CAU&ec=45690273',
+      image:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4sfk7iQgjlNupZAy_A2HSv2hpgRm__UedzdvidFN8GAwd0SSKazIR2DwP39tHc0qUrNOERBaWBVvsds_wivtmBwjtOh8zRTz6kQ&usqp=CAU&ec=45690273',
       title: 'Talkshow',
       message: 'Top 5 colleges in \nIndia that you can be..',
       status: 'LIVE NOW'),
   LiveVideoModel(
-      image: 'https://static01.nyt.com/images/2020/03/14/upshot/14up-colleges-remote/14up-colleges-remote-mediumSquareAt3X.jpg',
+      image:
+          'https://static01.nyt.com/images/2020/03/14/upshot/14up-colleges-remote/14up-colleges-remote-mediumSquareAt3X.jpg',
       title: 'Talkshow',
       message: 'Top 10 eco campus in \nindonesia that you can be..',
       status: 'LIVE NOW'),

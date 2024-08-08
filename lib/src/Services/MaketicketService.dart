@@ -51,7 +51,7 @@ class MacketicketService {
       headers: headers,
     );
     final jsonResponse = jsonDecode(response.body);
-    final data = jsonResponse['data'] as List<dynamic>;
+    final data = jsonResponse as List<dynamic>;
     return data.map((item) => AccessDetail.fromJson(item)).toList();
   }
 }
