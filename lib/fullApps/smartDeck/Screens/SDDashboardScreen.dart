@@ -15,6 +15,7 @@ import 'package:prokit_flutter/helper.dart';
 import 'package:prokit_flutter/main.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
 import 'package:prokit_flutter/src/Model/AccessDetail.dart';
+import 'package:prokit_flutter/src/Model/Event.dart';
 import 'package:prokit_flutter/src/Model/UserAuth.dart';
 import 'package:prokit_flutter/src/Model/AccessDetail.dart';
 import 'package:prokit_flutter/src/Services/MaketicketService.dart';
@@ -34,6 +35,7 @@ class SDDashboardState extends State<SDDashboard> {
   Helper helper = Helper();
   UserAuth? _userAuth;
   List<AccessDetail> accessDetails = [];
+  List<Event> events = [];
   final MacketicketService macketicketService = MacketicketService();
 
   Future<void> getGreat() async {
@@ -68,6 +70,17 @@ class SDDashboardState extends State<SDDashboard> {
     }
   }
 
+  Future<void> fetchSearchResults(String query) async {
+    try {
+      var results = await macketicketService.getEventsSearch(query: query);
+      setState(() {
+        events = results;
+      });
+    } catch (e) {
+      print('Error al cargar los resultados de búsqueda: $e');
+    }
+  }
+
   @override
   void setState(fn) {
     if (mounted) super.setState(fn);
@@ -99,6 +112,9 @@ class SDDashboardState extends State<SDDashboard> {
                             readOnly: true,
                             onTap: () {
                               SDSearchScreen().launch(context);
+                            },
+                            onSubmitted: (query) {
+                              fetchSearchResults(query);
                             },
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
@@ -184,7 +200,7 @@ class SDDashboardState extends State<SDDashboard> {
                                 children: [
                                   Text('${accessDetails[index].total}',
                                       style: secondaryTextStyle(
-                                          color: Colors.white54, size: 18)),
+                                          color: Colors.white54, size: 20)),
                                 ],
                               ),
                               SizedBox(height: 15),
