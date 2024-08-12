@@ -244,7 +244,7 @@ import 'package:prokit_flutter/workingApps/chatGPTMailGeneration/screens/chatgpt
 import 'fullApps/adoptify/screens/adoptify_splash_screen.dart';
 import 'fullApps/scribblr/screens/scribblr_splash_screen.dart';
 import 'integrations/screens/PaymetGatways/FlutterWaveScreen.dart';
-import 'integrations/screens/PaymetGatways/razorpay_screen.dart';
+// import 'integrations/screens/PaymetGatways/razorpay_screen.dart';
 
 Map<String, WidgetBuilder> routes() {
   return <String, WidgetBuilder>{
@@ -305,7 +305,7 @@ Map<String, WidgetBuilder> routes() {
     FUserListScreen.tag: (context) => FUserListScreen(isDirect: true),
     SHomePage.tag: (context) => SHomePage(isDirect: true),
     GETMethodExampleScreen.tag: (context) => GETMethodExampleScreen(isDirect: true),
-    RazorPayScreen.tag: (context) => RazorPayScreen(isDirect: true),
+    // RazorPayScreen.tag: (context) => RazorPayScreen(isDirect: true),
     FlutterWaveScreen.tag: (context) => FlutterWaveScreen(isDirect: true),
     LBHomePage.tag: (context) => LBHomePage(isDirect: true),
     TinderHomePage.tag: (context) => TinderHomePage(isDirect: true),

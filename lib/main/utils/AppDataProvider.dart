@@ -72,7 +72,7 @@ import 'package:prokit_flutter/integrations/screens/MonthlySale1Screen.dart';
 import 'package:prokit_flutter/integrations/screens/MonthlySale2Screen.dart';
 import 'package:prokit_flutter/integrations/screens/PaymetGatways/FlutterWaveScreen.dart';
 import 'package:prokit_flutter/integrations/screens/PaymetGatways/PayStackScreen.dart';
-import 'package:prokit_flutter/integrations/screens/PaymetGatways/razorpay_screen.dart';
+// import 'package:prokit_flutter/integrations/screens/PaymetGatways/razorpay_screen.dart';
 import 'package:prokit_flutter/integrations/screens/PieChartScreen.dart';
 import 'package:prokit_flutter/integrations/screens/Shimmer/SHomePage.dart';
 import 'package:prokit_flutter/integrations/screens/ShowViewCase/SVCHomePage.dart';
@@ -1778,7 +1778,7 @@ List<ProTheme> getMaps() {
 List<ProTheme> getPayment() {
   List<ProTheme> list = [];
 
-  list.add(ProTheme(name: 'RazorPay Payment', type: '', show_cover: false, widget: RazorPayScreen(), darkThemeSupported: true, isWebSupported: false));
+  // list.add(ProTheme(name: 'RazorPay Payment', type: '', show_cover: false, widget: RazorPayScreen(), darkThemeSupported: true, isWebSupported: false));
   list.add(ProTheme(name: 'Pay Stack', type: '', show_cover: false, widget: PayStackScreen(), darkThemeSupported: true, isWebSupported: false));
   /*list.add(
     ProTheme(
