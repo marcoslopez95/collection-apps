@@ -23,9 +23,9 @@ import 'package:prokit_flutter/src/Services/MaketicketService.dart';
 import 'SdViewAllLivevideoScreen.dart';
 
 class SDDashboard extends StatefulWidget {
-  int? event_id;
+  Event? event;
 
-  SDDashboard(this.event_id);
+  SDDashboard(this.event);
 
   @override
   SDDashboardState createState() => SDDashboardState();
@@ -59,25 +59,13 @@ class SDDashboardState extends State<SDDashboard> {
     await getGreat();
     changeStatusColor(appStore.isDarkModeOn ? scaffoldDarkColor : white);
 
-    print('estoy desde ${widget.event_id}');
-    if (widget.event_id != null) {
+    if (widget.event != null) {
       var details =
-          await macketicketService.getAccessDetailByEvent(widget.event_id!);
+          await macketicketService.getAccessDetailByEvent(widget.event!.id);
 
       setState(() {
         accessDetails = details;
       });
-    }
-  }
-
-  Future<void> fetchSearchResults(String query) async {
-    try {
-      var results = await macketicketService.getEventsSearch(query: query);
-      setState(() {
-        events = results;
-      });
-    } catch (e) {
-      print('Error al cargar los resultados de búsqueda: $e');
     }
   }
 
@@ -112,9 +100,6 @@ class SDDashboardState extends State<SDDashboard> {
                             readOnly: true,
                             onTap: () {
                               SDSearchScreen().launch(context);
-                            },
-                            onSubmitted: (query) {
-                              fetchSearchResults(query);
                             },
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
@@ -155,7 +140,8 @@ class SDDashboardState extends State<SDDashboard> {
                 SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text('Saludos, ${_userAuth?.name}',
+                  child: Text(
+                    '${widget.event != null ? widget.event!.attributes.name : 'Seleccione un evento'}',
                       style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),

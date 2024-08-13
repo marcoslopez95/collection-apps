@@ -9,12 +9,13 @@ import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDLeaderBoardScreen.da
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDProfileScreen.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDScoreBoardScreen.dart';
 import 'package:nb_utils/nb_utils.dart';
+import 'package:prokit_flutter/src/Model/Event.dart';
 import 'package:prokit_flutter/src/Views/ScannerQR.dart';
 
 class SDHomePageScreen extends StatefulWidget {
-  int? event_id;
+  Event? event;
 
-  SDHomePageScreen({this.event_id = null});
+  SDHomePageScreen({this.event = null});
 
   @override
   _SDHomePageScreenState createState() => _SDHomePageScreenState();
@@ -28,7 +29,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     final tab = [
-      SDDashboard(widget.event_id),
+      SDDashboard(widget.event),
       //SDExamCompletionBoardScreen(),
       QRViewExample(),
       //SDLeaderboardScreen(context, size),

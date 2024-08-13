@@ -18,6 +18,14 @@ class SDSearchScreen extends StatefulWidget {
 class _SDSearchScreenState extends State<SDSearchScreen> {
   List<Event> events = [];
   final MacketicketService macketicketService = MacketicketService();
+  var query = TextEditingController();
+
+  Future<void> fetchSearchResults(String query) async {
+      var results = await macketicketService.getEventsSearch(query: query);
+      setState(() {
+        events = results;
+      });
+  }
 
   @override
   void initState() {
@@ -50,6 +58,7 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                       child: Container(
                         decoration: boxDecorations(radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
                         child: TextField(
+                          controller: query,
                           style: TextStyle(fontSize: 20),
                           decoration: InputDecoration(
                             border: InputBorder.none,
@@ -61,7 +70,8 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        finish(context);
+                        fetchSearchResults(query.text);
+                        // finish(context);
                       },
                       child: Container(
                         margin: EdgeInsets.only(left: 10),
@@ -83,12 +93,10 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                 itemBuilder: (BuildContext context, int index) {
                   return GestureDetector(
                     onTap: () {
-                      print('estoy dando tap');
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => SDHomePageScreen(event_id: events[index].id)),
+                        MaterialPageRoute(builder: (context) => SDHomePageScreen(event: events[index])),
                       );
-
                     },
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

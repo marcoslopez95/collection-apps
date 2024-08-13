@@ -48,20 +48,16 @@ class MacketicketService {
   // En ./src/makeservice
   Future<List<Event>> getEventsSearch({String query = ''}) async {
     String url = '${BASE_URL}/events?name=$query';
-
+    print('url: ${url}');
     final Map<String, String> headers = await getHeaders();
     final response = await http.get(
       Uri.parse(url),
       headers: headers,
     );
 
-    if (response.statusCode == 200) {
-      final jsonResponse = jsonDecode(response.body);
-      final data = jsonResponse['data'] as List<dynamic>;
-      return data.map((item) => Event.fromJson(item)).toList();
-    } else {
-      throw Exception('Error al cargar los eventos');
-    }
+    final jsonResponse = jsonDecode(response.body);
+    final data = jsonResponse['data'] as List<dynamic>;
+    return data.map((item) => Event.fromJson(item)).toList();
   }
 
   Future<List<AccessDetail>> getAccessDetailByEvent(int event_id) async {
