@@ -42,10 +42,6 @@ class SDDashboardState extends State<SDDashboard> {
     UserAuth userAuth = await helper.getUserAuth();
     setState(() {
       _userAuth = userAuth;
-      print('--get great--');
-      print(userAuth);
-      print(userAuth.name);
-      print('--end get great--');
     });
   }
 

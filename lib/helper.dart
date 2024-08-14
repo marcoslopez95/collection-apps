@@ -2,12 +2,20 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:prokit_flutter/src/Model/Event.dart';
 import 'package:prokit_flutter/src/Model/UserAuth.dart';
 
-class Helper extends ChangeNotifier{
+class Helper
+{
+
+  static Helper? _instance;
+
+  Helper._();
+
+  factory Helper() => _instance ??= Helper._();
 
   late UserAuth userAuth;
-
+  late Event? event = null;
   final storage = const FlutterSecureStorage();
 
   Future<UserAuth> getUserAuth() async {
@@ -18,7 +26,7 @@ class Helper extends ChangeNotifier{
     print('--- usuario ----');
     print(user);
     print('--- end usuario ----');
-    this.userAuth = UserAuth(name: user['name']);
+    this.userAuth = UserAuth.fromJson(user);
     return this.userAuth;
   }
 

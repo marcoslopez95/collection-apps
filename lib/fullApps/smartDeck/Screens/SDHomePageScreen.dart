@@ -31,7 +31,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
     final tab = [
       SDDashboard(widget.event),
       //SDExamCompletionBoardScreen(),
-      QRViewExample(),
+      QRViewExample(event: widget.event),
       //SDLeaderboardScreen(context, size),
       //SDChatScreen(),
       sdPRofileScreen(),

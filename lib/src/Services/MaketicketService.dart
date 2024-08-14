@@ -3,20 +3,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:prokit_flutter/constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:prokit_flutter/helper.dart';
 import 'package:prokit_flutter/src/Model/AccessDetail.dart';
 import 'package:prokit_flutter/src/Model/Event.dart';
+import 'package:prokit_flutter/src/Services/BaseService.dart';
 
-class MacketicketService {
-  Future<Map<String, String>> getHeaders() async {
-    return {
-      'Content-Type': 'application/json; charset=UTF-8',
-      'Authorization': 'Bearer ${await helper.getToken()}',
-      'X-Requested-With': 'XMLHttpRequest'
-    };
-  }
-
-  Helper helper = Helper();
+class MacketicketService extends BaseService {
 
   Future<Map<String, dynamic>> scanUuid(String uuid,
       {bool isConfirm = false}) async {

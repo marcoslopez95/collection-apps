@@ -7,21 +7,40 @@ import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDHomePageScreen.dart'
 import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
 import 'package:prokit_flutter/src/Services/MaketicketService.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
+import 'package:prokit_flutter/src/Model/Event.dart';
 
 class QRViewExample extends StatefulWidget {
-  const QRViewExample({Key? key}) : super(key: key);
+  final Event? event;
+
+  const QRViewExample({
+    Key? key, this.event = null
+    }) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => _QRViewExampleState();
+  State<StatefulWidget> createState() => _QRViewExampleState(event: event);
 }
 
 class _QRViewExampleState extends State<QRViewExample> {
   Barcode? result;
   var response;
+  final Event? event;
   String? message;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
 
+  _QRViewExampleState({
+    this.event
+});
+
+  @override
+  void setState(fn) {
+    if (mounted) super.setState(fn);
+  }
+
+  @override
+  void initState(){
+    super.initState();
+  }
   // In order to get hot reload to work we need to pause the camera if the platform
   // is android, or resume the camera if the platform is iOS.
   @override
@@ -55,7 +74,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                            ),
                         )
                   else
-                    const Text('Scan a code'),
+                    Text('${event != null ? event?.attributes.name : 'Escanea un código'}'),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,

@@ -25,9 +25,9 @@ class LoginController {
       var jsonResponse = jsonDecode(response.body);
       await storage.write(key: 'token', value: jsonResponse['token']);
       print('-----attributes----');
-      print(jsonResponse['data']['attributes']);
+      print(jsonResponse['data']);
       print('-----end attributes----');
-      await storage.write(key: 'user', value: jsonEncode(jsonResponse['data']['attributes']));
+      await storage.write(key: 'user', value: jsonEncode(jsonResponse['data']));
 
       return true;
     } else {

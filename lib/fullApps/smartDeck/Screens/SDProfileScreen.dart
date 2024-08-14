@@ -1,10 +1,13 @@
+import 'package:prokit_flutter/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDSettingScreen.dart';
 import 'package:prokit_flutter/integrations/screens/StickyHeader/stickyHeaderHomePage.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
-
+import 'package:prokit_flutter/src/Model/ProfileService/QrScans.dart';
+import 'package:prokit_flutter/src/Model/UserAuth.dart';
+import 'package:prokit_flutter/src/Services/ProfileService.dart';
 import 'SDEditProfileScreen.dart';
 
 // ignore: camel_case_types
@@ -15,6 +18,10 @@ class sdPRofileScreen extends StatefulWidget {
 
 // ignore: camel_case_types
 class _sdPRofileScreenState extends State<sdPRofileScreen> {
+  Helper helper = Helper();
+  UserAuth? _userAuth;
+  QrScans? _QrScans;
+  ProfileService _profileService = ProfileService();
   _generateData() {
     var taskData = [
       Task(task: 'Completed', value: 82.0, color: Colors.blue),
@@ -27,6 +34,16 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
     _generateData();
     changeStatusColor(sdPrimaryColor);
     super.initState();
+    init();
+  }
+
+  Future<void> init() async{
+    var user = await helper.getUserAuth();
+    var qrScan = await _profileService.getTotalScans();
+    setState((){
+        _userAuth = user;
+        _QrScans = qrScan;
+    });
   }
 
   @override
@@ -66,12 +83,12 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                       ).cornerRadiusWithClipRRect(40),
                       Container(
                         margin: EdgeInsets.only(top: 20),
-                        child: Text('Usuario', style: boldTextStyle(color: Colors.white)),
+                        child: Text('${_userAuth?.attributes.name ?? ''}', style: boldTextStyle(color: Colors.white)),
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 10),
                         child: Text(
-                          'Rol',
+                          '${_userAuth?.relationships?.role?.attributes.name ?? ''}',
                           style: secondaryTextStyle(size: 12, color: Colors.white.withOpacity(0.7)),
                         ),
                       ),
@@ -108,7 +125,7 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                             children: <Widget>[
                               Text('Escaneado', style: boldTextStyle(size: 16)),
                               8.height,
-                              Text('98', style: boldTextStyle(color: Colors.green.withOpacity(0.8), size: 26)),
+                              Text('${_QrScans?.scans_count ?? ''}', style: boldTextStyle(color: Colors.green.withOpacity(0.8), size: 26)),
                               8.height,
                               Text('Codigos', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
                             ],

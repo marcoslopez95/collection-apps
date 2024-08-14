@@ -4,6 +4,7 @@ import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/SDSearchModel.dart'
 import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDStyle.dart';
 import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDDashboardScreen.dart';
+import 'package:prokit_flutter/helper.dart';
 import 'package:prokit_flutter/main.dart';
 import 'package:prokit_flutter/main/utils/AppWidget.dart';
 import 'package:prokit_flutter/src/Model/Event.dart';
@@ -17,6 +18,7 @@ class SDSearchScreen extends StatefulWidget {
 
 class _SDSearchScreenState extends State<SDSearchScreen> {
   List<Event> events = [];
+  Helper helper = Helper();
   final MacketicketService macketicketService = MacketicketService();
   var query = TextEditingController();
 
@@ -93,6 +95,7 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                 itemBuilder: (BuildContext context, int index) {
                   return GestureDetector(
                     onTap: () {
+                      helper.event = events[index];
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(builder: (context) => SDHomePageScreen(event: events[index])),
