@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLServiceData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLAddToCartScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLImage.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLServiceData.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLAddToCartScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLImage.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
 
 class MLHomeTopComponent extends StatefulWidget {
   static String tag = '/MLHomeTopComponent';

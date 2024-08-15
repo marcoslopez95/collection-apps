@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAHomeScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAMyProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAQrScannerScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAStatisticsScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAWalletScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAHomeScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAMyProfileScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAQrScannerScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAStatisticsScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAWalletScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
 
 class WADashboardScreen extends StatefulWidget {
   static String tag = '/WADashboardScreen';

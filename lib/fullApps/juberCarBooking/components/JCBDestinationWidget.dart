@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/models/JCBSearchDestinationModel.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/models/JCBSearchDestinationModel.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
 
 class JCBDestinationWidget extends StatelessWidget {
   final JCBSearchDestinationModel destination;

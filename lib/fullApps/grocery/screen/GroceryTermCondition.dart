@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GeoceryStrings.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GeoceryStrings.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class GroceryTermCondition extends StatefulWidget {
   static String tag = '/GroceryTermCondition';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/scribblr/components/text_styles.dart';
+import 'package:access_maketicket/fullApps/scribblr/components/text_styles.dart';
 
 import '../models/article_model.dart';
 import '../screens/article_detail.dart';

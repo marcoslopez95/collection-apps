@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodColors.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodString.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodColors.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodString.dart';
 
 import '../../../main.dart';
 import '../utils/FoodImages.dart';

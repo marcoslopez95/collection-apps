@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/components/AccountExpansionWidget.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAInterestScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAColors.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/dating/components/AccountExpansionWidget.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAInterestScreen.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAColors.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
 
 class DACreateAccountScreen extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/colors.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/colors.dart';
 
 Gradient primarySplitBillLinearGradient() {
   return LinearGradient(

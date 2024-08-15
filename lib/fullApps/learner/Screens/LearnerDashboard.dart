@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerChart.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerChat.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerHome.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerProfile.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerSearch.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerBottomNavigationBar.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerColors.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerImages.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerChart.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerChat.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerHome.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerProfile.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerSearch.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerBottomNavigationBar.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerColors.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerImages.dart';
 
 class LearnerDashboard extends StatefulWidget {
   static String tag = '/LearnerDashboard';

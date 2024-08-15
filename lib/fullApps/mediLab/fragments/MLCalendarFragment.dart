@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLAppointmentDetailListComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLDeliveredDataComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLMedicationComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLAppointmentDetailListComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLDeliveredDataComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLMedicationComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLCalendarFragment extends StatefulWidget {
   static String tag = '/MLCalendarFragment';

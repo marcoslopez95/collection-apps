@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/model/db6/Db6Model.dart';
-import 'package:prokit_flutter/dashboard/utils/Db6BottomNavigationBar.dart';
-import 'package:prokit_flutter/dashboard/utils/DbColors.dart';
-import 'package:prokit_flutter/dashboard/utils/DbDataGenerator.dart';
-import 'package:prokit_flutter/dashboard/utils/DbImages.dart';
-import 'package:prokit_flutter/dashboard/utils/DbStrings.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/dashboard/model/db6/Db6Model.dart';
+import 'package:access_maketicket/dashboard/utils/Db6BottomNavigationBar.dart';
+import 'package:access_maketicket/dashboard/utils/DbColors.dart';
+import 'package:access_maketicket/dashboard/utils/DbDataGenerator.dart';
+import 'package:access_maketicket/dashboard/utils/DbImages.dart';
+import 'package:access_maketicket/dashboard/utils/DbStrings.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class Dashboard6 extends StatefulWidget {
   static String tag = '/laundry';

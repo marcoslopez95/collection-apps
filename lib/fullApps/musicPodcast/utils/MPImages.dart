@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const mPImage_1 = "$BaseUrl/images/mpmusic/image1.png";
 const mPImage_2 = "$BaseUrl/images/mpmusic/image2.png";

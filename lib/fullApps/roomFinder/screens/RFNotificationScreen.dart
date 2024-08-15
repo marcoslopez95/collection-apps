@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFNotificationListComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/models/RoomFinderModel.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFWidget.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFNotificationListComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/models/RoomFinderModel.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFDataGenerator.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFWidget.dart';
 
 class RFNotificationScreen extends StatelessWidget {
   final List<RoomFinderModel> notificationData = notificationList();

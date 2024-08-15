@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLImage.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLImage.dart';
 
 class MLSplashScreen extends StatefulWidget {
   static String tag = '/medilab';

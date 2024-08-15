@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t2_walk_bg = "images/theme2/theme_2_walk_bg.png";
 const t2_walk_1 = "$BaseUrl/images/theme2/theme2_walk_1.png";

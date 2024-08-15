@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WASendViaComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WADashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAMultiplePointedEdgeClipper.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAMySeperator.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WASendViaComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WADashboardScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAMultiplePointedEdgeClipper.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAMySeperator.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class WATopUpReceiptScreen extends StatefulWidget {
   static String tag = '/WATopUpReceiptScreen';

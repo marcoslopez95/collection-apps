@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHComman.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHComman.dart';
 
 class SHEditProfileScreen extends StatefulWidget {
   @override

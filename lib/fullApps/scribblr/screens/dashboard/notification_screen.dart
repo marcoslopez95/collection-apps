@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/scribblr/utils/colors.dart';
+import 'package:access_maketicket/fullApps/scribblr/utils/colors.dart';
 import '../../../../main.dart';
 import '../../components/gen_notification_component.dart';
 import '../../components/sys_notification_component.dart';

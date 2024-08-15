@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/component/NBAllNewsComponent.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/component/NBNewsComponent.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/model/NBModel.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBColors.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBDataProviders.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBImages.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/newsBlog/component/NBAllNewsComponent.dart';
+import 'package:access_maketicket/fullApps/newsBlog/component/NBNewsComponent.dart';
+import 'package:access_maketicket/fullApps/newsBlog/model/NBModel.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBProfileScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBColors.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBDataProviders.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBImages.dart';
+import 'package:access_maketicket/main.dart';
 
 class NBHomeScreen extends StatefulWidget {
   static String tag = '/NBHomeScreen';

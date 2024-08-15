@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/defaultTheme/screen/DTWalkThoughScreen.dart';
-import 'package:prokit_flutter/main/component/DownloadSourceCodeDialog.dart';
-import 'package:prokit_flutter/main/model/AppModel.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppDataProvider.dart';
-import 'package:prokit_flutter/main/utils/AppImages.dart';
-import 'package:prokit_flutter/main/utils/AppStrings.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/app_scroll_behaviour.dart';
+import 'package:access_maketicket/defaultTheme/screen/DTWalkThoughScreen.dart';
+import 'package:access_maketicket/main/component/DownloadSourceCodeDialog.dart';
+import 'package:access_maketicket/main/model/AppModel.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppDataProvider.dart';
+import 'package:access_maketicket/main/utils/AppImages.dart';
+import 'package:access_maketicket/main/utils/AppStrings.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/app_scroll_behaviour.dart';
 
 import '../../main.dart';
 import '../../workingApps/chatGPT/utils/constant.dart';

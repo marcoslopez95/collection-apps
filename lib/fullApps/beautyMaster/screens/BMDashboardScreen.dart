@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/fragments/BMAppointmentFragment.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/fragments/BMChatFragment.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/fragments/BMHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/fragments/BMMoreFragment.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/fragments/BMSearchFragment.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMDashboardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/fragments/BMAppointmentFragment.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/fragments/BMChatFragment.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/fragments/BMHomeFragment.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/fragments/BMMoreFragment.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/fragments/BMSearchFragment.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMDashboardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class BMDashboardScreen extends StatefulWidget {
   bool flag;

@@ -1,7 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
 
 class WAStatisticsChartComponent extends StatefulWidget {
   static String tag = '/WAStatisticsChartComponent';

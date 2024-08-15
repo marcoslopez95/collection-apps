@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
 
 class RCCommentComponent extends StatefulWidget {
   String name;

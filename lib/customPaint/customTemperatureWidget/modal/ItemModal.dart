@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/customPaint/customTemperatureWidget/modal/temprature.dart';
+import 'package:access_maketicket/customPaint/customTemperatureWidget/modal/temprature.dart';
 
 class Item {
   Item({

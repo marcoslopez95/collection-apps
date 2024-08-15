@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/model/grocery_allStores_model.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GeoceryStrings.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryColors.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/clusteringGoogleMaps/clustering_helper.dart';
-import 'package:prokit_flutter/main/utils/clusteringGoogleMaps/lat_lang_geohash.dart';
+import 'package:access_maketicket/fullApps/grocery/model/grocery_allStores_model.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GeoceryStrings.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryColors.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/clusteringGoogleMaps/clustering_helper.dart';
+import 'package:access_maketicket/main/utils/clusteringGoogleMaps/lat_lang_geohash.dart';
 
 class GroceryStoreLocatorScreen extends StatefulWidget {
   static String tag = '/GroceryStoreLocatorScreen';

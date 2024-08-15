@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/fragments/SVAddPostFragment.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/fragments/SVHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/fragments/SVNotificationFragment.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/fragments/SVProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/fragments/SVSearchFragment.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/fragments/SVAddPostFragment.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/fragments/SVHomeFragment.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/fragments/SVNotificationFragment.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/fragments/SVProfileFragment.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/fragments/SVSearchFragment.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
 
 class SVDashboardScreen extends StatefulWidget {
   @override

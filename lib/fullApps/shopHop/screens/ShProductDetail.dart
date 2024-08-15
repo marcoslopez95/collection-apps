@@ -2,17 +2,17 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/shopHop/models/ShProduct.dart';
-import 'package:prokit_flutter/fullApps/shopHop/models/ShReview.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShColors.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShConstant.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShExtension.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShStrings.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShWidget.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/percent_indicator/linear_percent_indicator.dart';
-import 'package:prokit_flutter/main/utils/rating_bar.dart';
+import 'package:access_maketicket/fullApps/shopHop/models/ShProduct.dart';
+import 'package:access_maketicket/fullApps/shopHop/models/ShReview.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShColors.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShConstant.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShExtension.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShStrings.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShWidget.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/percent_indicator/linear_percent_indicator.dart';
+import 'package:access_maketicket/main/utils/rating_bar.dart';
 
 // ignore: must_be_immutable
 class ShProductDetail extends StatefulWidget {

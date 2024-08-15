@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/ScoreboardAvailableModel.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDStyle.dart';
+import 'package:access_maketicket/fullApps/smartDeck/ModelClass/ScoreboardAvailableModel.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDStyle.dart';
 
 class SDLeaderInfoScreen extends StatefulWidget {
   @override

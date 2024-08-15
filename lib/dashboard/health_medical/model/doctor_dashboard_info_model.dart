@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/images.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/colors.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/images.dart';
 
 class DoctorDashboardInfoModel {
   String? title;

@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSImages.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSImages.dart';
 
 class LSServiceModel {
   String? img;

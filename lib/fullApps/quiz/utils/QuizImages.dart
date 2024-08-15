@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const quiz_ic_communication = "$BaseUrl/images/quiz/quiz_ic_communication.png";
 const quiz_ic_communication2 = "$BaseUrl/images/quiz/quiz_ic_communication2.png";

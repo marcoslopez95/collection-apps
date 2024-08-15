@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/Constants.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/Constants.dart';
 
 class AppBarComponent extends StatefulWidget {
   const AppBarComponent({Key? key}) : super(key: key);

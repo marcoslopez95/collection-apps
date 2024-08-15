@@ -1,11 +1,11 @@
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/data_provider.dart';
-import 'package:prokit_flutter/fullApps/carea/components/chat_message_componet.dart';
-import 'package:prokit_flutter/fullApps/carea/model/calling_model.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/data_provider.dart';
+import 'package:access_maketicket/fullApps/carea/components/chat_message_componet.dart';
+import 'package:access_maketicket/fullApps/carea/model/calling_model.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ChatScreen extends StatefulWidget {

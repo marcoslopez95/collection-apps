@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodColors.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodString.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodColors.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodString.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class FoodAddAddress extends StatefulWidget {
   static String tag = '/FoodAddAddress';

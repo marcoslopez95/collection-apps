@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/constants.dart';
+import 'package:access_maketicket/constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:prokit_flutter/src/Model/AccessDetail.dart';
-import 'package:prokit_flutter/src/Model/Event.dart';
-import 'package:prokit_flutter/src/Services/BaseService.dart';
+import 'package:access_maketicket/src/Model/AccessDetail.dart';
+import 'package:access_maketicket/src/Model/Event.dart';
+import 'package:access_maketicket/src/Services/BaseService.dart';
 
 class MacketicketService extends BaseService {
 

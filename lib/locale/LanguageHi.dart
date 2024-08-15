@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/locale/Languages.dart';
+import 'package:access_maketicket/locale/Languages.dart';
 
 class LanguageHi extends BaseLanguage {
   @override

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/images.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/forgot_pass_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/home_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/signup_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/store/user_signup.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/carea/commons/images.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/screens/forgot_pass_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/home_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/signup_screen.dart';
+import 'package:access_maketicket/fullApps/carea/store/user_signup.dart';
+import 'package:access_maketicket/main.dart';
 
 class LoginWithPassScreen extends StatefulWidget {
   const LoginWithPassScreen({Key? key}) : super(key: key);

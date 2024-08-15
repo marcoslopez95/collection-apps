@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/model/NBModel.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBNewsDetailsScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBColors.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBDataProviders.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBWidgets.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/newsBlog/model/NBModel.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBNewsDetailsScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBColors.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBDataProviders.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBWidgets.dart';
 
 class NBBookmarkScreen extends StatefulWidget {
   static String tag = '/NBBookmarkScreen';

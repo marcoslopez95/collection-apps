@@ -2,12 +2,12 @@ import 'package:clippy_flutter/arc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodColors.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodImages.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodString.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/dots_indicator/dots_indicator.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodColors.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodImages.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodString.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/dots_indicator/dots_indicator.dart';
 
 import '../../../main/utils/AppConstant.dart';
 import 'FoodSignIn.dart';

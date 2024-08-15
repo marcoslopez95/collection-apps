@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:prokit_flutter/dashboard/split_bill/component/nearby_split_component.dart';
-import 'package:prokit_flutter/dashboard/split_bill/component/split_with_component.dart';
-import 'package:prokit_flutter/dashboard/split_bill/model/split_bill_info_model.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/common.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/constant.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/split_bill/component/nearby_split_component.dart';
+import 'package:access_maketicket/dashboard/split_bill/component/split_with_component.dart';
+import 'package:access_maketicket/dashboard/split_bill/model/split_bill_info_model.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/colors.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/common.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/constant.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
 
 class HomeSplitBillFragment extends StatefulWidget {
   final bool isDirect;

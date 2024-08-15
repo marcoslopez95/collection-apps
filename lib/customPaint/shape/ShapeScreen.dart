@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/shape/CirclePainter.dart';
-import 'package:prokit_flutter/customPaint/shape/LinePainter.dart';
-import 'package:prokit_flutter/customPaint/shape/RectanglePainter.dart';
-import 'package:prokit_flutter/customPaint/shape/RoundedRectanglePainter.dart';
-import 'package:prokit_flutter/customPaint/shape/TrianglePainter.dart';
-import 'package:prokit_flutter/customPaint/shape/modal/PainterScreenModal.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
+import 'package:access_maketicket/customPaint/shape/CirclePainter.dart';
+import 'package:access_maketicket/customPaint/shape/LinePainter.dart';
+import 'package:access_maketicket/customPaint/shape/RectanglePainter.dart';
+import 'package:access_maketicket/customPaint/shape/RoundedRectanglePainter.dart';
+import 'package:access_maketicket/customPaint/shape/TrianglePainter.dart';
+import 'package:access_maketicket/customPaint/shape/modal/PainterScreenModal.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
 
 class ShapeScreen extends StatefulWidget {
   @override

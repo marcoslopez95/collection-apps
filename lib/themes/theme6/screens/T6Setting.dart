@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme6/utils/T6Colors.dart';
-import 'package:prokit_flutter/themes/theme6/utils/T6Constant.dart';
-import 'package:prokit_flutter/themes/theme6/utils/T6Strings.dart';
-import 'package:prokit_flutter/themes/theme6/utils/T6Widget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme6/utils/T6Colors.dart';
+import 'package:access_maketicket/themes/theme6/utils/T6Constant.dart';
+import 'package:access_maketicket/themes/theme6/utils/T6Strings.dart';
+import 'package:access_maketicket/themes/theme6/utils/T6Widget.dart';
 
 import '../../../main.dart';
 

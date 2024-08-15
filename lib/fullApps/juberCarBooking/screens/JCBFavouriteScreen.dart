@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBDestinationWidget.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/models/JCBSearchDestinationModel.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBUpdateFavouriteScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBCommon.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBDestinationWidget.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/models/JCBSearchDestinationModel.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBUpdateFavouriteScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBCommon.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/main.dart';
 
 // ignore: must_be_immutable
 class JCBFavouriteScreen extends StatefulWidget {

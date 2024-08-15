@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/customPaint/chatBubble/utils.dart';
+import 'package:access_maketicket/customPaint/chatBubble/utils.dart';
 
 class ChatBubbleModal {
   int? senderId;

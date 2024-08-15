@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/locale/AppLocalizations.dart';
-import 'package:prokit_flutter/locale/Languages.dart';
-import 'package:prokit_flutter/main/model/AppModel.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/locale/AppLocalizations.dart';
+import 'package:access_maketicket/locale/Languages.dart';
+import 'package:access_maketicket/main/model/AppModel.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../main.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMMasterModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMTopOffersScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMMasterModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMTopOffersScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
 
 class BMTopServiceHomeComponent extends StatelessWidget {
   List<BMMasterModel> topServiceList = getTopServicesHomeList();

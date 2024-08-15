@@ -1,8 +1,8 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/utils/colors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/integrations/utils/colors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class MonthlySale1Screen extends StatefulWidget {
   @override

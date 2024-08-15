@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/chatBubble/ChatBubbleCustomPainter.dart';
-import 'package:prokit_flutter/customPaint/chatBubble/modal/ChatBubbleModal.dart';
+import 'package:access_maketicket/customPaint/chatBubble/ChatBubbleCustomPainter.dart';
+import 'package:access_maketicket/customPaint/chatBubble/modal/ChatBubbleModal.dart';
 
 class ChatBubbleMessageWidget extends StatelessWidget {
   final bool? isMe;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme15/components/dashbord_components/dashboard_card_component.dart';
+import 'package:access_maketicket/themes/theme15/components/dashbord_components/dashboard_card_component.dart';
 
 import '../utils/T15common_widgets.dart';
 

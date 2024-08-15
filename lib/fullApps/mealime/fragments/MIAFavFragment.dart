@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/components/MIAFavMealComponent.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIAMealModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIASingleMealScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIACommomWidgets.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIADataGenerator.dart';
+import 'package:access_maketicket/fullApps/mealime/components/MIAFavMealComponent.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIAMealModel.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIASingleMealScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIACommomWidgets.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIADataGenerator.dart';
 
 class MIAFavFragment extends StatelessWidget {
   List<MIAMealModel> favList = getMealList();

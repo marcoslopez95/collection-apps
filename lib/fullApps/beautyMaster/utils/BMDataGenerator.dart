@@ -1,13 +1,13 @@
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMAppointmentModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMCommentModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMCommonCardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMDashboardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMMasterModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMMessageModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMServiceListModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMShoppingModel.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMAppointmentModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMCommentModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMCommonCardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMDashboardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMMasterModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMMessageModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMServiceListModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMShoppingModel.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 List<WalkThroughModelClass> getWalkThroughList() {
   List<WalkThroughModelClass> list = [];

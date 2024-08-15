@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
 
 class EVStationPlacesModel {
   String? image;

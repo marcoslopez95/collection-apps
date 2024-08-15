@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFMobileSignInScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFColors.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFMobileSignInScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFColors.dart';
 
 class RFSplashScreen extends StatefulWidget {
   static String tag = '/room_finder';

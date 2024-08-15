@@ -9,7 +9,7 @@ import '../order/order_screen.dart';
 import '../profile/profile_screen.dart';
 import '../wallet/wallet.dart';
 import 'dashboard_controller.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/home_screen.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/home_screen.dart';
 
 class DashboardScreen extends StatelessWidget {
   final HomeController homeController = Get.put(HomeController());

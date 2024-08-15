@@ -4,8 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class ImagePickerScreen extends StatefulWidget {
   static String tag = '/image_picker';

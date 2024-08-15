@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/quantity_controller.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/quantity_controller.dart';
 
 import '../../utils/colors.dart';
 

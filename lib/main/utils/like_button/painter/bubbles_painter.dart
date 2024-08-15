@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/like_button/utils/like_button_util.dart';
+import 'package:access_maketicket/main/utils/like_button/utils/like_button_util.dart';
 
 class BubblesPainter extends CustomPainter {
   BubblesPainter({

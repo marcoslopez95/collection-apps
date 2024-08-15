@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/customTemperatureWidget/ButtonTempratureWidget.dart';
-import 'package:prokit_flutter/customPaint/customTemperatureWidget/SemiCircleWidget.dart';
-import 'package:prokit_flutter/customPaint/customTemperatureWidget/TemperatureWidget.dart';
-import 'package:prokit_flutter/customPaint/customTemperatureWidget/modal/view_modal.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/customPaint/customTemperatureWidget/ButtonTempratureWidget.dart';
+import 'package:access_maketicket/customPaint/customTemperatureWidget/SemiCircleWidget.dart';
+import 'package:access_maketicket/customPaint/customTemperatureWidget/TemperatureWidget.dart';
+import 'package:access_maketicket/customPaint/customTemperatureWidget/modal/view_modal.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
 import 'package:provider/provider.dart';
 
 class TemperatureWidgetScreen extends StatefulWidget {

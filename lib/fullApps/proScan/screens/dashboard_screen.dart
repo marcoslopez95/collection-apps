@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:cunning_document_scanner/cunning_document_scanner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/recent_files_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/search_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/common.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/recent_files_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/search_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/common.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
 
 import '../../../main.dart';
 import '../component/new_file_component.dart';

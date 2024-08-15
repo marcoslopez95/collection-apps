@@ -2,13 +2,13 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WACardComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WATransactionComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WAWalletUserListComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WADataGenerator.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAWidgets.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WACardComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WATransactionComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WAWalletUserListComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WADataGenerator.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAWidgets.dart';
 
 class WAWalletScreen extends StatefulWidget {
   static String tag = '/WAWalletScreen';

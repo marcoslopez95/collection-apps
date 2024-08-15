@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/components/APopularRecipesComponent.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ACategoryListScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ALiveCookingListScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ATopChefListScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ACommon.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/appetit/components/APopularRecipesComponent.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ACategoryListScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ALiveCookingListScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ATopChefListScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ACommon.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../screens/ALiveCookingRecipeScreen.dart';
 import '../utils/ADataProvider.dart';

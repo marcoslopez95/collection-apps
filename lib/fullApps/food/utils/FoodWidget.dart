@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/screen/FoodAddAddress.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/food/screen/FoodAddAddress.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'FoodColors.dart';
 import 'FoodString.dart';

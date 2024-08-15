@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/model/DatingAppModel.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAChangePasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DALocationScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DANotificationScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAConstants.dart';
+import 'package:access_maketicket/fullApps/dating/model/DatingAppModel.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAChangePasswordScreen.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DALocationScreen.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DANotificationScreen.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAConstants.dart';
 
 List<DatingAppModel> getInterests() {
   List<DatingAppModel> list = [];

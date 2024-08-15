@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const learner_walk_BackImg = "images/learner/learnerWalkBackImg.png";
 const learner_walk_1 = "$BaseUrl/images/learner/learner_walk_1.png";

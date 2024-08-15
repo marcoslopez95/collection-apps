@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/themes/theme1/model/T1_model.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Images.dart';
+import 'package:access_maketicket/themes/theme1/model/T1_model.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Images.dart';
 import '../../../main/utils/AppConstant.dart';
 
 List<T1Model> getListings() {

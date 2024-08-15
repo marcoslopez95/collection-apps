@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/confetti/src/particle.dart';
+import 'package:access_maketicket/main/utils/confetti/src/particle.dart';
 
 import 'enums/blast_directionality.dart';
 import 'enums/confetti_controller_state.dart';

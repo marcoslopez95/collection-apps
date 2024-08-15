@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/models/RoomFinderModel.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFHotelDescriptionScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFColors.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFWidget.dart';
+import 'package:access_maketicket/fullApps/roomFinder/models/RoomFinderModel.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFHotelDescriptionScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFColors.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFWidget.dart';
 
 class RFRecentUpdateComponent extends StatelessWidget {
   final RoomFinderModel recentUpdateData;

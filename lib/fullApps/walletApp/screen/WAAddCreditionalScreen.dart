@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WADashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAVerificationScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WADashboardScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAVerificationScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
 
 class WAAddCredentialScreen extends StatefulWidget {
   static String tag = '/WAAddCredentialScreen';

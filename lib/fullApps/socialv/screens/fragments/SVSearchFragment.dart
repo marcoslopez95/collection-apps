@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/models/SVSearchModel.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/fragments/SVProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/search/components/SVSearchCardComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/models/SVSearchModel.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/fragments/SVProfileFragment.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/search/components/SVSearchCardComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
 
 class SVSearchFragment extends StatefulWidget {
   @override

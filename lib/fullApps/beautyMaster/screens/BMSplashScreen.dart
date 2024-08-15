@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class BMSplashScreen extends StatefulWidget {
   static String tag = '/beauty_master';

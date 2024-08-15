@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/model/FoodModel.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodColors.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodString.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodWidget.dart';
-import 'package:prokit_flutter/fullApps/food/utils/dotted_border.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/food/model/FoodModel.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodColors.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodDataGenerator.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodString.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodWidget.dart';
+import 'package:access_maketicket/fullApps/food/utils/dotted_border.dart';
+import 'package:access_maketicket/main.dart';
 
 class FoodCoupon extends StatefulWidget {
   static String tag = '/FoodCoupon';

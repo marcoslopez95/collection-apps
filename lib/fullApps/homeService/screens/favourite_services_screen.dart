@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/homeService/components/favorite_service_component.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/components/favorite_service_component.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../models/service_provider_model.dart';
 

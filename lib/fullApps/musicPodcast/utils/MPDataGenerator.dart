@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/models/MusicModel.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPAlbumsScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPArtistsScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPEventsScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPNewsScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPPlayListScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPPodCastScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPSettingScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPSongsScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPImages.dart';
-import 'package:prokit_flutter/main/utils/Lipsum.dart' as lipsum;
+import 'package:access_maketicket/fullApps/musicPodcast/models/MusicModel.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPAlbumsScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPArtistsScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPEventsScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPNewsScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPPlayListScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPPodCastScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPProfileScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPSettingScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPSongsScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPImages.dart';
+import 'package:access_maketicket/main/utils/Lipsum.dart' as lipsum;
 
 List<DrawerList> getDrawerList() {
   List<DrawerList> drawerList = [];

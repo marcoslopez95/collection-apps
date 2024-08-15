@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
 
 List<UpiPayment> upiPaymentData = upiPaymentList();
 

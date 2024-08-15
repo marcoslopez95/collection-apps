@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingHome1.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingMenu.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingPayment.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingSaving.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingTransfer.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingBottomNavigationBar.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingColors.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingImages.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingStrings.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingHome1.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingMenu.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingPayment.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingSaving.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingTransfer.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingBottomNavigationBar.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingColors.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingImages.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingStrings.dart';
 
 class BankingDashboard extends StatefulWidget {
   static var tag = "/BankingDashboard";

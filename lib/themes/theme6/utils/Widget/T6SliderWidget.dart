@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme6/models/T6Models.dart';
-import 'package:prokit_flutter/themes/theme6/utils/T6SliderWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme6/models/T6Models.dart';
+import 'package:access_maketicket/themes/theme6/utils/T6SliderWidget.dart';
 
 import '../../../../main.dart';
 import '../T6Colors.dart';

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme15/components/dashbord_components/dashboard_appbar_component.dart';
-import 'package:prokit_flutter/themes/theme15/components/dashbord_components/dashboard_card_component.dart';
-import 'package:prokit_flutter/themes/theme15/components/dashbord_components/dashboard_catgories_components.dart';
-import 'package:prokit_flutter/themes/theme15/components/dashbord_components/dashboard_pets_components.dart';
-import 'package:prokit_flutter/themes/theme15/components/dashbord_components/dashboard_title_component.dart';
-import 'package:prokit_flutter/themes/theme15/components/drawer_screen_component.dart';
+import 'package:access_maketicket/themes/theme15/components/dashbord_components/dashboard_appbar_component.dart';
+import 'package:access_maketicket/themes/theme15/components/dashbord_components/dashboard_card_component.dart';
+import 'package:access_maketicket/themes/theme15/components/dashbord_components/dashboard_catgories_components.dart';
+import 'package:access_maketicket/themes/theme15/components/dashbord_components/dashboard_pets_components.dart';
+import 'package:access_maketicket/themes/theme15/components/dashbord_components/dashboard_title_component.dart';
+import 'package:access_maketicket/themes/theme15/components/drawer_screen_component.dart';
 
 import '../../../main.dart';
 

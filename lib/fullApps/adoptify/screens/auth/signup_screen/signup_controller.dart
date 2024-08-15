@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/auth/signup_screen/signup_model.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/auth/signup_screen/signup_model.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../../../generated/assets.dart';
 import '../../pets/model/pets_model.dart';

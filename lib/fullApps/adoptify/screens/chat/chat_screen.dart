@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/appscaffold.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/chat/calling_screen/calling_screen.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/chat/components/message_call_component.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/chat/message_screen/message_screen.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/chat/video_calling_screen/video_call.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/appscaffold.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/chat/calling_screen/calling_screen.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/chat/components/message_call_component.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/chat/message_screen/message_screen.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/chat/video_calling_screen/video_call.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../../generated/assets.dart';
 import '../../../../main.dart';

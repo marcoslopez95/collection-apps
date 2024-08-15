@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAForYouModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAConstants.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EADataProvider.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAForYouModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAConstants.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EADataProvider.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
 
 class EAChattingScreen extends StatefulWidget {
   // final String? img;

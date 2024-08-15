@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPTabBarSignInScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPColors.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPWidget.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPTabBarSignInScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPColors.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPWidget.dart';
 
 class MPForgotPasswordScreen extends StatefulWidget {
   @override

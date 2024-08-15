@@ -3,11 +3,11 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
-import 'package:prokit_flutter/src/Services/MaketicketService.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/src/Services/MaketicketService.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
-import 'package:prokit_flutter/src/Model/Event.dart';
+import 'package:access_maketicket/src/Model/Event.dart';
 
 class QRViewExample extends StatefulWidget {
   final Event? event;

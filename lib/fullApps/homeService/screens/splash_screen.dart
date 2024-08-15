@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/walk_through_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/walk_through_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
 
 class SplashScreen extends StatefulWidget {
   static String tag = '/home_service';

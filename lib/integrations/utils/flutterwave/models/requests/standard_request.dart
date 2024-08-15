@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/models/responses/standard_response.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/models/responses/standard_response.dart';
 
 import '../../utils.dart';
 import '../TransactionError.dart';

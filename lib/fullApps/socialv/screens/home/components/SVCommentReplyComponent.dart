@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class SVCommentReplyComponent extends StatelessWidget {
   const SVCommentReplyComponent({Key? key}) : super(key: key);

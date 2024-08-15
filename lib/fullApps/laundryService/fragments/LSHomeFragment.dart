@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/components/LSSOfferPackageComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/components/LSServiceNearByComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/components/LSTopServiceComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSNearByScreen.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSNotificationScreen.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSOfferAllScreen.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/laundryService/components/LSSOfferPackageComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/components/LSServiceNearByComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/components/LSTopServiceComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSNearByScreen.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSNotificationScreen.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSOfferAllScreen.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class LSHomeFragment extends StatefulWidget {
   static String tag = '/LSHomeFragment';

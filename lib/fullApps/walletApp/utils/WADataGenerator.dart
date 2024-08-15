@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WABillPayScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WACreditCardScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WASendMoneyViaLoopScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAVoucherScreen.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WABillPayScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WACreditCardScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WASendMoneyViaLoopScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAVoucherScreen.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 List<String?> waMonthList = <String?>["Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
 List<String?> waYearList = <String?>["1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2020", "2021"];

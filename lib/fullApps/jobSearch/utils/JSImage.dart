@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const js_SplashImage = "$BaseUrl/images/jobSearch/js_splash_logo.png";
 const js_loader = "$BaseUrl/images/jobSearch/gif/js_loader.gif";

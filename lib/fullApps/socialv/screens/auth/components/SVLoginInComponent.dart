@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/SVDashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/auth/screens/SVForgetPasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/SVDashboardScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/auth/screens/SVForgetPasswordScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
 
 class SVLoginInComponent extends StatefulWidget {
   final VoidCallback? callback;

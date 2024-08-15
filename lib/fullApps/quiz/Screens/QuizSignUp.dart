@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizCreatePassword.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizConstant.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizCreatePassword.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizConstant.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class QuizSignUp extends StatefulWidget {
   static String tag = '/QuizSignUp';

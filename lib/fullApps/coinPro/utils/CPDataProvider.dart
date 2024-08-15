@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/coinPro/model/CPModel.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPColors.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPImages.dart';
+import 'package:access_maketicket/fullApps/coinPro/model/CPModel.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPColors.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPImages.dart';
 
 List<CPDataModel> getCPCardDataModel() {
   List<CPDataModel> cardList = [];

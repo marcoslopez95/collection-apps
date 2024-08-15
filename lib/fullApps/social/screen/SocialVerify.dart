@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/social/model/SocialModel.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialColors.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialConstant.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialImages.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialStrings.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/social/model/SocialModel.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialColors.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialConstant.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialDataGenerator.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialImages.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialStrings.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class SocialVerify extends StatefulWidget {
   static String tag = '/SocialVerify';

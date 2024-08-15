@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t1_ic_home_image = "images/theme1/t1_ic_home_image.png";
 const t1_ic_ring = "images/theme1/t1_ic_ring.png";

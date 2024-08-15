@@ -3,8 +3,8 @@ import 'package:nb_utils/nb_utils.dart';
 import 'package:otp_text_field/otp_field.dart' as otp;
 import 'package:otp_text_field/otp_field_style.dart';
 import 'package:otp_text_field/style.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'WADashboardScreen.dart';
 

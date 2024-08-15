@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/addPost/components/SVPostOptionsComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/addPost/components/SVPostTextComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/addPost/components/SVPostOptionsComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/addPost/components/SVPostTextComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
 
 import '../../../../main.dart';
 import '../../../../main/utils/AppColors.dart';

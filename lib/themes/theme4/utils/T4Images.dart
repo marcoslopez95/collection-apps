@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t4_bg = "images/theme4/t4_bg.jpeg";
 const t4_ic_img1 = "$BaseUrl/images/theme4/t4_ic_img1.jpg";

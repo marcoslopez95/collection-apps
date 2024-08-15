@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIABuildMealScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIABuildMealScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
 
 PreferredSizeWidget miaAppBar(BuildContext context) {
   return AppBar(

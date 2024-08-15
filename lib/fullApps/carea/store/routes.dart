@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/carea/screens/details_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/details_screen.dart';
 
 import '../screens/create_new_pass_screen.dart';
 import '../screens/create_pin_screen.dart';

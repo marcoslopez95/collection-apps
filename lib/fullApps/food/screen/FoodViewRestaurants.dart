@@ -1,14 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/model/FoodModel.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FlutterSlider.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodColors.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodString.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodWidget.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/food/model/FoodModel.dart';
+import 'package:access_maketicket/fullApps/food/utils/FlutterSlider.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodColors.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodDataGenerator.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodString.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodWidget.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'FoodBookDetail.dart';
 import 'FoodRestaurantsDescription.dart';

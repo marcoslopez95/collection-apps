@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/relixMusicApp/utils/images.dart';
+import 'package:access_maketicket/fullApps/relixMusicApp/utils/images.dart';
 
 class DashBoardDataModel {
   String? img;

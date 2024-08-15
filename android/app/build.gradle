@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.iqonic.prokit_flutter"
+    namespace "com.iqonic.access_maketicket"
     compileSdkVersion 34
     ndkVersion "25.1.8937393"
 

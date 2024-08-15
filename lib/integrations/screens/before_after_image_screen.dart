@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/beforeAfter/BeforeAfter.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/beforeAfter/BeforeAfter.dart';
 
 class BeforeAfterImageScreen extends StatefulWidget {
   static String tag = '/before_after_image';

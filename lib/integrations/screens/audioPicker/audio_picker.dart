@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/screens/audioPicker/audio.dart';
-import 'package:prokit_flutter/integrations/utils/common.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/integrations/screens/audioPicker/audio.dart';
+import 'package:access_maketicket/integrations/utils/common.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class AudioPickerScreen extends StatefulWidget {
   static String tag = '/AudioPickerScreen';

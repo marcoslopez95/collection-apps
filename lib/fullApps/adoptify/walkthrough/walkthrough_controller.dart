@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/adoptify/walkthrough/walkthrough_model.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/adoptify/walkthrough/walkthrough_model.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class WalkThroughController extends GetxController {
   final CarouselController carouselController = CarouselController();

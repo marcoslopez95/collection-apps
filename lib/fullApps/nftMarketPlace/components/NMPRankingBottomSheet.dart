@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPDataProvider.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPDataProvider.dart';
 
 class NMPRankingBottomSheet extends StatefulWidget {
   static String tag = '/RankingBottomSheet';

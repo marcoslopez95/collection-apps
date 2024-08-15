@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class RCWelcomeImageComponent extends StatelessWidget {
   const RCWelcomeImageComponent({Key? key}) : super(key: key);

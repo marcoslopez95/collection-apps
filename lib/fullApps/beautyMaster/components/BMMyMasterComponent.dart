@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMMasterModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMCalenderScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMMasterModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMCalenderScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
 
 class BMMyMasterComponent extends StatelessWidget {
   List<BMMasterModel> myMasterList = getMyMastersList();

@@ -6,8 +6,8 @@ import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/liquid_pull_to_refresh/src/circular_progress.dart';
-import 'package:prokit_flutter/main/utils/liquid_pull_to_refresh/src/clipper.dart';
+import 'package:access_maketicket/main/utils/liquid_pull_to_refresh/src/circular_progress.dart';
+import 'package:access_maketicket/main/utils/liquid_pull_to_refresh/src/clipper.dart';
 
 // The over-scroll distance that moves the indicator to its maximum
 // displacement, as a percentage of the scrollable's container extent.

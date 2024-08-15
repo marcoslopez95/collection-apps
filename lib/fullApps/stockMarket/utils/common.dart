@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/colors.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 Widget CommonCachedNetworkImage(

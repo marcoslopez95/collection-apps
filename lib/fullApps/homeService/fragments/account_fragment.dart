@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/homeService/fragments/bookings_fragment.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/customer_details_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/favourite_services_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/my_profile_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/notification_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/fragments/bookings_fragment.dart';
+import 'package:access_maketicket/fullApps/homeService/models/customer_details_model.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/favourite_services_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/my_profile_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/notification_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../custom_widget/space.dart';
 

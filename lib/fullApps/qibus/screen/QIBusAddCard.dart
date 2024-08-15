@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusColors.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusConstant.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusStrings.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusWidget.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusColors.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusConstant.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusStrings.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusWidget.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class QIBusAddCard extends StatefulWidget {
   static String tag = '/QIBusAddCard';

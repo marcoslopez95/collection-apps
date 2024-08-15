@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPCommon.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPConstants.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPCommon.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPConstants.dart';
 
 class NMPAboutScreen extends StatelessWidget {
   @override

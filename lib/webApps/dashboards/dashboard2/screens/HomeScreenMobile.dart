@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/component/Drawer.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/screens/ComingSoonScreen.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/screens/OverViewScreenMobile.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/component/Drawer.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/screens/ComingSoonScreen.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/screens/OverViewScreenMobile.dart';
 
 class HomeScreenMobile extends StatefulWidget {
   @override

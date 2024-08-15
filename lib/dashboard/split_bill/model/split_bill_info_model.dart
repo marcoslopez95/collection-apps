@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/images.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/colors.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/images.dart';
 
 class SplitBillInfoModel {
   String? name;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme15/screens/dashboard/account_fragment.dart';
-import 'package:prokit_flutter/themes/theme15/screens/dashboard/chat_fragment.dart';
-import 'package:prokit_flutter/themes/theme15/screens/dashboard/favourite_fragment.dart';
-import 'package:prokit_flutter/themes/theme15/screens/dashboard/home_fragment.dart';
+import 'package:access_maketicket/themes/theme15/screens/dashboard/account_fragment.dart';
+import 'package:access_maketicket/themes/theme15/screens/dashboard/chat_fragment.dart';
+import 'package:access_maketicket/themes/theme15/screens/dashboard/favourite_fragment.dart';
+import 'package:access_maketicket/themes/theme15/screens/dashboard/home_fragment.dart';
 import '../utils/T15colors.dart';
 
 class BottomNavigationScreen extends StatefulWidget {

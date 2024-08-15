@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme12/models/T12Models.dart';
-import 'package:prokit_flutter/themes/theme12/utils/t12_colors.dart';
-import 'package:prokit_flutter/themes/theme12/utils/t12_constant.dart';
-import 'package:prokit_flutter/themes/theme12/utils/t12_data_generator.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme12/models/T12Models.dart';
+import 'package:access_maketicket/themes/theme12/utils/t12_colors.dart';
+import 'package:access_maketicket/themes/theme12/utils/t12_constant.dart';
+import 'package:access_maketicket/themes/theme12/utils/t12_data_generator.dart';
 
 class T12Cards extends StatefulWidget {
   static String tag = '/T12Cards';

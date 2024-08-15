@@ -1,6 +1,6 @@
-import 'package:prokit_flutter/fullApps/appetit/utils/ADataProvider.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ADataProvider.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ACommon.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ACommon.dart';
 
 class ASearchGalleriesComponent extends StatelessWidget {
   const ASearchGalleriesComponent({Key? key}) : super(key: key);

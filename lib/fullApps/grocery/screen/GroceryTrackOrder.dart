@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/model/grocery_trackOrder_model.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GeoceryStrings.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/grocery/model/grocery_trackOrder_model.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GeoceryStrings.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class GroceryTrackOrderScreen extends StatefulWidget {
   static String tag = '/GroceryTrackOrderScreen';

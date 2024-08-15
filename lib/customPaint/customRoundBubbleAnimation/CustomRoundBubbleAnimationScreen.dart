@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/customRoundBubbleAnimation/CurvedCustomPaint.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/customPaint/customRoundBubbleAnimation/CurvedCustomPaint.dart';
+import 'package:access_maketicket/main.dart';
 
 class CustomRoundBubbleAnimationScreen extends StatefulWidget {
   @override

@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/payment/payment_profile_screen.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/privacy_policy/privacy_policy.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/profile_contoller.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/security/security_screen.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/payment/payment_profile_screen.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/privacy_policy/privacy_policy.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/profile_contoller.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/security/security_screen.dart';
 
 import '../../../../main.dart';
 import '../../components/image_picker_widget.dart';

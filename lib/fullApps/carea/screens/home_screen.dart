@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/fragments/dashboard_fragment.dart';
-import 'package:prokit_flutter/fullApps/carea/fragments/inbox_fragment.dart';
-import 'package:prokit_flutter/fullApps/carea/fragments/orders_fragment.dart';
-import 'package:prokit_flutter/fullApps/carea/fragments/setting_fragment.dart';
-import 'package:prokit_flutter/fullApps/carea/fragments/wallet_fragment.dart';
+import 'package:access_maketicket/fullApps/carea/fragments/dashboard_fragment.dart';
+import 'package:access_maketicket/fullApps/carea/fragments/inbox_fragment.dart';
+import 'package:access_maketicket/fullApps/carea/fragments/orders_fragment.dart';
+import 'package:access_maketicket/fullApps/carea/fragments/setting_fragment.dart';
+import 'package:access_maketicket/fullApps/carea/fragments/wallet_fragment.dart';
 
 class HomeScreen extends StatefulWidget {
   const   HomeScreen({Key? key}) : super(key: key);

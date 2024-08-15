@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/smart_home/fragments/alart_fragment.dart';
-import 'package:prokit_flutter/dashboard/smart_home/fragments/dashboard_fragment.dart';
-import 'package:prokit_flutter/dashboard/smart_home/fragments/profile_fragment.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/smart_home/fragments/alart_fragment.dart';
+import 'package:access_maketicket/dashboard/smart_home/fragments/dashboard_fragment.dart';
+import 'package:access_maketicket/dashboard/smart_home/fragments/profile_fragment.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/colors.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class SmartHomeDashboard extends StatefulWidget {
   static String tag = '/smart_home';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCVideoModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCClipperPaths.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCVideoModel.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCBottomSheet.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCClipperPaths.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
 
 class RCVideoListComponent extends StatelessWidget {
   RCVideoModel element;

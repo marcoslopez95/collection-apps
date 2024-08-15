@@ -2,12 +2,12 @@
 
 import 'dart:async';
 
-import 'package:prokit_flutter/fullApps/carea/commons/colors.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../store/logicprovider.dart';
 import 'create_new_pass_screen.dart';

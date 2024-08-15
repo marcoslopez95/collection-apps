@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EANewsDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAColors.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EADataProvider.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EANewsDetailScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAColors.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EADataProvider.dart';
 
 class EANewsList extends StatefulWidget {
   @override

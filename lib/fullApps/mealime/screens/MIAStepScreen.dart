@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIADashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIADashboardScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
 
 class MIAStepScreen extends StatelessWidget {
   const MIAStepScreen({Key? key}) : super(key: key);

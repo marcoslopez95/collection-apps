@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme11/model/T11Model.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11DataGenerator.dart';
+import 'package:access_maketicket/themes/theme11/model/T11Model.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11DataGenerator.dart';
 
 class T11WalkThroughScreen extends StatefulWidget {
   static String tag = '/T11WalkThroughScreen';

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/app_component.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/colors.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/details_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/notification_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/profile_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/search_delageate.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/special_offer_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/top_deals_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/wish_list_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/store/logicprovider.dart';
-import 'package:prokit_flutter/fullApps/carea/store/search_delagete_ob.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/carea/commons/app_component.dart';
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/screens/details_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/notification_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/profile_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/search_delageate.dart';
+import 'package:access_maketicket/fullApps/carea/screens/special_offer_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/top_deals_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/wish_list_screen.dart';
+import 'package:access_maketicket/fullApps/carea/store/logicprovider.dart';
+import 'package:access_maketicket/fullApps/carea/store/search_delagete_ob.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class DashBoardFragment extends StatefulWidget {

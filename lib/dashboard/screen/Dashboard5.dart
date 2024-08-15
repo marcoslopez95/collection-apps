@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/model/db5/Db5Model.dart';
-import 'package:prokit_flutter/dashboard/utils/Db5BottomNavigationBar.dart';
-import 'package:prokit_flutter/dashboard/utils/DbColors.dart';
-import 'package:prokit_flutter/dashboard/utils/DbDataGenerator.dart';
-import 'package:prokit_flutter/dashboard/utils/DbImages.dart';
-import 'package:prokit_flutter/dashboard/utils/DbStrings.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/scrolling_support_web.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/dashboard/model/db5/Db5Model.dart';
+import 'package:access_maketicket/dashboard/utils/Db5BottomNavigationBar.dart';
+import 'package:access_maketicket/dashboard/utils/DbColors.dart';
+import 'package:access_maketicket/dashboard/utils/DbDataGenerator.dart';
+import 'package:access_maketicket/dashboard/utils/DbImages.dart';
+import 'package:access_maketicket/dashboard/utils/DbStrings.dart';
+import 'package:access_maketicket/fullApps/carea/commons/scrolling_support_web.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class Dashboard5 extends StatefulWidget {
   static String tag = '/hotel_booking';

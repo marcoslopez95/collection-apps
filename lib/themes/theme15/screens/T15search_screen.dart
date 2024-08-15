@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme15/components/search_screen_card_component.dart';
-import 'package:prokit_flutter/themes/theme15/utils/T15TextButton.dart';
-import 'package:prokit_flutter/themes/theme15/utils/T15colors.dart';
+import 'package:access_maketicket/themes/theme15/components/search_screen_card_component.dart';
+import 'package:access_maketicket/themes/theme15/utils/T15TextButton.dart';
+import 'package:access_maketicket/themes/theme15/utils/T15colors.dart';
 
 import '../utils/T15model.dart';
 

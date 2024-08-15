@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const social_walk = "$BaseUrl/images/social/social_walk.png";
 const social_briefcase = "images/social/social_briefcase.svg";

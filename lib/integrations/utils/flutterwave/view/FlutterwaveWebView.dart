@@ -1,5 +1,5 @@
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/core/TransactionCallBack.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/core/TransactionCallBack.dart';
 
 import '../utils.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:http/http.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/view/FlutterwaveWebView.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/view/flutterwave_style.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/view/FlutterwaveWebView.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/view/flutterwave_style.dart';
 
 import '../models/TransactionError.dart';
 import '../models/requests/standard_request.dart';

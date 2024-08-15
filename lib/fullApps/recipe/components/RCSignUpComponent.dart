@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCOTPScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCOTPScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
 
 class RCSignUpComponent extends StatelessWidget {
   var form_key = GlobalKey<FormState>();

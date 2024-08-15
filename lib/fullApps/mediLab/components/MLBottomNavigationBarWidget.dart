@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLCommon.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLCommon.dart';
 
 class MLBottomNavigationBarWidget extends StatefulWidget {
   static String tag = '/MLBottomNavigationBarWidget';

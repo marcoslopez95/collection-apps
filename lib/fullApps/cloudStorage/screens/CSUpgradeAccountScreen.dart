@@ -1,10 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSColors.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSConstants.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSImages.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSWidgets.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSColors.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSConstants.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSImages.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSWidgets.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CSUpgradeAccountScreen extends StatelessWidget {

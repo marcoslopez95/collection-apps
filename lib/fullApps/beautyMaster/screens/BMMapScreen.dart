@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMCardComponentTwo.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMCommonCardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMCardComponentTwo.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMCommonCardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class BMMapScreen extends StatelessWidget {
   List<BMCommonCardModel> recommendedList = getRecommendedList();

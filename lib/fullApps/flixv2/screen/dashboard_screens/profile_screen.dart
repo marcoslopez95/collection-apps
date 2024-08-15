@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/model/profile_model.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/authentication_screen/change_password_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/authentication_screen/logout_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/history_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/setting_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/subscription_screens/subscription_plan_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/model/profile_model.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/authentication_screen/change_password_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/authentication_screen/logout_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/history_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/setting_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/subscription_screens/subscription_plan_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
 
 class ProfileScreen extends StatefulWidget {
   PageController? pageController;

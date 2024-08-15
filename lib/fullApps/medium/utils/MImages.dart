@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const MIconGoogle = 'images/medium/m_ic_Google.png';
 const MIconFb = 'images/medium/m_ic_Fb.png';

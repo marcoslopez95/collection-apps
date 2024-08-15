@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class JSCompanyProfileScreen extends StatefulWidget {
   final JSPopularCompanyModel? popularCompanyList;

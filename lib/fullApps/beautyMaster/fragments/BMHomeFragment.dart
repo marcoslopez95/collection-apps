@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMCommonCardComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMHomeFragmentHeadComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMMyMasterComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMTopServiceHomeComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMCommonCardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMRecommendedScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMTopOffersScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMCommonCardComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMHomeFragmentHeadComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMMyMasterComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMTopServiceHomeComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMCommonCardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMRecommendedScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMTopOffersScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class BMHomeFragment extends StatefulWidget {
   const BMHomeFragment({Key? key}) : super(key: key);

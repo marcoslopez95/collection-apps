@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WALoginScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WADataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WALoginScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WADataGenerator.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class WAWalkThroughScreen extends StatefulWidget {
   static String tag = '/WAWalkThroughScreen';

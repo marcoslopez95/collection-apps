@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WADataGenerator.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAWidgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WADataGenerator.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAWidgets.dart';
+import 'package:access_maketicket/main.dart';
 
 class WASendViaComponent extends StatefulWidget {
   static String tag = '/WASendViaComponent';

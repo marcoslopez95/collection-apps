@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/banking/utils/colors.dart';
+import 'package:access_maketicket/dashboard/banking/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../utils/constant.dart';
 

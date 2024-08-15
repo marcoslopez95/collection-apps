@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/colors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/colors.dart';
+import 'package:access_maketicket/main.dart';
 
 Gradient primaryHomeLinearGradient() {
   return LinearGradient(

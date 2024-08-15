@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/utility_tracker/model/utility_tracker_model.dart';
-import 'package:prokit_flutter/dashboard/utility_tracker/utils/colors.dart';
+import 'package:access_maketicket/dashboard/utility_tracker/model/utility_tracker_model.dart';
+import 'package:access_maketicket/dashboard/utility_tracker/utils/colors.dart';
 
 class UtilityTrackerListComponent extends StatelessWidget {
   const UtilityTrackerListComponent({Key? key, this.data}) : super(key: key);

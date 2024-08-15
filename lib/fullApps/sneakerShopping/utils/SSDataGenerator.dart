@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 List<SneakerShoppingModel> getAccount() {
   List<SneakerShoppingModel> list = [];

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLCasesComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLCountryPIckerComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLNewsAndVideoComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLVacciensComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLCommon.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLImage.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLCasesComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLCountryPIckerComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLNewsAndVideoComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLVacciensComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLCommon.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLImage.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLCovidScreen extends StatefulWidget {
   static String tag = '/MLCovidScreen';

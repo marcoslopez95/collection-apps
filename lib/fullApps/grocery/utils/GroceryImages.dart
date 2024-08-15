@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const Grocery_ic_DeliveryBoy = "$BaseUrl/images/grocery/Grocery_ic_DeliveryBoy.png";
 const Grocery_ic_CheckMark = "images/grocery/Grocery_ic_CheckMark.png";

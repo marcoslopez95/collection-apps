@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLAppointmentDetailList.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLAddVoucherScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLAppointmentDetailList.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLAddVoucherScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
 
 class MLConfirmAppointmentComponent extends StatelessWidget {
   @override

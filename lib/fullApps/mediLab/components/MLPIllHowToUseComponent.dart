@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLImage.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLImage.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
 
 class MLPillHowToUseComponent extends StatefulWidget {
   static String tag = '/PillHowToUseComponent';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/sticky_header/sticky_headers/widget.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/sticky_header/sticky_headers/widget.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class OverLappingHeaders extends StatelessWidget {
   static String tag = '/OverLappingHeaders';

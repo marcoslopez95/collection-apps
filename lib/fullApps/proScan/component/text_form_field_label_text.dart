@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/common.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/common.dart';
 
 class TextFormFieldLabelText extends StatelessWidget {
   final String text;

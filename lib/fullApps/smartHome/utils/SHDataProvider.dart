@@ -1,12 +1,12 @@
-import 'package:prokit_flutter/fullApps/smartHome/component/SHAirConditionerDeviceComponent.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHAirPurifierDeviceComponenet.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHClimateDeviceComponentWidget.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHFanDeviceComponent.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHLightDeviceComponenet.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHSpeakersDeviceComponent.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHTelevisionDeviceComponenet.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHWashingMachineDeviceComponent.dart';
-import 'package:prokit_flutter/fullApps/smartHome/model/SHModel.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHAirConditionerDeviceComponent.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHAirPurifierDeviceComponenet.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHClimateDeviceComponentWidget.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHFanDeviceComponent.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHLightDeviceComponenet.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHSpeakersDeviceComponent.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHTelevisionDeviceComponenet.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHWashingMachineDeviceComponent.dart';
+import 'package:access_maketicket/fullApps/smartHome/model/SHModel.dart';
 
 import 'SHConstant.dart';
 

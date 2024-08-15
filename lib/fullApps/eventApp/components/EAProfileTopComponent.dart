@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EAConnectionScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EAIndexScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EARewardScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAColors.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAImages.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EAConnectionScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EAIndexScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EARewardScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAColors.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAImages.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
 
 class EAProfileTopComponent extends StatefulWidget {
   const EAProfileTopComponent({Key? key}) : super(key: key);

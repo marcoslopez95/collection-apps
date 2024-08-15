@@ -1,7 +1,7 @@
-import 'package:prokit_flutter/fullApps/evSpot/models/filter_amenities_cb.dart';
-import 'package:prokit_flutter/fullApps/evSpot/models/filter_connection_type.dart';
-import 'package:prokit_flutter/fullApps/evSpot/models/filter_speed_cb.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/filter_amenities_cb.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/filter_connection_type.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/filter_speed_cb.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
 
 List<ConnectionType> connectionItem = [
   ConnectionType(connectionItemTitle: 'J-1772'),

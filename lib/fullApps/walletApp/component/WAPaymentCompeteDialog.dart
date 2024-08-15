@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WADashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAColors.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAWidgets.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WADashboardScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAColors.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAWidgets.dart';
 
 class WAPaymentCompletedDialog extends StatefulWidget {
   static String tag = '/WAPaymentCompletedDialog';

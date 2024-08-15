@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:prokit_flutter/fullApps/homeService/custom_widget/space.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/dashboard_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/constant.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/custom_widget/space.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/dashboard_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/constant.dart';
+import 'package:access_maketicket/main.dart';
 
 class OTPVerificationScreen extends StatefulWidget {
   const OTPVerificationScreen({Key? key}) : super(key: key);

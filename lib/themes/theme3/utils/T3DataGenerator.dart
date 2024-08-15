@@ -1,7 +1,7 @@
 import 'dart:core';
 
-import 'package:prokit_flutter/themes/theme3/model/T3_Model.dart';
-import 'package:prokit_flutter/themes/theme3/utils/T3Images.dart';
+import 'package:access_maketicket/themes/theme3/model/T3_Model.dart';
+import 'package:access_maketicket/themes/theme3/utils/T3Images.dart';
 import '../../../main/utils/AppConstant.dart';
 
 List<T3DashboardSliderModel> getDashboardSlider() {

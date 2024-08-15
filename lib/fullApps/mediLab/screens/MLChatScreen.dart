@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLInboxData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLCommon.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLImage.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLInboxData.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLCommon.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLImage.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLChatScreen extends StatefulWidget {
   @override

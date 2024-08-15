@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/main/utils/codePicker/country_code_picker.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/main/utils/codePicker/country_code_picker.dart';
 
 class MLCountryPickerComponent extends StatefulWidget {
   static String tag = '/MLCountryPickerComponent';

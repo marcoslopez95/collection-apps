@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/login_with_pass_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/notification_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/payment_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/profile_screen.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/screens/login_with_pass_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/notification_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/payment_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/profile_screen.dart';
+import 'package:access_maketicket/main.dart';
 
 class SettingFragment extends StatefulWidget {
   @override

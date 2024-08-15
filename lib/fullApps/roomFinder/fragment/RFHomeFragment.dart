@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFCommonAppComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFHotelListComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFLocationComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFRecentUpdateComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/models/RoomFinderModel.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFLocationViewAllScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFRecentupdateViewAllScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFSearchDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFViewAllHotelListScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFColors.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFString.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFWidget.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFCommonAppComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFHotelListComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFLocationComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFRecentUpdateComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/models/RoomFinderModel.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFLocationViewAllScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFRecentupdateViewAllScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFSearchDetailScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFViewAllHotelListScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFColors.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFDataGenerator.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFString.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFWidget.dart';
+import 'package:access_maketicket/main.dart';
 
 class RFHomeFragment extends StatefulWidget {
   @override

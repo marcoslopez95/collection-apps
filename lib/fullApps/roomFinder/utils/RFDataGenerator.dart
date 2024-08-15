@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/models/RoomFinderModel.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFAboutUsScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFHelpScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFNotificationScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFRecentlyViewedScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFImages.dart';
+import 'package:access_maketicket/fullApps/roomFinder/models/RoomFinderModel.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFAboutUsScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFHelpScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFNotificationScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFRecentlyViewedScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFImages.dart';
 
 List<RoomFinderModel> categoryList() {
   List<RoomFinderModel> categoryListData = [];

@@ -1,14 +1,14 @@
-import 'package:prokit_flutter/fullApps/appetit/components/ADiscussionComponent.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ACategoryListScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ADataProvider.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ADiscussionScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/AReviewScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/components/ADiscussionComponent.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ACategoryListScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ADataProvider.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ADiscussionScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/AReviewScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ACommon.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ACommon.dart';
 
 // ignore: must_be_immutable
 class ALiveCookingRecipeScreen extends StatefulWidget {

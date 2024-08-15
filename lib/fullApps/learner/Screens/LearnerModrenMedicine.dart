@@ -1,14 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/learner/model/LearnerModels.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerColors.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerConstant.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerImages.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerStrings.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/flutter_rating_bar.dart';
+import 'package:access_maketicket/fullApps/learner/model/LearnerModels.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerColors.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerConstant.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerDataGenerator.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerImages.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerStrings.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/flutter_rating_bar.dart';
 
 class LearnerModrenMedicine extends StatefulWidget {
   static String tag = '/LearnerModrenMedicine';

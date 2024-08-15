@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/custom_widget/space.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/renovate_services_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/service_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/custom_widget/space.dart';
+import 'package:access_maketicket/fullApps/homeService/models/renovate_services_model.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/service_screen.dart';
 
 class RenovateHomeComponent extends StatelessWidget {
   @override

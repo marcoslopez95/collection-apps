@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/model/LSServiceModel.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSImages.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/laundryService/model/LSServiceModel.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSImages.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class LSOrderStatusScreen extends StatefulWidget {
   static String tag = '/LSOrderStatusScreen';

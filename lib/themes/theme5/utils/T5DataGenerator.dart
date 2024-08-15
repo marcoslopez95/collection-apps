@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/themes/theme5/model/T5Models.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Images.dart';
+import 'package:access_maketicket/themes/theme5/model/T5Models.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Images.dart';
 
 import 'T5Colors.dart';
 

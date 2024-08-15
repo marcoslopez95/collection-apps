@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizDashboard.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizImages.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizDashboard.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizImages.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class QuizNotification extends StatefulWidget {
   static String tag = '/QuizNotification';

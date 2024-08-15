@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/shopHop/models/ShOrder.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShColors.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShConstant.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShExtension.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShStrings.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/shopHop/models/ShOrder.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShColors.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShConstant.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShExtension.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShStrings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 // ignore: must_be_immutable
 class ShOrderDetailScreen extends StatefulWidget {

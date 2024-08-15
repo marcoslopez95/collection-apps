@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCBackComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCPreferenceScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCBackComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCPreferenceScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class RCOTPScreen extends StatefulWidget {
   String email;

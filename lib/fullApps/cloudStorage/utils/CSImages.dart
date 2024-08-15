@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const CSCloudboxLogo = "$BaseUrl/images/cloudStorage/cloudboxLogo.png";
 const CSGoogleLogo = 'images/cloudStorage/google.png';

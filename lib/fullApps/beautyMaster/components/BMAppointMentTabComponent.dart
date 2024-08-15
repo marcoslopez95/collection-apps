@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMAppointmentComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMAppointmentComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
 
 class BMAppointMentTabComponent extends StatelessWidget {
   bool tabOne;

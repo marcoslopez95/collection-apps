@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/SDSearchModel.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDStyle.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDDashboardScreen.dart';
-import 'package:prokit_flutter/helper.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/src/Model/Event.dart';
-import 'package:prokit_flutter/src/Services/MaketicketService.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
+import 'package:access_maketicket/fullApps/smartDeck/ModelClass/SDSearchModel.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDStyle.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDDashboardScreen.dart';
+import 'package:access_maketicket/helper.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/src/Model/Event.dart';
+import 'package:access_maketicket/src/Services/MaketicketService.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
 
 class SDSearchScreen extends StatefulWidget {
   @override

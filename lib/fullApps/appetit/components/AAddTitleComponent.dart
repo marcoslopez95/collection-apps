@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class AAddTitleComponent extends StatelessWidget {
   const AAddTitleComponent({Key? key}) : super(key: key);

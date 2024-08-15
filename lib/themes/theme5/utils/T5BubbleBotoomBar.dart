@@ -3,10 +3,10 @@ import 'dart:math' as math;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/auto_size_text/auto_size_text.dart';
-import 'package:prokit_flutter/themes/theme2/utils/T2Colors.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Colors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/auto_size_text/auto_size_text.dart';
+import 'package:access_maketicket/themes/theme2/utils/T2Colors.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Colors.dart';
 
 import '../../../main.dart';
 

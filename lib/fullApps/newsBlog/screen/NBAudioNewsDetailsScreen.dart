@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/model/NBModel.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBColors.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBImages.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/newsBlog/model/NBModel.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBColors.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBImages.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class NBAudioNewsDetailsScreen extends StatefulWidget {
   static String tag = '/NBAudioNewsDetailsScreen';

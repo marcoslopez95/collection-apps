@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const qibus_ic_amritsar = "$BaseUrl/images/qibus/qibus_ic_amritsar.png";
 const qibus_ic_andamans = "$BaseUrl/images/qibus/qibus_ic_andamans.png";

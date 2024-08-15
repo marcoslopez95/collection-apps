@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/model/DatingAppModel.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAUploadPhotoScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAColors.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DADataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/dating/model/DatingAppModel.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAUploadPhotoScreen.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAColors.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DADataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class DAInterestScreen extends StatefulWidget {
   @override

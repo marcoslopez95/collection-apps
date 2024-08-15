@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLInboxData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLInboxData.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
 
 class MLSymptomsDiscriptionComponent extends StatefulWidget {
   static String tag = '/MLSymptomsDiscriptionComponent';

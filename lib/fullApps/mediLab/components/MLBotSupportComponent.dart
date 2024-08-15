@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLChatListComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLBotScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLChatListComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLBotScreen.dart';
 
 class MLBotSupportComponent extends StatefulWidget {
   static String tag = '/MLBotSupportComponent';

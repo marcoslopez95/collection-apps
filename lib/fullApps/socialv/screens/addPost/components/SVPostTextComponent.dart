@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
 
 class SVPostTextComponent extends StatelessWidget {
   const SVPostTextComponent({Key? key}) : super(key: key);

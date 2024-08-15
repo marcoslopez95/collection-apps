@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/components/booking_history_component.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/last_bookings_model.dart';
+import 'package:access_maketicket/fullApps/homeService/components/booking_history_component.dart';
+import 'package:access_maketicket/fullApps/homeService/models/last_bookings_model.dart';
 
 class BookingHistoryScreen extends StatefulWidget {
   const BookingHistoryScreen({Key? key}) : super(key: key);

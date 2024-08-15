@@ -1,9 +1,9 @@
-import 'package:prokit_flutter/fullApps/appetit/screens/ALoginScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ARegisterScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ALoginScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ARegisterScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 class AWelcomeScreen extends StatefulWidget {
   const AWelcomeScreen({Key? key}) : super(key: key);

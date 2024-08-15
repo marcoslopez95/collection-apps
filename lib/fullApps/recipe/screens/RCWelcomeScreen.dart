@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCWelcomeImageComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCSignUpScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCWelcomeImageComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCSignUpScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class RCWelcomeScreen extends StatefulWidget {
   const RCWelcomeScreen({Key? key}) : super(key: key);

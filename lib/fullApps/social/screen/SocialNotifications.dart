@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialColors.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialConstant.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialImages.dart';
-import 'package:prokit_flutter/fullApps/social/utils/SocialStrings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialColors.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialConstant.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialImages.dart';
+import 'package:access_maketicket/fullApps/social/utils/SocialStrings.dart';
 
 class SocialNotification extends StatefulWidget {
   static String tag = '/SocialNotification';

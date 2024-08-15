@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/customLoader/CustomLoaderPainter.dart';
+import 'package:access_maketicket/customPaint/customLoader/CustomLoaderPainter.dart';
 
 class CustomLoaderScreen extends StatefulWidget {
   @override

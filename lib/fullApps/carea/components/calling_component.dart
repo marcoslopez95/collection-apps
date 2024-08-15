@@ -1,8 +1,8 @@
-import 'package:prokit_flutter/fullApps/carea/commons/data_provider.dart';
-import 'package:prokit_flutter/fullApps/carea/model/calling_model.dart';
+import 'package:access_maketicket/fullApps/carea/commons/data_provider.dart';
+import 'package:access_maketicket/fullApps/carea/model/calling_model.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CallingComponent extends StatefulWidget {

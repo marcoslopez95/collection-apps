@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 import 'package:html/parser.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/utils/common.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/model/ListModels.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/integrations/utils/common.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/model/ListModels.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
 
 import 'AppConstant.dart';
 import 'clusteringGoogleMaps/lat_lang_geohash.dart';

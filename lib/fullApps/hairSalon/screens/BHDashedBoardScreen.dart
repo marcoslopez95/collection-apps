@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
 
 import 'BHAppointmentScreen.dart';
 import 'BHDiscoverScreen.dart';

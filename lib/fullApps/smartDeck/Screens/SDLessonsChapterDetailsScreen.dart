@@ -3,10 +3,10 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/SDLessonsDetailsModel.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDLessonChapterScreen.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/smartDeck/ModelClass/SDLessonsDetailsModel.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDLessonChapterScreen.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 // ignore: must_be_immutable
 class SDLessonsDetScreen extends StatefulWidget {

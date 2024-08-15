@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/appscaffold.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/profile/help_support/privacy_policy/privacy_policy.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/profile/help_support/terms_of_service/terms_of_service.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/appscaffold.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/profile/help_support/privacy_policy/privacy_policy.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/profile/help_support/terms_of_service/terms_of_service.dart';
 
 import '../../../../../main.dart';
 import '../../../components/list_tile_widget.dart';

@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/app_theme.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/colors.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/model/user_info.dart';
-import 'package:prokit_flutter/fullApps/carea/store/profile_ob.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/carea/commons/app_theme.dart';
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/model/user_info.dart';
+import 'package:access_maketicket/fullApps/carea/store/profile_ob.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'create_pin_screen.dart';
 

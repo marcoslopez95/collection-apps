@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/components/search_bar_controller.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/components/search_bar_controller.dart';
 
 import '../screen/home/filter/filter_screen.dart';
 import '../utils/colors.dart';

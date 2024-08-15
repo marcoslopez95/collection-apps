@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/food/model/FoodModel.dart';
+import 'package:access_maketicket/fullApps/food/model/FoodModel.dart';
 
 import 'FoodImages.dart';
 

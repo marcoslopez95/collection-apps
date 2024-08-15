@@ -1,7 +1,7 @@
-import 'package:prokit_flutter/fullApps/evSpot/utils/colors.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
 
 class AppLogoImageComponent extends StatelessWidget {
   AppLogoImageComponent({Key? key, this.isCenter}) : super(key: key);

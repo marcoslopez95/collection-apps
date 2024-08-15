@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMCommonCardComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMFloatingActionComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMCommonCardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMCommonCardComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMFloatingActionComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMCommonCardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class BMRecommendedScreen extends StatefulWidget {
   const BMRecommendedScreen({Key? key}) : super(key: key);

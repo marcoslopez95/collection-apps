@@ -1,9 +1,9 @@
-import 'package:prokit_flutter/fullApps/carea/commons/images.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/model/user_info.dart';
+import 'package:access_maketicket/fullApps/carea/commons/images.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/model/user_info.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 class SetFingerPrintScreen extends StatefulWidget {
   SetFingerPrintScreen({Key? key}) : super(key: key);

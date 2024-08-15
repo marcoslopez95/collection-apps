@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLAllMedicineComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLMedicineInformationScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLCreateNewMedicineScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLAllMedicineComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLMedicineInformationScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLCreateNewMedicineScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLMedicineScreen extends StatefulWidget {
   static String tag = '/MLMedicineScreen';

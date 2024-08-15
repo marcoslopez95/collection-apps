@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
 
 class RCCircularProgress extends CustomPainter {
   Color arcColor;

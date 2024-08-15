@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/movie_screen_component/similar_movies_component.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/movie_screen_component/movies_poster_component.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/movie_screen_component/movies_cast_component.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/movie_screen_component/movies_about_component.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/movie_screen_component/movies_gallery_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/movie_screen_component/similar_movies_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/movie_screen_component/movies_poster_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/movie_screen_component/movies_cast_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/movie_screen_component/movies_about_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/movie_screen_component/movies_gallery_component.dart';
 
 import '../../components/movie_screen_component/movies_review_component.dart';
 import '../../model/actor_data_model.dart';

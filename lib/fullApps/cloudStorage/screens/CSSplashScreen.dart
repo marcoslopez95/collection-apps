@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSStartingScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSConstants.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSImages.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSStartingScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSConstants.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSImages.dart';
 
 class CSSplashScreen extends StatefulWidget {
   static String tag = '/cloud_storage';

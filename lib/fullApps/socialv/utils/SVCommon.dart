@@ -4,11 +4,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/addPost/components/SVSharePostBottomSheetComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/addPost/components/SVSharePostBottomSheetComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
 
 InputDecoration svInputDecoration(BuildContext context,
     {String? hint, String? label, TextStyle? hintStyle, TextStyle? labelStyle, Widget? prefix, EdgeInsetsGeometry? contentPadding, Widget? prefixIcon}) {

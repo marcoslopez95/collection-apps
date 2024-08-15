@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GeoceryStrings.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryColors.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryImages.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryWidget.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GeoceryStrings.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryColors.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryImages.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryWidget.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class GroceryGotQuestionScreen extends StatefulWidget {
   static String tag = '/GroceryGotQuestionScreen';

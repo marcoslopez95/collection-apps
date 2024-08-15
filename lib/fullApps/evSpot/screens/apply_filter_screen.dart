@@ -1,12 +1,12 @@
 import 'package:flutter/services.dart';
-import 'package:prokit_flutter/fullApps/evSpot/models/filter_amenities_cb.dart';
-import 'package:prokit_flutter/fullApps/evSpot/models/filter_connection_type.dart';
-import 'package:prokit_flutter/fullApps/evSpot/models/filter_speed_cb.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/data_provider.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/home_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/constant.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/filter_amenities_cb.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/filter_connection_type.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/filter_speed_cb.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/data_provider.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/home_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/colors.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

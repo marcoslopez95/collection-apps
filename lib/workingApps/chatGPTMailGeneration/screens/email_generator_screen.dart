@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/workingApps/chatGPTMailGeneration/screens/generated_email_screen.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/workingApps/chatGPTMailGeneration/screens/generated_email_screen.dart';
 
 import '../../../main/utils/AppColors.dart';
 import '../../chatGPTMailGeneration/utils/common.dart';

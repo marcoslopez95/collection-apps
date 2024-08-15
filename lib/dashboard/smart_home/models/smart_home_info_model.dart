@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/images.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/colors.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/images.dart';
 
 class SmartHomeInfoModel {
   String? usageHistoryTitle;

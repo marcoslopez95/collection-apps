@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/actor_screens/actor_detail_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/filter_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/movies_screen/movie_detail_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/actor_screens/actor_detail_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/filter_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/movies_screen/movie_detail_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
 
 import '../../model/actor_data_model.dart';
 import '../../model/image_data_model.dart';

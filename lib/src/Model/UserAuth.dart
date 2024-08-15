@@ -1,6 +1,6 @@
-import 'package:prokit_flutter/src/Model/Model.dart';
-import 'package:prokit_flutter/src/Model/Permission.dart';
-import 'package:prokit_flutter/src/Model/Role.dart';
+import 'package:access_maketicket/src/Model/Model.dart';
+import 'package:access_maketicket/src/Model/Permission.dart';
+import 'package:access_maketicket/src/Model/Role.dart';
 
 class UserAuth extends BaseModel
 {

@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/dashboard/banking/utils/images.dart';
+import 'package:access_maketicket/dashboard/banking/utils/images.dart';
 
 class BankingInfoModel {
   String? lastWeekTitle;

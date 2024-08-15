@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/walkthrough_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/walkthrough_screen.dart';
 
 class CareaSplashScreen extends StatefulWidget {
   static String tag = '/carea';

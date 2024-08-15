@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/screens/verify_photo_screen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/common.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/screens/verify_photo_screen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/colors.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/common.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
 
 class ProofResidencyScreen extends StatefulWidget {
   @override

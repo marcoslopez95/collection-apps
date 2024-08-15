@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBAlertDialogComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBCancelBookingComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBDrawerComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBFoundDriverComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBRideTypeComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/models/JCBRideModel.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBSuggestedRidesScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBCommon.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBAlertDialogComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBCancelBookingComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBDrawerComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBFoundDriverComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBRideTypeComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/models/JCBRideModel.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBSuggestedRidesScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBCommon.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 // ignore: must_be_immutable
 

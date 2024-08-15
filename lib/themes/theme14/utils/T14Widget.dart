@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingContants.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusColors.dart';
-import 'package:prokit_flutter/themes/theme14/model/T14Model.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingContants.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusColors.dart';
+import 'package:access_maketicket/themes/theme14/model/T14Model.dart';
 
 import 'T14Colors.dart';
 

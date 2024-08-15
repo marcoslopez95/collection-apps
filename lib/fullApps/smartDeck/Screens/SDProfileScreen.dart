@@ -1,13 +1,13 @@
-import 'package:prokit_flutter/helper.dart';
+import 'package:access_maketicket/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDSettingScreen.dart';
-import 'package:prokit_flutter/integrations/screens/StickyHeader/stickyHeaderHomePage.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/src/Model/ProfileService/QrScans.dart';
-import 'package:prokit_flutter/src/Model/UserAuth.dart';
-import 'package:prokit_flutter/src/Services/ProfileService.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDSettingScreen.dart';
+import 'package:access_maketicket/integrations/screens/StickyHeader/stickyHeaderHomePage.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/src/Model/ProfileService/QrScans.dart';
+import 'package:access_maketicket/src/Model/UserAuth.dart';
+import 'package:access_maketicket/src/Services/ProfileService.dart';
 import 'SDEditProfileScreen.dart';
 
 // ignore: camel_case_types

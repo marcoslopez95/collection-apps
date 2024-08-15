@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSCompleteProfileOneScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSEnableNotificationDialog.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSImage.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSWidget.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSCompleteProfileOneScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSEnableNotificationDialog.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSImage.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSWidget.dart';
+import 'package:access_maketicket/main.dart';
 
 class JSMessagesScreen extends StatefulWidget {
   const JSMessagesScreen({Key? key}) : super(key: key);

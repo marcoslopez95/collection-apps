@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
-import 'package:prokit_flutter/integrations/utils/DefaultLayout.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/integrations/utils/DefaultLayout.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 import '../../../main/utils/AppConstant.dart';
 
 class LiquidSwipeScreen extends StatefulWidget {

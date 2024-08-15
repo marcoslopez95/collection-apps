@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIAPickDietScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIACommomWidgets.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIAPickDietScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIACommomWidgets.dart';
 
 class WalkThroughModelScreen extends StatefulWidget {
   const WalkThroughModelScreen({Key? key}) : super(key: key);

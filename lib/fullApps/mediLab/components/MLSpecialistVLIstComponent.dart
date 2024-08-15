@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLSpecialistData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLSpecialistData.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLSpecialistVListComponent extends StatefulWidget {
   static String tag = '/MLSpecialistVListComponent';

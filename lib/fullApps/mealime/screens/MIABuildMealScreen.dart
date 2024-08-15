@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/components/MIAAddMealBotttomNavComponent.dart';
-import 'package:prokit_flutter/fullApps/mealime/components/MealContainerComponent.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIASplashScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIABottomSheets.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIACommomWidgets.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAConstants.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/mealime/components/MIAAddMealBotttomNavComponent.dart';
+import 'package:access_maketicket/fullApps/mealime/components/MealContainerComponent.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIASplashScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIABottomSheets.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIACommomWidgets.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAConstants.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class MIABuildMealScreen extends StatefulWidget {
   const MIABuildMealScreen({Key? key}) : super(key: key);

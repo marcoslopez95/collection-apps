@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/model/Dashboard1Model.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/Constants.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/model/Dashboard1Model.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/Constants.dart';
 
 List<DashBoard1Model> getSideDrawerList() {
   List<DashBoard1Model> list = [];

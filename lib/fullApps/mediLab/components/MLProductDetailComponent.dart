@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLProductMoreDetailScreen.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLProductMoreDetailScreen.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLProductDetailComponent extends StatefulWidget {
   static String tag = '/MLProductDetailComponent';

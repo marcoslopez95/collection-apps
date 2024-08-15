@@ -1,5 +1,5 @@
 import 'package:mobx/mobx.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIAMealModel.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIAMealModel.dart';
 
 part 'MIAStore.g.dart';
 

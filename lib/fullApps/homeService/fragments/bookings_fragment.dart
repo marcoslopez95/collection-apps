@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/active_bookings_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/booking_history_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/active_bookings_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/booking_history_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/main.dart';
 
 class BookingsFragment extends StatefulWidget {
   final bool fromProfile;

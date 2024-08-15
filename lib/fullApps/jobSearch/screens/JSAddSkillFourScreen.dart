@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSDrawerScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSSkillComponent.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSCompleteProfileFiveScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSWidget.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSDrawerScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSSkillComponent.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSCompleteProfileFiveScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSWidget.dart';
+import 'package:access_maketicket/main.dart';
 
 class JSAddSkillFourScreen extends StatefulWidget {
   const JSAddSkillFourScreen({Key? key}) : super(key: key);

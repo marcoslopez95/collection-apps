@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/SDChatsModel.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDChatPageViewScreen.dart';
+import 'package:access_maketicket/fullApps/smartDeck/ModelClass/SDChatsModel.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDChatPageViewScreen.dart';
 
 class SDChatScreen extends StatefulWidget {
   @override

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/shopHop/models/ShProduct.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShCartScreen.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShProductDetail.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShColors.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShExtension.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShImages.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/dots_indicator/dots_indicator.dart';
+import 'package:access_maketicket/fullApps/shopHop/models/ShProduct.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShCartScreen.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShProductDetail.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShColors.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShExtension.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShImages.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/dots_indicator/dots_indicator.dart';
 
 import 'ShConstant.dart';
 import 'ShStrings.dart';

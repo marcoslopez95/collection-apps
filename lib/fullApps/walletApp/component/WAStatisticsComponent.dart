@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WAWidgets.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WAWidgets.dart';
 
 class WAStatisticsComponent extends StatefulWidget {
   static String tag = '/WAStatisticsComponent';

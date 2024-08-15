@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/component/ThemeItemWidget.dart';
-import 'package:prokit_flutter/main/model/AppModel.dart';
+import 'package:access_maketicket/main/component/ThemeItemWidget.dart';
+import 'package:access_maketicket/main/model/AppModel.dart';
 
 class ThemeList extends StatelessWidget {
   final List<ProTheme> list;

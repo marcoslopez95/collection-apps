@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/select_pets_category/select_catagory.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/select_pets_category/select_catagory.dart';
 
 import '../../../../main.dart';
 import '../home/home_controller.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/Lipsum.dart' as lipsum;
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/Lipsum.dart' as lipsum;
 
 class CWSlidingSegmentedControlScreen extends StatefulWidget {
   static String tag = '/sliding_segmented_control_screen';

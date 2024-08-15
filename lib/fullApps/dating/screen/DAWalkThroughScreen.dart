@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAWelcomeScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAColors.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAWelcomeScreen.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAColors.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
 
 class DAWalkThroughScreen extends StatefulWidget {
   @override

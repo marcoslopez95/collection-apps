@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/models/SVStoryModel.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/screens/SVStoryScreen.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/fullApps/socialv/models/SVStoryModel.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/screens/SVStoryScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
 
 class SVStoryComponent extends StatefulWidget {
   @override

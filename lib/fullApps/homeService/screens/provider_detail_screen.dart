@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/components/service_list_component.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/provider_services_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/widgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/components/service_list_component.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/provider_services_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/widgets.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../custom_widget/space.dart';
 import '../models/renovate_services_model.dart';

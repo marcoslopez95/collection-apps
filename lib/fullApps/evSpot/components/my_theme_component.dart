@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/fullApps/evSpot/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/constant.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/colors.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

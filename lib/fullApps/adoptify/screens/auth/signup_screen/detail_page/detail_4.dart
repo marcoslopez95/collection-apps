@@ -3,7 +3,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/auth/signup_screen/signup_model.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/auth/signup_screen/signup_model.dart';
 
 import '../../../../../../main.dart';
 import '../../../../components/image_picker_widget.dart';

@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 //PortFolio 1//
 const p1IntoImg = '$BaseUrl/images/webApps/portfolio1/p1_Into.jpg';

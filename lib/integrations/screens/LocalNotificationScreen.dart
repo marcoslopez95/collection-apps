@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class LocalNotificationScreen extends StatefulWidget {
   static String tag = '/local_notification';
@@ -131,7 +131,7 @@ class LocalNotificationScreenState extends State<LocalNotificationScreen> {
 
     List<String> lines = ['user1', 'user2', 'user3'];
 
-    InboxStyleInformation inboxStyleInformation = InboxStyleInformation(lines, contentTitle: '${lines.length} messages', summaryText: 'prokit_flutter.com');
+    InboxStyleInformation inboxStyleInformation = InboxStyleInformation(lines, contentTitle: '${lines.length} messages', summaryText: 'access_maketicket.com');
 
     AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
       'groupChannelId',

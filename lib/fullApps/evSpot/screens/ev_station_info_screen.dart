@@ -1,10 +1,10 @@
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/evSpot/models/ev_station_places_model.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/add_check_in_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/home_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/constant.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/evSpot/models/ev_station_places_model.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/add_check_in_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/home_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/colors.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/constant.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';

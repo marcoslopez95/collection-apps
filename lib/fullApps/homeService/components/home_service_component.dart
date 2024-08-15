@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:prokit_flutter/fullApps/homeService/custom_widget/space.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/services_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/service_providers_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/fullApps/homeService/custom_widget/space.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/homeService/models/services_model.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/service_providers_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
 
 class HomeServiceComponent extends StatefulWidget {
   @override

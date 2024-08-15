@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/appscaffold.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/appscaffold.dart';
 
 import '../../../../components/pagenavigator.dart';
 import '../../../../utils/color.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCircularProgress.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCircularProgress.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
 
 class RCCircularWrapComponent extends StatelessWidget {
   const RCCircularWrapComponent({Key? key}) : super(key: key);

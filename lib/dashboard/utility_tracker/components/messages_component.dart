@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/utility_tracker/model/utility_tracker_model.dart';
+import 'package:access_maketicket/dashboard/utility_tracker/model/utility_tracker_model.dart';
 
 class MessagesComponent extends StatelessWidget {
   const MessagesComponent({Key? key, this.messageData}) : super(key: key);

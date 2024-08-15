@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBHomeScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBHomeScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
 
 class JCBGetStartedScreen extends StatelessWidget {
   const JCBGetStartedScreen({Key? key}) : super(key: key);

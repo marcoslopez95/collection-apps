@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/AppButton.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/sign_up_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/common.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/component/AppButton.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/sign_up_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/common.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
 
 import '../../../main.dart';
 import '../component/text_form_field_label_text.dart';

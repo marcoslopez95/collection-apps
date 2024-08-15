@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLMedicationData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLMedicineScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLMedicationData.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLMedicineScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
 
 class MLAllMedicineComponent extends StatefulWidget {
   @override

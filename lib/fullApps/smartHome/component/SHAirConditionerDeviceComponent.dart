@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
 
 class SHAirConditionerDeviceComponent extends StatefulWidget {
   const SHAirConditionerDeviceComponent({Key? key}) : super(key: key);

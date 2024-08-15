@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/fragment/DAHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/dating/fragment/DAInboxFragment.dart';
-import 'package:prokit_flutter/fullApps/dating/fragment/DAMatchesFragment.dart';
-import 'package:prokit_flutter/fullApps/dating/fragment/DAProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/dating/fragment/DAHomeFragment.dart';
+import 'package:access_maketicket/fullApps/dating/fragment/DAInboxFragment.dart';
+import 'package:access_maketicket/fullApps/dating/fragment/DAMatchesFragment.dart';
+import 'package:access_maketicket/fullApps/dating/fragment/DAProfileFragment.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class DADashboardScreen extends StatefulWidget {
   @override

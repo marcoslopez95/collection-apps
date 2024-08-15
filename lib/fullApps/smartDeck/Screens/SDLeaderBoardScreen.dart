@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/SDLeaderboardModel.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDStyle.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/smartDeck/ModelClass/SDLeaderboardModel.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDStyle.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'SDLeaderInfoScreen.dart';
 

@@ -1,7 +1,7 @@
-import 'package:prokit_flutter/themes/theme8/model/T8Models.dart';
-import 'package:prokit_flutter/themes/theme8/utils/T8Images.dart';
-import 'package:prokit_flutter/themes/theme9/models/T9Models.dart';
-import 'package:prokit_flutter/themes/theme9/utils/T9Images.dart';
+import 'package:access_maketicket/themes/theme8/model/T8Models.dart';
+import 'package:access_maketicket/themes/theme8/utils/T8Images.dart';
+import 'package:access_maketicket/themes/theme9/models/T9Models.dart';
+import 'package:access_maketicket/themes/theme9/utils/T9Images.dart';
 
 List<T8QuizModel> t8GetQuizData() {
   List<T8QuizModel> list = [];

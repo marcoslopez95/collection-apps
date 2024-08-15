@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBFavouriteScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBMyRidesScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBPaymentMethodScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBPromotionsScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBCommon.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBFavouriteScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBMyRidesScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBPaymentMethodScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBProfileScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBPromotionsScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBCommon.dart';
 
 class JCBDrawerComponent extends StatelessWidget {
   const JCBDrawerComponent({Key? key}) : super(key: key);

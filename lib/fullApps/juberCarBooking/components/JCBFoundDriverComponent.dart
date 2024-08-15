@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBAlertDialogComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBDriverWayScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBReplyScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBCommon.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBAlertDialogComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBDriverWayScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBReplyScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBCommon.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class JCBFoundDriverComponent extends StatelessWidget {
   const JCBFoundDriverComponent({Key? key}) : super(key: key);

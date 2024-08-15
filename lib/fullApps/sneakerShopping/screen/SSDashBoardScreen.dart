@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/fragment/SSCartFragment.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/fragment/SSFavoriteFragment.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/fragment/SSHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/fragment/SSProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/fragment/SSSearchFragment.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/fragment/SSCartFragment.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/fragment/SSFavoriteFragment.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/fragment/SSHomeFragment.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/fragment/SSProfileFragment.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/fragment/SSSearchFragment.dart';
 
 class SSDashBoardScreen extends StatefulWidget {
   @override

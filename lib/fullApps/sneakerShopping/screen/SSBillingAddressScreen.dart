@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/screen/SSPaymentScreen.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSWidgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/screen/SSPaymentScreen.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSWidgets.dart';
+import 'package:access_maketicket/main.dart';
 
 class SSBillingAddressScreen extends StatefulWidget {
   @override

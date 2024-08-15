@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/review_component.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/user_component/user_first_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/review_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/user_component/user_first_component.dart';
 import '../utils/common_widgets.dart';
 import '../model/movie_reviews_model.dart';
 

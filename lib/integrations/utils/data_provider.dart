@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/model/ExpenseData.dart';
+import 'package:access_maketicket/main/model/ExpenseData.dart';
 
 List<ExpenseData> getChartData() {
   List<ExpenseData> list = [];

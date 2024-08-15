@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/banking/model/BankingModel.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingColors.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingStrings.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/banking/model/BankingModel.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingColors.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingDataGenerator.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingStrings.dart';
+import 'package:access_maketicket/main.dart';
 
 class BankingNews extends StatefulWidget {
   static var tag = "/BankingNews";

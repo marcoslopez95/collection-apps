@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBImages.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBImages.dart';
+import 'package:access_maketicket/main.dart';
 
 class NBSplashScreen extends StatefulWidget {
   static String tag = '/news_blog';

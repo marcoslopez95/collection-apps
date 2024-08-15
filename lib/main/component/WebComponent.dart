@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/component/AppCategoryComponant.dart';
-import 'package:prokit_flutter/main/component/ThemeListWeb.dart';
-import 'package:prokit_flutter/main/component/WebAppBarComponent.dart';
-import 'package:prokit_flutter/main/model/AppModel.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/component/AppCategoryComponant.dart';
+import 'package:access_maketicket/main/component/ThemeListWeb.dart';
+import 'package:access_maketicket/main/component/WebAppBarComponent.dart';
+import 'package:access_maketicket/main/model/AppModel.dart';
 
 class WebComponent extends StatefulWidget {
   AppTheme appTheme = AppTheme();

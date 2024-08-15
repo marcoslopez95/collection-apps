@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/utils/constants.dart';
+import 'package:access_maketicket/integrations/utils/constants.dart';
 
 Widget textPrimary(text, {size = 16, color = whiteColor, aFontFamily = fontRegular}) {
   return Text(text, style: primaryTextStyle(size: size, color: color));

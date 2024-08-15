@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHConstants.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHImages.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHConstants.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHImages.dart';
 
 import 'BHAccountInformationScreen.dart';
 import 'BHInviteFriendsScreen.dart';

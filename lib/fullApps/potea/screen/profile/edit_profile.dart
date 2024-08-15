@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/utils/common_base.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/utils/common_base.dart';
 
 import '../../../../main.dart';
 import '../../utils/colors.dart';

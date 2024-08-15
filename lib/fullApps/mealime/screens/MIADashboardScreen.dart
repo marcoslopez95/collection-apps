@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/fragments/MIAFavFragment.dart';
-import 'package:prokit_flutter/fullApps/mealime/fragments/MIASettingsFragment.dart';
-import 'package:prokit_flutter/fullApps/mealime/fragments/MIAGroceryFragment.dart';
-import 'package:prokit_flutter/fullApps/mealime/fragments/MIAMealPlanFragment.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIADashboardModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIADataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mealime/fragments/MIAFavFragment.dart';
+import 'package:access_maketicket/fullApps/mealime/fragments/MIASettingsFragment.dart';
+import 'package:access_maketicket/fullApps/mealime/fragments/MIAGroceryFragment.dart';
+import 'package:access_maketicket/fullApps/mealime/fragments/MIAMealPlanFragment.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIADashboardModel.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIADataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class MIADashboardScreen extends StatefulWidget {
   const MIADashboardScreen({Key? key}) : super(key: key);

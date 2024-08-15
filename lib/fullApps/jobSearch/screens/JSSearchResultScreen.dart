@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSFilteredResultsComponent.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSFilteredScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSWidget.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSFilteredResultsComponent.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSFilteredScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSWidget.dart';
+import 'package:access_maketicket/main.dart';
 
 class JSSearchResultScreen extends StatefulWidget {
   final String? jobTitle;

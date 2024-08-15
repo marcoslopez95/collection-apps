@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/model/SampleListModel.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/model/SampleListModel.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
 
 class MWDrawerScreen4 extends StatefulWidget {
   static String tag = '/drawer_screen4';

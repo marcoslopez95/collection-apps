@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/flutter_fluid_slider/flutter_fluid_slider.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/flutter_fluid_slider/flutter_fluid_slider.dart';
 
 class FluidSliderScreen extends StatefulWidget {
   static String tag = '/FluidSliderScreen';

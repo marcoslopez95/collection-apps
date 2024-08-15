@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLDepartmentData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLTopHospitalData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLDepartmentData.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLTopHospitalData.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
 
 class MLHomeBottomComponent extends StatefulWidget {
   static String tag = '/MLHomeBottomComponent';

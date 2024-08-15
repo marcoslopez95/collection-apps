@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/AppButton.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/text_form_field_label_text.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/component/AppButton.dart';
+import 'package:access_maketicket/fullApps/proScan/component/text_form_field_label_text.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
 
 import '../../../main.dart';
 import '../models/select_payment_screen_model.dart';

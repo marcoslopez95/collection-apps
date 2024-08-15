@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/models/SVNotificationModel.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/notification/components/SVBirthdayNotificationComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/notification/components/SVLikeNotificationComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/notification/components/SVNewPostNotificationComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/notification/components/SVRequestNotificationComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/fullApps/socialv/models/SVNotificationModel.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/notification/components/SVBirthdayNotificationComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/notification/components/SVLikeNotificationComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/notification/components/SVNewPostNotificationComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/notification/components/SVRequestNotificationComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
 
 class SVNotificationFragment extends StatefulWidget {
   @override

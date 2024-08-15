@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme15/components/pets_screen_components/pets_screen_appbar_components.dart';
-import 'package:prokit_flutter/themes/theme15/components/pets_screen_components/pets_screen_details_card.dart';
-import 'package:prokit_flutter/themes/theme15/components/pets_screen_components/pets_screen_owners_component.dart';
-import 'package:prokit_flutter/themes/theme15/utils/T15comman.dart';
+import 'package:access_maketicket/themes/theme15/components/pets_screen_components/pets_screen_appbar_components.dart';
+import 'package:access_maketicket/themes/theme15/components/pets_screen_components/pets_screen_details_card.dart';
+import 'package:access_maketicket/themes/theme15/components/pets_screen_components/pets_screen_owners_component.dart';
+import 'package:access_maketicket/themes/theme15/utils/T15comman.dart';
 
 import '../../../main.dart';
 import '../utils/T15colors.dart';

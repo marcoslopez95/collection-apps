@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/component/AddToCartBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSWidgets.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/component/AddToCartBottomSheet.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSWidgets.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../main.dart';
 

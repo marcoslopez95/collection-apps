@@ -2,16 +2,16 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme5/model/T5Models.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Colors.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Constant.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5DataGenerator.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Images.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Strings.dart';
-import 'package:prokit_flutter/themes/theme5/utils/widgets/T5BottomBar.dart';
-import 'package:prokit_flutter/themes/theme5/utils/widgets/T5GridListing.dart';
-import 'package:prokit_flutter/themes/theme5/utils/widgets/T5Slider.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme5/model/T5Models.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Colors.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Constant.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5DataGenerator.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Images.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Strings.dart';
+import 'package:access_maketicket/themes/theme5/utils/widgets/T5BottomBar.dart';
+import 'package:access_maketicket/themes/theme5/utils/widgets/T5GridListing.dart';
+import 'package:access_maketicket/themes/theme5/utils/widgets/T5Slider.dart';
 
 class T5Dashboard extends StatefulWidget {
   static var tag = "/T5Dashboard";

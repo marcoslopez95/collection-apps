@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/model/BHModel.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHConstants.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHDataProvider.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHWidgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/hairSalon/model/BHModel.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHConstants.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHDataProvider.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHWidgets.dart';
+import 'package:access_maketicket/main.dart';
 
 class BHChatScreen extends StatefulWidget {
   static String tag = '/ChatScreen';

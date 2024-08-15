@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/images.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/registration_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/wish_list_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/zoom_image_screen.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/images.dart';
+import 'package:access_maketicket/fullApps/carea/screens/registration_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/wish_list_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/zoom_image_screen.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../commons/colors.dart';

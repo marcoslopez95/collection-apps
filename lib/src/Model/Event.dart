@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/src/Model/Model.dart';
+import 'package:access_maketicket/src/Model/Model.dart';
 
 class Event extends BaseModel{
   final int id;

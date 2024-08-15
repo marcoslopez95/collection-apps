@@ -2,9 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHComman.dart';
-import 'package:prokit_flutter/main/utils/dashed_circle.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHComman.dart';
+import 'package:access_maketicket/main/utils/dashed_circle.dart';
 
 import 'SHPurifierCustomPaintWidget.dart';
 

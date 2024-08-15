@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/potea/screen/cart/model/model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/cart/model/model.dart';
 
 import '../../utils/image.dart';
 

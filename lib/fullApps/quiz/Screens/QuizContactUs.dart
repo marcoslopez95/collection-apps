@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/quizEmailRequest.dart';
-import 'package:prokit_flutter/fullApps/quiz/model/QuizModels.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizConstant.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/quizEmailRequest.dart';
+import 'package:access_maketicket/fullApps/quiz/model/QuizModels.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizConstant.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizDataGenerator.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class QuizContactUs extends StatefulWidget {

@@ -3,8 +3,8 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/appscaffold.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/profile/edit_profile/model/edit_profile_model.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/appscaffold.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/profile/edit_profile/model/edit_profile_model.dart';
 
 import '../../../../../main.dart';
 import '../../../../../main/utils/AppConstant.dart';

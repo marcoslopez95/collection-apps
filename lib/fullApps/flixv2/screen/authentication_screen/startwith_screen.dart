@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/model/startwith_model.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/authentication_screen/signup_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/model/startwith_model.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/authentication_screen/signup_screen.dart';
 
 class StartWithScreen extends StatefulWidget {
   State<StartWithScreen> createState() => StartWithScreenState();

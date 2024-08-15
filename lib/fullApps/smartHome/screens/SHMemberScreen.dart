@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/model/SHModel.dart';
-import 'package:prokit_flutter/fullApps/smartHome/screens/SHNewMemberScreen.dart';
-import 'package:prokit_flutter/fullApps/smartHome/screens/SHViewMemberScreen.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHComman.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHDataProvider.dart';
+import 'package:access_maketicket/fullApps/smartHome/model/SHModel.dart';
+import 'package:access_maketicket/fullApps/smartHome/screens/SHNewMemberScreen.dart';
+import 'package:access_maketicket/fullApps/smartHome/screens/SHViewMemberScreen.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHComman.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHDataProvider.dart';
 
 class SHMemberScreen extends StatefulWidget {
   @override

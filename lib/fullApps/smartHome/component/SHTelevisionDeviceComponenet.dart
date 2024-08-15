@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class SHTelevisionDeviceComponent extends StatefulWidget {
   const SHTelevisionDeviceComponent({Key? key}) : super(key: key);

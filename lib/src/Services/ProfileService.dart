@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:prokit_flutter/constants.dart';
-import 'package:prokit_flutter/src/Model/ProfileService/QrScans.dart';
-import 'package:prokit_flutter/src/Services/BaseService.dart';
+import 'package:access_maketicket/constants.dart';
+import 'package:access_maketicket/src/Model/ProfileService/QrScans.dart';
+import 'package:access_maketicket/src/Services/BaseService.dart';
 import 'package:http/http.dart' as http;
 
 class ProfileService extends BaseService

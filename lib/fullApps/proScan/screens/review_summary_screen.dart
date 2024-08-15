@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/AppButton.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/common.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/component/AppButton.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/common.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
 
 import '../../../main.dart';
 import '../utils/images.dart';

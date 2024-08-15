@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Colors.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Images.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Strings.dart';
-import 'package:prokit_flutter/themes/theme5/utils/T5Widget.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Colors.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Images.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Strings.dart';
+import 'package:access_maketicket/themes/theme5/utils/T5Widget.dart';
 
 import '../../../main.dart';
 

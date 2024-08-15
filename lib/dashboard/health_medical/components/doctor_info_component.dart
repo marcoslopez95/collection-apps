@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/health_medical/model/doctor_dashboard_info_model.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/common.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/constant.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/health_medical/model/doctor_dashboard_info_model.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/common.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/constant.dart';
+import 'package:access_maketicket/main.dart';
 
 class DoctorInfoComponent extends StatelessWidget {
   const DoctorInfoComponent({

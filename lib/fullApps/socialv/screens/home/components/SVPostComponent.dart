@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/models/SVPostModel.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/screens/SVCommentScreen.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/socialv/models/SVPostModel.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/screens/SVCommentScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class SVPostComponent extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/model/signup_model.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/authentication_screen/sign_in_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/constants.dart';
+import 'package:access_maketicket/fullApps/flixv2/model/signup_model.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/authentication_screen/sign_in_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/constants.dart';
 
 import 'verification_screen.dart';
 

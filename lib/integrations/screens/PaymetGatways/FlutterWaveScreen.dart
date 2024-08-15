@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/Component/CheckOutComponent.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/core/TransactionCallBack.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/core/navigation_controller.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/models/requests/customer.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/models/requests/customizations.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/models/requests/standard_request.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/models/responses/charge_response.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/view/flutterwave_style.dart';
-import 'package:prokit_flutter/integrations/utils/flutterwave/view/view_utils.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/integrations/Component/CheckOutComponent.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/core/TransactionCallBack.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/core/navigation_controller.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/models/requests/customer.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/models/requests/customizations.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/models/requests/standard_request.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/models/responses/charge_response.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/view/flutterwave_style.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/view/view_utils.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class FlutterWaveScreen extends StatefulWidget {
   static var tag = "/flutter_wave";

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/chat/chat_screen.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/favorites/favorite_screen.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/maps/maps.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/profile/profile.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/chat/chat_screen.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/favorites/favorite_screen.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/maps/maps.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/profile/profile.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../../generated/assets.dart';
 import '../../utils/color.dart';

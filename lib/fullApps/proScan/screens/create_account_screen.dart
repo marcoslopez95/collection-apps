@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/sign_up_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/sign_up_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
 
 import '../../../main.dart';
 import '../component/AppButton.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPDashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPForgotPasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPColors.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPWidget.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPDashboardScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPForgotPasswordScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPColors.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPWidget.dart';
 
 class MPTabBarSignInScreen extends StatefulWidget {
   final int selectedPage;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/defaultTheme/utils/DTWidgets.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/defaultTheme/utils/DTWidgets.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'DTDrawerWidget.dart';
 

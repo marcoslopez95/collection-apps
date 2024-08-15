@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class SVPasswordSetSuccessScreen extends StatelessWidget {
   const SVPasswordSetSuccessScreen({Key? key}) : super(key: key);

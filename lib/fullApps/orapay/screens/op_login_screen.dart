@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/orapay/screens/op_user_detail.dart';
-import 'package:prokit_flutter/fullApps/orapay/utils/Colors.dart';
-import 'package:prokit_flutter/fullApps/orapay/utils/OPWidgets.dart';
+import 'package:access_maketicket/fullApps/orapay/screens/op_user_detail.dart';
+import 'package:access_maketicket/fullApps/orapay/utils/Colors.dart';
+import 'package:access_maketicket/fullApps/orapay/utils/OPWidgets.dart';
 
 class OPLoginScreen extends StatefulWidget {
   @override

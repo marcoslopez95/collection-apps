@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCSortModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCSortModel.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class RCSortComponent extends StatefulWidget {
   @override

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/custom_widget/space.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/last_bookings_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/widgets.dart';
+import 'package:access_maketicket/fullApps/homeService/custom_widget/space.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/homeService/models/last_bookings_model.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/widgets.dart';
 
 class BookingHistoryComponent extends StatelessWidget {
   final LastBookingsModel? lastBookings;

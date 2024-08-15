@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCBackComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCCollectionModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCHomeStoryModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCRecipeScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCVideoPlayerScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCClipperPaths.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCBackComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCCollectionModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCHomeStoryModel.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCRecipeScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCVideoPlayerScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCBottomSheet.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCClipperPaths.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class RCSearchStoryScreen extends StatefulWidget {
   RCHomeStoryModel element;

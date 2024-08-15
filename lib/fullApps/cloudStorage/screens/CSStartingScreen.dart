@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSCreateAccountScreenByEmail.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSDashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSSignInScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSSignUpScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSColors.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSImages.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSWidgets.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSCreateAccountScreenByEmail.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSDashboardScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSSignInScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSSignUpScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSColors.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSImages.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSWidgets.dart';
 
 class CSStartingScreen extends StatefulWidget {
   static String tag = '/CSStartingScreen';

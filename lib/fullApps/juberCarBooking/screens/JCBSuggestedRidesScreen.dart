@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBApplyPromoBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBRideTypeComponent.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/models/JCBRideModel.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBApplyPromoBottomSheet.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBRideTypeComponent.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/models/JCBRideModel.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/main.dart';
 
 class JCBSuggestedRidesScreen extends StatefulWidget {
   const JCBSuggestedRidesScreen({Key? key}) : super(key: key);

@@ -5,12 +5,12 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 // import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/component/SettingScreenComponents.dart';
-import 'package:prokit_flutter/main/screens/AboutUsScreen.dart';
-import 'package:prokit_flutter/main/screens/LanguageSelectionScreen.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/component/SettingScreenComponents.dart';
+import 'package:access_maketicket/main/screens/AboutUsScreen.dart';
+import 'package:access_maketicket/main/screens/LanguageSelectionScreen.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 

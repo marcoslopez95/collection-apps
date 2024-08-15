@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/coinPro/screen/CPWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPColors.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPImages.dart';
+import 'package:access_maketicket/fullApps/coinPro/screen/CPWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPColors.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPImages.dart';
 
 class CPSplashScreen extends StatefulWidget {
   static String tag = '/coin_pro';

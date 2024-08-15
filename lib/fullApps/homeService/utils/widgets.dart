@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/last_bookings_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/dashboard_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/models/last_bookings_model.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/dashboard_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/main.dart';
 
 InputDecoration commonInputDecoration({String? hintText, Widget? prefixIcon, Widget? suffixIcon}) {
   return InputDecoration(

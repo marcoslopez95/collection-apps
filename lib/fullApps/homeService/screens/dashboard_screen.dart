@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/homeService/fragments/account_fragment.dart';
-import 'package:prokit_flutter/fullApps/homeService/fragments/bookings_fragment.dart';
-import 'package:prokit_flutter/fullApps/homeService/fragments/home_fragment.dart';
-import 'package:prokit_flutter/fullApps/homeService/fragments/search_fragment.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/fragments/account_fragment.dart';
+import 'package:access_maketicket/fullApps/homeService/fragments/bookings_fragment.dart';
+import 'package:access_maketicket/fullApps/homeService/fragments/home_fragment.dart';
+import 'package:access_maketicket/fullApps/homeService/fragments/search_fragment.dart';
+import 'package:access_maketicket/main.dart';
 
 class DashBoardScreen extends StatefulWidget {
   const DashBoardScreen({Key? key}) : super(key: key);

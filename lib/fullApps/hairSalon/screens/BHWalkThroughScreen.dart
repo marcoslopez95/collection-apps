@@ -2,11 +2,11 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHConstants.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHImages.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHConstants.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHImages.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'BHLoginScreen.dart';
 

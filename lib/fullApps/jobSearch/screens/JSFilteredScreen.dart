@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSDatePostedComponent.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSRemoteFilterComponent.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSSortByComponent.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSWidget.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSDatePostedComponent.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSRemoteFilterComponent.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSSortByComponent.dart';
+import 'package:access_maketicket/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSDataGenerator.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSWidget.dart';
 
 class JSFilteredScreen extends StatefulWidget {
   const JSFilteredScreen({Key? key}) : super(key: key);

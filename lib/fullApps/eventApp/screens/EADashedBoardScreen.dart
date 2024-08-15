@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EAHomeScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EANewsList.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EAPeopleScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EAProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EAHomeScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EANewsList.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EAPeopleScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EAProfileScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAColors.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'EASearchScreen.dart';
 

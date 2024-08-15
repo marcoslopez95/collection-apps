@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/main.dart';
 
 InputDecoration inputDecoration(BuildContext context, {String? hint, Widget? suffixIcon, Widget? prefixIcon, String? labelText}) {
   return InputDecoration(

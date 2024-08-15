@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/profile/edit_profile/model/edit_profile_model.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/profile/edit_profile/model/edit_profile_model.dart';
 
 class MyprofileController extends GetxController {
   final TextEditingController nameController = TextEditingController();

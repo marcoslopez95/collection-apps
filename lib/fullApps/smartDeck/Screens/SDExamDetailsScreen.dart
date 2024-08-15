@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/ModelClass/SDExamModel.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDCongratulationsScreen.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/smartDeck/ModelClass/SDExamModel.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDCongratulationsScreen.dart';
+import 'package:access_maketicket/main.dart';
 
 class SDExamDetailsScreen extends StatefulWidget {
   @override

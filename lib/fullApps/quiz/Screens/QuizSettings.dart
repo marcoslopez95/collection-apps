@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizChangePassword.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizContactUs.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizEditProfile.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizHelpCenter.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizUpdateEmail.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizChangePassword.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizContactUs.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizEditProfile.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizHelpCenter.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizUpdateEmail.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class QuizSettings extends StatefulWidget {
   static String tag = '/QuizSetting';

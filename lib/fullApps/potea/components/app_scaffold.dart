@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/body_widget.dart';
+import 'package:access_maketicket/fullApps/potea/components/body_widget.dart';
 
 import '../utils/common_base.dart';
 

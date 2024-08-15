@@ -2,15 +2,15 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme3/model/T3_Model.dart';
-import 'package:prokit_flutter/themes/theme3/screen/T3Dashboard.dart';
-import 'package:prokit_flutter/themes/theme3/utils/T3DataGenerator.dart';
-import 'package:prokit_flutter/themes/theme3/utils/T3Images.dart';
-import 'package:prokit_flutter/themes/theme3/utils/colors.dart';
-import 'package:prokit_flutter/themes/theme3/utils/strings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme3/model/T3_Model.dart';
+import 'package:access_maketicket/themes/theme3/screen/T3Dashboard.dart';
+import 'package:access_maketicket/themes/theme3/utils/T3DataGenerator.dart';
+import 'package:access_maketicket/themes/theme3/utils/T3Images.dart';
+import 'package:access_maketicket/themes/theme3/utils/colors.dart';
+import 'package:access_maketicket/themes/theme3/utils/strings.dart';
 
 class T3Profile extends StatefulWidget {
   static var tag = "/profile_three";

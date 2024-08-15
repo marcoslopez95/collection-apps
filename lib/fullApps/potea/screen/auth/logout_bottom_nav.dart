@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/auth/option_screen.dart';
+import 'package:access_maketicket/fullApps/potea/screen/auth/option_screen.dart';
 
 import '../../../../main.dart';
 import '../../utils/colors.dart';

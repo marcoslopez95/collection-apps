@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/components/CSDisplayDataInListViewComponents.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSImages.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/components/CSDisplayDataInListViewComponents.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSImages.dart';
+import 'package:access_maketicket/main.dart';
 
 class CSRecentScreen extends StatefulWidget {
   static String tag = '/CSRecentScreen';

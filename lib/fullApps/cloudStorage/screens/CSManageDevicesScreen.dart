@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSUpgradeAccountScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSColors.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSWidgets.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSUpgradeAccountScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSColors.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSWidgets.dart';
 
 class CSManageDevicesScreen extends StatelessWidget {
   @override

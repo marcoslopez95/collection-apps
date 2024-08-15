@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSChangePasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSReferScreen.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSImages.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSChangePasswordScreen.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSReferScreen.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSImages.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class LSProfileFragment extends StatefulWidget {
   static String tag = '/LSProfileFragment';

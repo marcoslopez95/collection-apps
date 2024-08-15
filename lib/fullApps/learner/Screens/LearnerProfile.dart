@@ -2,15 +2,15 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerAchievement.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerFavourites.dart';
-import 'package:prokit_flutter/fullApps/learner/Screens/LearnerMyFriends.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerColors.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerConstant.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerImages.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerStrings.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerAchievement.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerFavourites.dart';
+import 'package:access_maketicket/fullApps/learner/Screens/LearnerMyFriends.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerColors.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerConstant.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerImages.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerStrings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class LearnerProfile extends StatefulWidget {
   @override

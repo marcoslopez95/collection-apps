@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/coinPro/screen/CPLoginScreen.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPColors.dart';
-import 'package:prokit_flutter/integrations/screens/Marquee/MHomePage.dart';
+import 'package:access_maketicket/fullApps/coinPro/screen/CPLoginScreen.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPColors.dart';
+import 'package:access_maketicket/integrations/screens/Marquee/MHomePage.dart';
 
 class CPSignUpScreen extends StatefulWidget {
   @override

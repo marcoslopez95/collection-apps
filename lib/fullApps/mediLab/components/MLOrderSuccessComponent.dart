@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLOrderSuccessData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLOrderDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLOrderSuccessData.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLOrderDetailScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLOrderSuccessComponent extends StatefulWidget {
   static String tag = '/MLOrderSuccessComponent';

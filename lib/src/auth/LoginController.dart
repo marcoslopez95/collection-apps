@@ -2,7 +2,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:prokit_flutter/constants.dart';
+import 'package:access_maketicket/constants.dart';
 
 class LoginController {
   final String baseUrl = BASE_URL;

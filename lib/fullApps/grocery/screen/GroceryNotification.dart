@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/model/GroceryModel.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GeoceryStrings.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryColors.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryConstant.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryWidget.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/grocery/model/GroceryModel.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GeoceryStrings.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryColors.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryConstant.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryDataGenerator.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryWidget.dart';
+import 'package:access_maketicket/main.dart';
 
 class GroceryNotification extends StatefulWidget {
   static String tag = '/GroceryNotification';

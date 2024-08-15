@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/help_center/customer_service/message_model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/help_center/customer_service/message_model.dart';
 
 class ChatController extends GetxController {
   final messages = <Message>[

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/component/CategoryList.Dart.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/component/CourseInProgressList.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/component/MentorList.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/model/DashBoard2DataModel.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/utils/CommanVariables.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/utils/DashBoard2DataProvider.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/component/CategoryList.Dart.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/component/CourseInProgressList.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/component/MentorList.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/model/DashBoard2DataModel.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/utils/CommanVariables.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/utils/DashBoard2DataProvider.dart';
 
 class OverviewScreen extends StatefulWidget {
   const OverviewScreen({Key? key}) : super(key: key);

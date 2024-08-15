@@ -2,8 +2,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/analytics/model/chart_data_model.dart';
-import 'package:prokit_flutter/dashboard/analytics/utils/colors.dart';
+import 'package:access_maketicket/dashboard/analytics/model/chart_data_model.dart';
+import 'package:access_maketicket/dashboard/analytics/utils/colors.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class SplineChartComponent extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/health_medical/model/doctor_dashboard_info_model.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/colors.dart';
+import 'package:access_maketicket/dashboard/health_medical/model/doctor_dashboard_info_model.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/colors.dart';
 
 class ArticlesComponent extends StatelessWidget {
   final DoctorDashboardInfoModel articlesData;

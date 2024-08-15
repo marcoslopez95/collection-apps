@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/privacy_policy/policy_model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/privacy_policy/policy_model.dart';
 
 class PrivacyController extends GetxController {
   var privacyData = <PrivacyModel>[].obs;

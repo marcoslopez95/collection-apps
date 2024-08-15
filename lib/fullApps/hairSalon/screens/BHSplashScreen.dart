@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/screens/BHWalkThroughScreen.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/hairSalon/screens/BHWalkThroughScreen.dart';
+import 'package:access_maketicket/main.dart';
 
 class BHSplashScreen extends StatefulWidget {
   static String tag = '/hair_salon';

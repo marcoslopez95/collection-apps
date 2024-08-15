@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBCategoryScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBColors.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBDottedBorder.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBWidgets.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBCategoryScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBColors.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBDottedBorder.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBWidgets.dart';
 
 class NBCreateNewArticleScreen extends StatefulWidget {
   static String tag = '/NBCreateNewArticleScreen';

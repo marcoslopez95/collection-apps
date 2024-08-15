@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/dashboard/analytics/utils/images.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/images.dart';
+import 'package:access_maketicket/dashboard/analytics/utils/images.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/images.dart';
 
 class AnalyticsInfoModel {
   String? analyticsTitle;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLBotSupportComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLDoctorChatComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLBotSupportComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLDoctorChatComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLChatFragment extends StatefulWidget {
   static String tag = '/MLChatFragment';

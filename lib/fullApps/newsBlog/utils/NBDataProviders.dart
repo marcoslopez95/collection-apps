@@ -1,14 +1,14 @@
-import 'package:prokit_flutter/fullApps/newsBlog/model/NBModel.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBAudioArticleScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBBookmarkScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBChangePasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBCreateNewArticleScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBEditProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBLanguageScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBMembershipScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBNotificationSettingScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/screen/NBSettingScreen.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBImages.dart';
+import 'package:access_maketicket/fullApps/newsBlog/model/NBModel.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBAudioArticleScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBBookmarkScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBChangePasswordScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBCreateNewArticleScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBEditProfileScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBLanguageScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBMembershipScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBNotificationSettingScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/screen/NBSettingScreen.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBImages.dart';
 
 String details = 'ProKit – Biggest Flutter UI kit is the ultimate library of Flutter UI templates. '
     'It combined into a high-quality Flutter UI kit for Android/iOS developers. '

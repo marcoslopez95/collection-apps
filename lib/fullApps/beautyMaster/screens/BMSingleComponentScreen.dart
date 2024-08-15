@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMOurServiveComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/components/BMPortfolioComponent.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMCommonCardModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMMessageModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMCallScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMChatScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMSingleImageScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/flutter_rating_bar.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMOurServiveComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/components/BMPortfolioComponent.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMCommonCardModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMMessageModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMCallScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMChatScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMSingleImageScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/flutter_rating_bar.dart';
 
 class BMSingleComponentScreen extends StatefulWidget {
   BMCommonCardModel element;

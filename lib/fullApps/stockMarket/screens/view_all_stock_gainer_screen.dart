@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/component/watch_list_component.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/model/stock_invest_model.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/common.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/data_generator.dart';
+import 'package:access_maketicket/fullApps/stockMarket/component/watch_list_component.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/model/stock_invest_model.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/common.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/data_generator.dart';
 
 class ViewAllStockGainerScreen extends StatefulWidget {
   @override

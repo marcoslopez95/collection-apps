@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAWalkThroughScreen.dart';
 
 class DASplashScreen extends StatefulWidget {
   static String tag = '/dating';

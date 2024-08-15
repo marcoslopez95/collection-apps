@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/coinPro/fragment/CPHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/coinPro/fragment/CPNotificationFragment.dart';
-import 'package:prokit_flutter/fullApps/coinPro/fragment/CPProfileFregment.dart';
-import 'package:prokit_flutter/fullApps/coinPro/model/CPModel.dart';
-import 'package:prokit_flutter/fullApps/coinPro/screen/CPSearchScreen.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPColors.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPDataProvider.dart';
+import 'package:access_maketicket/fullApps/coinPro/fragment/CPHomeFragment.dart';
+import 'package:access_maketicket/fullApps/coinPro/fragment/CPNotificationFragment.dart';
+import 'package:access_maketicket/fullApps/coinPro/fragment/CPProfileFregment.dart';
+import 'package:access_maketicket/fullApps/coinPro/model/CPModel.dart';
+import 'package:access_maketicket/fullApps/coinPro/screen/CPSearchScreen.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPColors.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPDataProvider.dart';
 
 class CPDashBoardScreen extends StatefulWidget {
   @override

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLCommonDiseaseScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLSpecialistScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLCommonDiseaseScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLSpecialistScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'MLDiseaseHListComponent.dart';
 import 'MLSpecialistHListComponet.dart';

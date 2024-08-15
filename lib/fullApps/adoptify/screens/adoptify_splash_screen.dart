@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/walkthrough/walkthrough.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/adoptify/walkthrough/walkthrough.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../generated/assets.dart';
 import '../components/adoptify_loader.dart';

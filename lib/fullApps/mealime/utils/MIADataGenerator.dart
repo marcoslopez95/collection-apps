@@ -1,8 +1,8 @@
-import 'package:prokit_flutter/fullApps/mealime/models/MIADashboardModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIAIngredientModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIAMealModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIASelectOptionsModel.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIADashboardModel.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIAIngredientModel.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIAMealModel.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIASelectOptionsModel.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 List<MIASelectOptionsModel> getAllergiesList() {
   List<MIASelectOptionsModel> list = [];

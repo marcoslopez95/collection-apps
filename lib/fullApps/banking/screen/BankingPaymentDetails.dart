@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/banking/model/BankingModel.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingPayInvoice.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingPaymentHistory.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingColors.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingContants.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingDataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/banking/model/BankingModel.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingPayInvoice.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingPaymentHistory.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingColors.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingContants.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingDataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 // ignore: must_be_immutable
 class BankingPaymentDetails extends StatefulWidget {

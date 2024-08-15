@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
 
 class SSBestODWidget extends StatelessWidget {
   final String? img;

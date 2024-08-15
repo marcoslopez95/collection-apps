@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
 
 import '../utils/images.dart';
 import '../utils/lists.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme11/model/T11Model.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11DataGenerator.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11Images.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11Widget.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme11/model/T11Model.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11DataGenerator.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11Images.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11Widget.dart';
 
 class T11ListingScreen extends StatefulWidget {
   static String tag = '/listing_eleven';

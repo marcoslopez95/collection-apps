@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t8_ic_communication = "$BaseUrl/images/theme8/t8_ic_communication.png";
 const t8_ic_communication2 = "$BaseUrl/images/theme8/t8_ic_communication2.png";

@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Colors.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Constant.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Images.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Strings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Colors.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Constant.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Images.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Strings.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class T1SideMenu extends StatefulWidget {

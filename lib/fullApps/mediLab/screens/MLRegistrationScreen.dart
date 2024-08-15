@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLCountryPIckerComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLSocialAccountComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLConfirmPhoneNumberScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLCommon.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLImage.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLCountryPIckerComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLSocialAccountComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLConfirmPhoneNumberScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLCommon.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLImage.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
 
 class MLRegistrationScreen extends StatefulWidget {
   static String tag = '/MLRegistrationScreen';

@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/themes/theme13/model/T13Model.dart';
-import 'package:prokit_flutter/themes/theme13/utils/T13Images.dart';
+import 'package:access_maketicket/themes/theme13/model/T13Model.dart';
+import 'package:access_maketicket/themes/theme13/utils/T13Images.dart';
 
 List<Home> generateFeatured() {
   List<Home> featured = [];

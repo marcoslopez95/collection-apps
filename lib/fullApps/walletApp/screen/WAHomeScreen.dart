@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WACardComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WAOperationComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/component/WATransactionComponent.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WAOperatorsScreen.dart';
-import 'package:prokit_flutter/fullApps/walletApp/utils/WADataGenerator.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WACardComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WAOperationComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/component/WATransactionComponent.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WAOperatorsScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/utils/WADataGenerator.dart';
 
 class WAHomeScreen extends StatefulWidget {
   static String tag = '/WAHomeScreen';

@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/components/SVHomeDrawerComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/components/SVPostComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/components/SVStoryComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/components/SVHomeDrawerComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/components/SVPostComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/components/SVStoryComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
 
 class SVHomeFragment extends StatefulWidget {
   @override

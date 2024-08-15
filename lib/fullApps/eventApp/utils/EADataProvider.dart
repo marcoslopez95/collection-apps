@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAActivityModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAEventListModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAForYouModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAInboxModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAReviewModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EATicketModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAWalkThroughModel.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAConstants.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAActivityModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAEventListModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAForYouModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAInboxModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAReviewModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EATicketModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAWalkThroughModel.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAConstants.dart';
 
 import 'EAImages.dart';
 

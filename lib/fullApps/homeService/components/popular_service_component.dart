@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/service_providers_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/service_providers_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
 
 class PopularServiceComponent extends StatefulWidget {
   @override

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/auth/components/SVLoginInComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/auth/components/SVSignUpComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/auth/components/SVLoginInComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/auth/components/SVSignUpComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../../../utils/SVColors.dart';
 

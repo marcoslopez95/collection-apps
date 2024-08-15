@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t6_ic_activity = "images/theme6/t6_ic_activity.svg";
 const t6_ic_boxing = "images/theme6/t6_ic_boxing.svg";

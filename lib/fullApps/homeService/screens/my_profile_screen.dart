@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/homeService/components/profile_widget.dart';
-import 'package:prokit_flutter/fullApps/homeService/components/text_field_widget.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/customer_details_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/dashboard_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/components/profile_widget.dart';
+import 'package:access_maketicket/fullApps/homeService/components/text_field_widget.dart';
+import 'package:access_maketicket/fullApps/homeService/models/customer_details_model.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/dashboard_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class MyProfileScreen extends StatefulWidget {
   const MyProfileScreen({Key? key}) : super(key: key);

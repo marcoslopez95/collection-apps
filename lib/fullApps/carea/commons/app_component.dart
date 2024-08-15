@@ -1,8 +1,8 @@
 // ignore_for_file: non_constant_identifier_names
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/colors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 BoxDecoration ButtonDecoration = BoxDecoration(

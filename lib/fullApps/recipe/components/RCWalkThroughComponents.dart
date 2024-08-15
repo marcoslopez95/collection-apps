@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCSignUpScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCSignUpScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
 
 class RCWalkThroughComponentOne extends StatelessWidget {
   @override

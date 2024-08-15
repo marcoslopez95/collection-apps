@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLNewsData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLNewsData.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
 
 class MLNewsAnVideoComponent extends StatefulWidget {
   static String tag = '/MLNewsAnVideoComponent';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
 
 class ProfileModel {
   IconData? leadingWidget;

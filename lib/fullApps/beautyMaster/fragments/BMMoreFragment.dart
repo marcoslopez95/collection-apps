@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/fragments/BMAppointmentFragment.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMFavouritesScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMShoppingScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/fragments/BMAppointmentFragment.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMFavouritesScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMShoppingScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMBottomSheet.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class BMMoreFragment extends StatefulWidget {
   const BMMoreFragment({Key? key}) : super(key: key);

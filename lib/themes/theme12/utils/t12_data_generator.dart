@@ -1,6 +1,6 @@
-import 'package:prokit_flutter/themes/theme12/models/T12Models.dart';
-import 'package:prokit_flutter/themes/theme12/utils/t12_colors.dart';
-import 'package:prokit_flutter/themes/theme12/utils/t12_images.dart';
+import 'package:access_maketicket/themes/theme12/models/T12Models.dart';
+import 'package:access_maketicket/themes/theme12/utils/t12_colors.dart';
+import 'package:access_maketicket/themes/theme12/utils/t12_images.dart';
 
 List<T12Slider> getCards() {
   List<T12Slider> list = [];

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/split_bill/fragments/contact_split_bill_fragment.dart';
-import 'package:prokit_flutter/dashboard/split_bill/fragments/home_split_bill_fragment.dart';
-import 'package:prokit_flutter/dashboard/split_bill/fragments/search_split_bill_fragment.dart';
-import 'package:prokit_flutter/dashboard/split_bill/fragments/payment_split_bill_fragment.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/split_bill/fragments/contact_split_bill_fragment.dart';
+import 'package:access_maketicket/dashboard/split_bill/fragments/home_split_bill_fragment.dart';
+import 'package:access_maketicket/dashboard/split_bill/fragments/search_split_bill_fragment.dart';
+import 'package:access_maketicket/dashboard/split_bill/fragments/payment_split_bill_fragment.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/colors.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class SplitBillDashboard extends StatefulWidget {
   static String tag = '/split_bill';

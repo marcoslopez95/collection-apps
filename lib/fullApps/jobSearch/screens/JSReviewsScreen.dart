@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSImage.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/flutter_rating_bar.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSImage.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/flutter_rating_bar.dart';
 
 class JSReviewsScreen extends StatefulWidget {
   final JSPopularCompanyModel? popularCompanyList;

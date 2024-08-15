@@ -2,12 +2,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme2/utils/T2Colors.dart';
-import 'package:prokit_flutter/themes/theme2/utils/T2Images.dart';
-import 'package:prokit_flutter/themes/theme2/utils/T2Strings.dart';
-import 'package:prokit_flutter/themes/theme2/utils/T2Widgets.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme2/utils/T2Colors.dart';
+import 'package:access_maketicket/themes/theme2/utils/T2Images.dart';
+import 'package:access_maketicket/themes/theme2/utils/T2Strings.dart';
+import 'package:access_maketicket/themes/theme2/utils/T2Widgets.dart';
 
 class T2Profile extends StatefulWidget {
   static var tag = "/T2Profile";

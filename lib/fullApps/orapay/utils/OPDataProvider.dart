@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/orapay/model/OPModel.dart';
-import 'package:prokit_flutter/fullApps/orapay/utils/Colors.dart';
+import 'package:access_maketicket/fullApps/orapay/model/OPModel.dart';
+import 'package:access_maketicket/fullApps/orapay/utils/Colors.dart';
 
 List<OPPickVerifyModel> getCardListItems() {
   List<OPPickVerifyModel> cardList = [];

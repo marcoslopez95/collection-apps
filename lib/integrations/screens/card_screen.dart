@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/utils/styles.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/Lipsum.dart' as lipsum;
+import 'package:access_maketicket/integrations/utils/styles.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/Lipsum.dart' as lipsum;
 
 class CardScreen extends StatefulWidget {
   static String tag = '/CardScreen';

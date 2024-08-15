@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/appetit/fragments/AHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/appetit/fragments/ANotificationFragment.dart';
-import 'package:prokit_flutter/fullApps/appetit/fragments/AProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/appetit/fragments/ASearchFragment.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/AAddRecipeScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/fragments/AHomeFragment.dart';
+import 'package:access_maketicket/fullApps/appetit/fragments/ANotificationFragment.dart';
+import 'package:access_maketicket/fullApps/appetit/fragments/AProfileFragment.dart';
+import 'package:access_maketicket/fullApps/appetit/fragments/ASearchFragment.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/AAddRecipeScreen.dart';
 
 class ADashboardScreen extends StatefulWidget {
   ADashboardScreen({Key? key}) : super(key: key);

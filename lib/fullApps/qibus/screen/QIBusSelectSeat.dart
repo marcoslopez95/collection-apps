@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/qibus/model/QiBusModel.dart';
-import 'package:prokit_flutter/fullApps/qibus/screen/QIBusPickDrop.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusColors.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusConstant.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusImages.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusStrings.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/qibus/model/QiBusModel.dart';
+import 'package:access_maketicket/fullApps/qibus/screen/QIBusPickDrop.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusColors.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusConstant.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusDataGenerator.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusImages.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusStrings.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class QIBusSelectSeat extends StatefulWidget {
   static String tag = '/QIBusSelectSeat';

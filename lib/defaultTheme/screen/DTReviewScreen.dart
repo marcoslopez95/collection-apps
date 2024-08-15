@@ -2,13 +2,13 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/defaultTheme/model/DTReviewModel.dart';
-import 'package:prokit_flutter/defaultTheme/utils/DTDataProvider.dart';
-import 'package:prokit_flutter/defaultTheme/utils/DTWidgets.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/flutter_rating_bar.dart';
+import 'package:access_maketicket/defaultTheme/model/DTReviewModel.dart';
+import 'package:access_maketicket/defaultTheme/utils/DTDataProvider.dart';
+import 'package:access_maketicket/defaultTheme/utils/DTWidgets.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/flutter_rating_bar.dart';
 
 import 'DTDrawerWidget.dart';
 import 'ReviewWidget.dart';

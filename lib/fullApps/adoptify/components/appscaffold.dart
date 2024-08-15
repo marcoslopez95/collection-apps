@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/body.dart';
-import 'package:prokit_flutter/fullApps/adoptify/utils/commonbase.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/body.dart';
+import 'package:access_maketicket/fullApps/adoptify/utils/commonbase.dart';
 
 class AppScaffold extends StatelessWidget {
   final bool hideAppBar;

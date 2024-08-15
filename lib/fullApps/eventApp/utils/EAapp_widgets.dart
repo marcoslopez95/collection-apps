@@ -2,8 +2,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/model/EAForYouModel.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/eventApp/model/EAForYouModel.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'EAColors.dart';
 

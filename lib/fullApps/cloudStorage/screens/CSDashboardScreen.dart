@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/components/CSDrawerComponents.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/components/CSSearchBar.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSRecentScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSSharedScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/screens/CSStarredScreen.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSColors.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSConstants.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSWidgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/components/CSDrawerComponents.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/components/CSSearchBar.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSRecentScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSSharedScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/screens/CSStarredScreen.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSColors.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSConstants.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSWidgets.dart';
+import 'package:access_maketicket/main.dart';
 
 class CSDashboardScreen extends StatefulWidget {
   static String tag = '/CSDashboardScreen';

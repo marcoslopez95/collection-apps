@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ADashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/AForgetPasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ARegisterScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ADashboardScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/AForgetPasswordScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ARegisterScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class ALoginScreen extends StatefulWidget {
   const ALoginScreen({Key? key}) : super(key: key);

@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingChangePasword.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingContact.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingLocation.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingNews.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingQuestionAnswer.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingRateInfo.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingShareInformation.dart';
-import 'package:prokit_flutter/fullApps/banking/screen/BankingTermsCondition.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingColors.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingContants.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingImages.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingStrings.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingWidget.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingChangePasword.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingContact.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingLocation.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingNews.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingQuestionAnswer.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingRateInfo.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingShareInformation.dart';
+import 'package:access_maketicket/fullApps/banking/screen/BankingTermsCondition.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingColors.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingContants.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingImages.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingStrings.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingWidget.dart';
 
 class BankingMenu extends StatefulWidget {
   static var tag = "/BankingMenu";

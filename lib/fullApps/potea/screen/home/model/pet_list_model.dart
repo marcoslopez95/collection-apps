@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/model/special_offer_model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/model/special_offer_model.dart';
 
 class PlantListController extends GetxController {
   List<PlantModel> model = <PlantModel>[

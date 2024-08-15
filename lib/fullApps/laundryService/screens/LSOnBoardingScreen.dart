@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/fragments/LSBookingFragment.dart';
-import 'package:prokit_flutter/fullApps/laundryService/fragments/LSHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/laundryService/fragments/LSNearByFragment.dart';
-import 'package:prokit_flutter/fullApps/laundryService/fragments/LSOfferFragment.dart';
-import 'package:prokit_flutter/fullApps/laundryService/fragments/LSProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSImages.dart';
+import 'package:access_maketicket/fullApps/laundryService/fragments/LSBookingFragment.dart';
+import 'package:access_maketicket/fullApps/laundryService/fragments/LSHomeFragment.dart';
+import 'package:access_maketicket/fullApps/laundryService/fragments/LSNearByFragment.dart';
+import 'package:access_maketicket/fullApps/laundryService/fragments/LSOfferFragment.dart';
+import 'package:access_maketicket/fullApps/laundryService/fragments/LSProfileFragment.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSImages.dart';
 
 class LSOnBoardingScreen extends StatefulWidget {
   static String tag = '/LSOnBoardingScreen';

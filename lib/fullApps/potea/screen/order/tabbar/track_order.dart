@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/order/model/order_model.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/screen/order/model/order_model.dart';
 
 import '../../../../../main.dart';
 import '../../../components/searchbar_widget.dart';

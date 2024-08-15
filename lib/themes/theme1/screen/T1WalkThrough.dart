@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme1/screen/T1Signup.dart';
-import 'package:prokit_flutter/themes/theme1/screen/t1_walk/IntroScreen.dart';
-import 'package:prokit_flutter/themes/theme1/screen/t1_walk/Walkthrough.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Images.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme1/screen/T1Signup.dart';
+import 'package:access_maketicket/themes/theme1/screen/t1_walk/IntroScreen.dart';
+import 'package:access_maketicket/themes/theme1/screen/t1_walk/Walkthrough.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Images.dart';
 
 import '../../../main.dart';
 import '../../../main/utils/AppConstant.dart';

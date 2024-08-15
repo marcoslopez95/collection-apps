@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/welcomeScreen/welcome_screen.dart';
+import 'package:access_maketicket/fullApps/potea/screen/welcomeScreen/welcome_screen.dart';
 
 class PoteaSplashController extends GetxController {
   @override

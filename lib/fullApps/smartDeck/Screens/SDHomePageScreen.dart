@@ -1,16 +1,16 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/helper.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/SDUtils/SDColors.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDChatScreen.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDDashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDLeaderBoardScreen.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/smartDeck/Screens/SDScoreBoardScreen.dart';
+import 'package:access_maketicket/helper.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDChatScreen.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDDashboardScreen.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDLeaderBoardScreen.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDProfileScreen.dart';
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDScoreBoardScreen.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/src/Model/Event.dart';
-import 'package:prokit_flutter/src/Views/ScannerQR.dart';
+import 'package:access_maketicket/src/Model/Event.dart';
+import 'package:access_maketicket/src/Views/ScannerQR.dart';
 
 class SDHomePageScreen extends StatefulWidget {
   Event? event;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/coinPro/model/CPModel.dart';
-import 'package:prokit_flutter/fullApps/coinPro/screen/CPStatisticScreen.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPColors.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPDataProvider.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/coinPro/model/CPModel.dart';
+import 'package:access_maketicket/fullApps/coinPro/screen/CPStatisticScreen.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPColors.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPDataProvider.dart';
+import 'package:access_maketicket/main.dart';
 
 class CPMyWalletScreen extends StatefulWidget {
   @override

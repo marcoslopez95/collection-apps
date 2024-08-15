@@ -1,12 +1,12 @@
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/evSpot/components/app_logo_image_component.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/faq_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/home_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/profile_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/settings_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/terms_condition_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/fullApps/evSpot/components/app_logo_image_component.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/faq_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/home_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/profile_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/settings_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/terms_condition_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/colors.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
 import 'package:flutter/material.dart';
 
 import '../../../main.dart';

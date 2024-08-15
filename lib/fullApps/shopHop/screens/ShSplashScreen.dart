@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShColors.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShImages.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShColors.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShImages.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class ShSplashScreen extends StatefulWidget {
   static String tag = '/shophop';

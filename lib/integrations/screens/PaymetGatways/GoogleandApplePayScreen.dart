@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 //import 'package:pay/pay.dart';
-import 'package:prokit_flutter/integrations/Component/CheckOutComponent.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/integrations/Component/CheckOutComponent.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class GoogleAndApplePayScreen extends StatefulWidget {
   @override

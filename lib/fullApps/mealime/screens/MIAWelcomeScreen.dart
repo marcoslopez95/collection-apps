@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIASignInScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIAWalkThroughScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIASignInScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIAWalkThroughScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
 
 class MIAWelcomeScreen extends StatelessWidget {
   const MIAWelcomeScreen({Key? key}) : super(key: key);

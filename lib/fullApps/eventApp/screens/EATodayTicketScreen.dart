@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAColors.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EADataProvider.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAColors.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EADataProvider.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'EAPurchaseScreen.dart';
 

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCStoryComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCHomeStoryModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCClipperPaths.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCStoryComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCHomeStoryModel.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCClipperPaths.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class RCHomeComponent extends StatefulWidget {
   String name;

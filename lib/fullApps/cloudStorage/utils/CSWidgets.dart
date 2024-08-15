@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/components/CSShareComponents.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/model/CSDataModel.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSColors.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSImages.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/components/CSShareComponents.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/model/CSDataModel.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSColors.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSImages.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:share_plus/share_plus.dart';
 
 // ignore: non_constant_identifier_names

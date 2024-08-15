@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:multi_image_picker_plus/multi_image_picker_plus.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAIdealScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAColors.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAIdealScreen.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAColors.dart';
 
 class DAUploadPhotoScreen extends StatefulWidget {
   @override

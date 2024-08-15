@@ -5,11 +5,11 @@ import 'package:nb_utils/nb_utils.dart';
 /*import 'package:otp_text_field/otp_field.dart' as otp;
 import 'package:otp_text_field/otp_field_style.dart';
 import 'package:otp_text_field/style.dart';*/
-import 'package:prokit_flutter/fullApps/stockMarket/screens/face_id_screen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/common.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/constant.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/screens/face_id_screen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/colors.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/common.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/constant.dart';
+import 'package:access_maketicket/main.dart';
 
 class OtpScreen extends StatefulWidget {
   @override

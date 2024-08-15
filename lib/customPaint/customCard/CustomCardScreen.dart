@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/customCard/model/CustomCardScreenModal.dart';
+import 'package:access_maketicket/customPaint/customCard/model/CustomCardScreenModal.dart';
 
 import 'CustomCardCustomPainter.dart';
 

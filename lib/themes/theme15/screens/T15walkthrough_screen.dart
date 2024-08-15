@@ -2,8 +2,8 @@ import 'dart:core';
 
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme15/components/heading_text_component.dart';
-import 'package:prokit_flutter/themes/theme15/utils/T15walkthrough_list.dart';
+import 'package:access_maketicket/themes/theme15/components/heading_text_component.dart';
+import 'package:access_maketicket/themes/theme15/utils/T15walkthrough_list.dart';
 
 import '../../../main.dart';
 import '../utils/T15colors.dart';

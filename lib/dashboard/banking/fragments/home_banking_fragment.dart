@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/banking/components/last_month_component.dart';
-import 'package:prokit_flutter/dashboard/banking/components/last_week_component.dart';
-import 'package:prokit_flutter/dashboard/banking/models/banking_info_model.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/common.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/banking/components/last_month_component.dart';
+import 'package:access_maketicket/dashboard/banking/components/last_week_component.dart';
+import 'package:access_maketicket/dashboard/banking/models/banking_info_model.dart';
+import 'package:access_maketicket/dashboard/banking/utils/colors.dart';
+import 'package:access_maketicket/dashboard/banking/utils/common.dart';
+import 'package:access_maketicket/dashboard/banking/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../utils/constant.dart';
 

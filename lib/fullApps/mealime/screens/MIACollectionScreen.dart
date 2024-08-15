@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIAAddCollectionScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAConstants.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIAAddCollectionScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAConstants.dart';
+import 'package:access_maketicket/main.dart';
 
 class MIACollectionScreen extends StatefulWidget {
   const MIACollectionScreen({Key? key}) : super(key: key);

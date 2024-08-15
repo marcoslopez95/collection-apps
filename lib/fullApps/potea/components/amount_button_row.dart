@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/wallet/ewallet/top_up_amount_controller.dart';
+import 'package:access_maketicket/fullApps/potea/screen/wallet/ewallet/top_up_amount_controller.dart';
 
 import '../utils/colors.dart';
 

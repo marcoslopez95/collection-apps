@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
-import 'package:prokit_flutter/workingApps/chatGPT/models/question_answer_model.dart';
-import 'package:prokit_flutter/workingApps/chatGPT/utils/colors.dart';
-import 'package:prokit_flutter/workingApps/chatGPT/utils/common.dart';
-import 'package:prokit_flutter/workingApps/chatGPT/utils/images.dart';
+import 'package:access_maketicket/workingApps/chatGPT/models/question_answer_model.dart';
+import 'package:access_maketicket/workingApps/chatGPT/utils/colors.dart';
+import 'package:access_maketicket/workingApps/chatGPT/utils/common.dart';
+import 'package:access_maketicket/workingApps/chatGPT/utils/images.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../../../main/utils/AppColors.dart';

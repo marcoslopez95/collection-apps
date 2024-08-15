@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLPIllHowToUseComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLPillDetailComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLPillReviewComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLPIllHowToUseComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLPillDetailComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLPillReviewComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLProductMoreDetailScreen extends StatefulWidget {
   static String tag = '/MLProductMoreDetailScreen';

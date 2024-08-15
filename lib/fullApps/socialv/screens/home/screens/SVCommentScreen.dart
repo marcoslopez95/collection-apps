@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/models/SVCommentModel.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/components/SVCommentComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/components/SVCommentReplyComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
+import 'package:access_maketicket/fullApps/socialv/models/SVCommentModel.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/components/SVCommentComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/components/SVCommentReplyComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
 
 import '../../../../../main.dart';
 

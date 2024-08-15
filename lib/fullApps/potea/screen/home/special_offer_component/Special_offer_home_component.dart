@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/special_offer_component/special_offer_item_component.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/special_offer_component/special_offer_list_screen.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/special_offer_component/special_offer_item_component.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/special_offer_component/special_offer_list_screen.dart';
 
 import '../../../utils/colors.dart';
 import 'offer_list.dart';

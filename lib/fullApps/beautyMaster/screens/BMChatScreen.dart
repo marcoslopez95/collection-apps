@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/models/BMMessageModel.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMCallScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/models/BMMessageModel.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMCallScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMCommonWidgets.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../../../main/utils/AppConstant.dart';
 

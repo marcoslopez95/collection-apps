@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/model/stock_invest_model.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/model/stock_invest_model.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
 
 List<StockInvestModel> watchList() {
   List<StockInvestModel> watchListData = [];

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/models/OrderModel.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Constants.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/DataProvider.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/models/OrderModel.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Constants.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/DataProvider.dart';
 
 class ProfileComponent extends StatefulWidget {
   @override

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/component/SHBottomNavbarWidget.dart';
-import 'package:prokit_flutter/fullApps/smartHome/fragments/SHHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/smartHome/fragments/SHScenesFragment.dart';
-import 'package:prokit_flutter/fullApps/smartHome/fragments/SHSpacesFragment.dart';
-import 'package:prokit_flutter/fullApps/smartHome/fragments/SHStatisticFragment.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/smartHome/component/SHBottomNavbarWidget.dart';
+import 'package:access_maketicket/fullApps/smartHome/fragments/SHHomeFragment.dart';
+import 'package:access_maketicket/fullApps/smartHome/fragments/SHScenesFragment.dart';
+import 'package:access_maketicket/fullApps/smartHome/fragments/SHSpacesFragment.dart';
+import 'package:access_maketicket/fullApps/smartHome/fragments/SHStatisticFragment.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class SHDashBoardScreen extends StatefulWidget {
   static String tag = '/SHDashBoardScreen';

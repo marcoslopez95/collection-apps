@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/smart_home/component/devices_component.dart';
-import 'package:prokit_flutter/dashboard/smart_home/component/rooms_component.dart';
-import 'package:prokit_flutter/dashboard/smart_home/component/usage_history_component.dart';
-import 'package:prokit_flutter/dashboard/smart_home/models/smart_home_info_model.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/common.dart';
-import 'package:prokit_flutter/dashboard/smart_home/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/dashboard/smart_home/component/devices_component.dart';
+import 'package:access_maketicket/dashboard/smart_home/component/rooms_component.dart';
+import 'package:access_maketicket/dashboard/smart_home/component/usage_history_component.dart';
+import 'package:access_maketicket/dashboard/smart_home/models/smart_home_info_model.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/colors.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/common.dart';
+import 'package:access_maketicket/dashboard/smart_home/utils/images.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
 
 import '../utils/constant.dart';
 

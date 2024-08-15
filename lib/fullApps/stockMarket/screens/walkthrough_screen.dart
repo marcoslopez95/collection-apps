@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/model/stock_invest_model.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/screens/signin_screen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/common.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/model/stock_invest_model.dart';
+import 'package:access_maketicket/fullApps/stockMarket/screens/signin_screen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/common.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class WalkThroughScreen extends StatefulWidget {
   const WalkThroughScreen({Key? key}) : super(key: key);

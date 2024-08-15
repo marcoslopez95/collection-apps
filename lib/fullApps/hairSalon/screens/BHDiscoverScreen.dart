@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/model/BHModel.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHConstants.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHDataProvider.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/hairSalon/model/BHModel.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHConstants.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHDataProvider.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'BHDetailScreen.dart';
 import 'BHNotificationScreen.dart';

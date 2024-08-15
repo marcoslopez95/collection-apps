@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/components/ActivityChartTabletComponent.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/components/TotalListTabletComponent.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/components/TypeListTabletComponent.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/models/ChartModel.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/models/OrderModel.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/screens/MyDrawer.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Common.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Constants.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/DataProvider.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/components/ActivityChartTabletComponent.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/components/TotalListTabletComponent.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/components/TypeListTabletComponent.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/models/ChartModel.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/models/OrderModel.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/screens/MyDrawer.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Common.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Constants.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/DataProvider.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class MainTabletComponent extends StatefulWidget {

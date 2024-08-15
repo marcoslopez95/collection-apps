@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCSearchedComponentScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCSearchedComponentScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCSearchModel.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCSearchModel.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
 
 class RCSearchScreen extends StatelessWidget {
   List<RCSearchModel> list = getShareNameList();

@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/auth/forgot_pass/forgot_password.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/auth/sign_in_controller.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/auth/sign_up_screen.dart';
-import 'package:prokit_flutter/fullApps/potea/utils/common_base.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/screen/auth/forgot_pass/forgot_password.dart';
+import 'package:access_maketicket/fullApps/potea/screen/auth/sign_in_controller.dart';
+import 'package:access_maketicket/fullApps/potea/screen/auth/sign_up_screen.dart';
+import 'package:access_maketicket/fullApps/potea/utils/common_base.dart';
 
 import '../../../../main.dart';
 import '../../utils/colors.dart';

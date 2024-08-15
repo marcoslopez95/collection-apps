@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/screens/EAEventDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAColors.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EADataProvider.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/eventApp/screens/EAEventDetailScreen.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAColors.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EADataProvider.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'EAFilterScreen.dart';
 

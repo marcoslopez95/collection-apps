@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
-import 'package:prokit_flutter/singleScreens/pricingPlans/model/PlanModal.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/singleScreens/pricingPlans/model/PlanModal.dart';
 
 class ChoosePlanScreen1 extends StatefulWidget {
   static var tag = "/choose_plan1";

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSWidgets.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSWidgets.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class SSProfileFragment extends StatelessWidget {
   final List<SneakerShoppingModel> data = getAccount();

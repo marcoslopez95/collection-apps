@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme3/screen/T3Dashboard.dart';
-import 'package:prokit_flutter/themes/theme3/utils/T3Images.dart';
-import 'package:prokit_flutter/themes/theme3/utils/colors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme3/screen/T3Dashboard.dart';
+import 'package:access_maketicket/themes/theme3/utils/T3Images.dart';
+import 'package:access_maketicket/themes/theme3/utils/colors.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class T3Dialog extends StatefulWidget {

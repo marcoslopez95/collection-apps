@@ -2,7 +2,7 @@ library calendar_strip;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/themes/theme6/utils/T6DateUtils.dart' as du;
+import 'package:access_maketicket/themes/theme6/utils/T6DateUtils.dart' as du;
 
 class CalendarStrip extends StatefulWidget {
   // This widget is the root of your application.

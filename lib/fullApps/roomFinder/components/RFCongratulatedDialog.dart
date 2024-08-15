@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/screens/RFHomeScreen.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFColors.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFImages.dart';
+import 'package:access_maketicket/fullApps/roomFinder/screens/RFHomeScreen.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFColors.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFImages.dart';
 
 import '../utils/RFWidget.dart';
 

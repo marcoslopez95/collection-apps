@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLBottomNavigationBarWidget.dart';
-import 'package:prokit_flutter/fullApps/mediLab/fragments/MLCalendarFragment.dart';
-import 'package:prokit_flutter/fullApps/mediLab/fragments/MLChatFragment.dart';
-import 'package:prokit_flutter/fullApps/mediLab/fragments/MLHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/mediLab/fragments/MLNotificationFragment.dart';
-import 'package:prokit_flutter/fullApps/mediLab/fragments/MLProfileFragemnt.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLBottomNavigationBarWidget.dart';
+import 'package:access_maketicket/fullApps/mediLab/fragments/MLCalendarFragment.dart';
+import 'package:access_maketicket/fullApps/mediLab/fragments/MLChatFragment.dart';
+import 'package:access_maketicket/fullApps/mediLab/fragments/MLHomeFragment.dart';
+import 'package:access_maketicket/fullApps/mediLab/fragments/MLNotificationFragment.dart';
+import 'package:access_maketicket/fullApps/mediLab/fragments/MLProfileFragemnt.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class MLDashboardScreen extends StatefulWidget {
   static String tag = '/MLDashboardScreen';

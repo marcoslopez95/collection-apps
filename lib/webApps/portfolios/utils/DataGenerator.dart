@@ -1,6 +1,6 @@
-import 'package:prokit_flutter/webApps/portfolios/models/Portfolio1SkillModel.dart';
-import 'package:prokit_flutter/webApps/portfolios/models/Portfolio2ServiceModel.dart';
-import 'package:prokit_flutter/webApps/portfolios/utils/Images.dart';
+import 'package:access_maketicket/webApps/portfolios/models/Portfolio1SkillModel.dart';
+import 'package:access_maketicket/webApps/portfolios/models/Portfolio2ServiceModel.dart';
+import 'package:access_maketicket/webApps/portfolios/utils/Images.dart';
 
 import '../../../main/utils/AppConstant.dart';
 

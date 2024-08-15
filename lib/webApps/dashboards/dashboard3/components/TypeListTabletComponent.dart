@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/models/OrderModel.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Common.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/models/OrderModel.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Common.dart';
 
 class TypeListTabletComponent extends StatelessWidget {
   const TypeListTabletComponent({Key? key, required this.data}) : super(key: key);

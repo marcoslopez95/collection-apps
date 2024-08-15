@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/components/JSSettingComponent.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/components/JSSettingComponent.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
 
 class JSRecentSearchesScreen extends StatefulWidget {
   const JSRecentSearchesScreen({Key? key}) : super(key: key);

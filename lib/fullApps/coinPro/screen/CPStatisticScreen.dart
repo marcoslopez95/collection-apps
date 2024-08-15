@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/coinPro/components/ExchangeChartWidget.dart';
-import 'package:prokit_flutter/fullApps/coinPro/model/CPModel.dart';
-import 'package:prokit_flutter/fullApps/coinPro/screen/CPWithDrawScreen.dart';
-import 'package:prokit_flutter/fullApps/coinPro/utils/CPColors.dart';
+import 'package:access_maketicket/fullApps/coinPro/components/ExchangeChartWidget.dart';
+import 'package:access_maketicket/fullApps/coinPro/model/CPModel.dart';
+import 'package:access_maketicket/fullApps/coinPro/screen/CPWithDrawScreen.dart';
+import 'package:access_maketicket/fullApps/coinPro/utils/CPColors.dart';
 
 import '../../../main.dart';
 

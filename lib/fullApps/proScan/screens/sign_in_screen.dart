@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/AppButton.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/sign_up_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/signin_with_password_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/common.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/lists.dart';
+import 'package:access_maketicket/fullApps/proScan/component/AppButton.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/sign_up_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/signin_with_password_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/common.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/lists.dart';
 
 import '../../../main.dart';
 import '../utils/images.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/relixMusicApp/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/relixMusicApp/utils/string_extensions.dart';
+import 'package:access_maketicket/fullApps/relixMusicApp/utils/colors.dart';
+import 'package:access_maketicket/fullApps/relixMusicApp/utils/string_extensions.dart';
 
 import '../../components/app_scaffold.dart';
 import '../../components/cached_image_widget.dart';

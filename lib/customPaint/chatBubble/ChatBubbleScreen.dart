@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/chatBubble/ChatBubbleMessageWidget.dart';
-import 'package:prokit_flutter/customPaint/chatBubble/modal/ChatBubbleModal.dart';
-import 'package:prokit_flutter/customPaint/chatBubble/utils.dart';
+import 'package:access_maketicket/customPaint/chatBubble/ChatBubbleMessageWidget.dart';
+import 'package:access_maketicket/customPaint/chatBubble/modal/ChatBubbleModal.dart';
+import 'package:access_maketicket/customPaint/chatBubble/utils.dart';
 
 class ChatBubbleScreen extends StatefulWidget {
   @override

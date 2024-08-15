@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/customPaint/card/CardCustomPainter.dart';
+import 'package:access_maketicket/customPaint/card/CardCustomPainter.dart';
 
 class CardScreen extends StatefulWidget {
   @override

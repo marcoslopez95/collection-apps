@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/colors.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/images.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/login_with_pass_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/profile_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/store/user_signup.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/common_back_widget.dart';
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/fullApps/carea/commons/images.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/screens/login_with_pass_screen.dart';
+import 'package:access_maketicket/fullApps/carea/screens/profile_screen.dart';
+import 'package:access_maketicket/fullApps/carea/store/user_signup.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/common_back_widget.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key, String? title}) : super(key: key);

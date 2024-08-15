@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/model/LSServiceModel.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSCommon.dart';
+import 'package:access_maketicket/fullApps/laundryService/model/LSServiceModel.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSCommon.dart';
 
 class LSCategoryComponents extends StatefulWidget {
   static String tag = '/LSCategoryComponents';

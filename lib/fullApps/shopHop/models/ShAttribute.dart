@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/shopHop/models/ShCategory.dart';
+import 'package:access_maketicket/fullApps/shopHop/models/ShCategory.dart';
 
 class ShAttributes {
   List<Brand>? brand;

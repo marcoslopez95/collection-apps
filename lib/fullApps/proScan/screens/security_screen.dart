@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/AppButton.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/component/AppButton.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
 
 import '../../../main.dart';
 import '../models/prefrance_screen_model.dart';

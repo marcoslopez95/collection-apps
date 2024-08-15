@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSJobCompanies.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSJobSearchScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSReviewAndSaveScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSSearchResultScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSSettingScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSImage.dart';
+import 'package:access_maketicket/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSJobCompanies.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSJobSearchScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSProfileScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSReviewAndSaveScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSSearchResultScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSSettingScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSImage.dart';
 
 List<JSPopularCompanyModel> getPopularCompanyData() {
   List<JSPopularCompanyModel> list = [];

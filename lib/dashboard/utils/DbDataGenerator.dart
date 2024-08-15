@@ -1,14 +1,14 @@
 import 'dart:core';
 
-import 'package:prokit_flutter/dashboard/model/db1/Db1Model.dart';
-import 'package:prokit_flutter/dashboard/model/db2/Db2Model.dart';
-import 'package:prokit_flutter/dashboard/model/db3/Db3Model.dart';
-import 'package:prokit_flutter/dashboard/model/db4/Db4Model.dart';
-import 'package:prokit_flutter/dashboard/model/db5/Db5Model.dart';
-import 'package:prokit_flutter/dashboard/model/db6/Db6Model.dart';
-import 'package:prokit_flutter/dashboard/model/db7/Db7Model.dart';
-import 'package:prokit_flutter/dashboard/model/db8/Db8Model.dart';
-import 'package:prokit_flutter/dashboard/utils/DbImages.dart';
+import 'package:access_maketicket/dashboard/model/db1/Db1Model.dart';
+import 'package:access_maketicket/dashboard/model/db2/Db2Model.dart';
+import 'package:access_maketicket/dashboard/model/db3/Db3Model.dart';
+import 'package:access_maketicket/dashboard/model/db4/Db4Model.dart';
+import 'package:access_maketicket/dashboard/model/db5/Db5Model.dart';
+import 'package:access_maketicket/dashboard/model/db6/Db6Model.dart';
+import 'package:access_maketicket/dashboard/model/db7/Db7Model.dart';
+import 'package:access_maketicket/dashboard/model/db8/Db8Model.dart';
+import 'package:access_maketicket/dashboard/utils/DbImages.dart';
 
 import 'DbColors.dart';
 

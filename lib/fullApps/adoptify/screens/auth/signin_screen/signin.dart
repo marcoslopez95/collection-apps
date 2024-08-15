@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/appscaffold.dart';
-import 'package:prokit_flutter/fullApps/adoptify/screens/auth/signin_screen/signin_controller.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/appscaffold.dart';
+import 'package:access_maketicket/fullApps/adoptify/screens/auth/signin_screen/signin_controller.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../../../main.dart';
 import '../../../components/adoptify_loader.dart';

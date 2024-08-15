@@ -1,8 +1,8 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/banking/model/BankingModel.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/banking/model/BankingModel.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'BankingColors.dart';
 import 'BankingContants.dart';

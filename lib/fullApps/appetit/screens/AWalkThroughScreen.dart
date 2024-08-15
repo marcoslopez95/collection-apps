@@ -1,8 +1,8 @@
-import 'package:prokit_flutter/fullApps/appetit/screens/AWelcomeScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ADataProvider.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/AWelcomeScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ADataProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ACommon.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ACommon.dart';
 
 class AWalkThroughScreen extends StatefulWidget {
   AWalkThroughScreen({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/homeService/custom_widget/space.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/customer_review_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/fullApps/homeService/custom_widget/space.dart';
+import 'package:access_maketicket/fullApps/homeService/models/customer_review_model.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
 import 'package:smooth_star_rating_null_safety/smooth_star_rating_null_safety.dart';
 
 class CustomerReviewComponent extends StatelessWidget {

@@ -1,9 +1,9 @@
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/components/calling_component.dart';
-import 'package:prokit_flutter/fullApps/carea/components/chat_component.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/components/calling_component.dart';
+import 'package:access_maketicket/fullApps/carea/components/chat_component.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 class InboxFragment extends StatefulWidget {
   @override

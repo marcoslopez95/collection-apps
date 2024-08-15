@@ -2,8 +2,8 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/confetti/src/helper.dart';
-import 'package:prokit_flutter/main/utils/randomcolor/random_color.dart';
+import 'package:access_maketicket/main/utils/confetti/src/helper.dart';
+import 'package:access_maketicket/main/utils/randomcolor/random_color.dart';
 import 'package:vector_math/vector_math.dart' as vmath;
 
 import 'enums/blast_directionality.dart';

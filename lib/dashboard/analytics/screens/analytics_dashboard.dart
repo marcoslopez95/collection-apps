@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/analytics/fragments/analytics_dashboard_fragment.dart';
-import 'package:prokit_flutter/dashboard/analytics/fragments/explore_fragment.dart';
-import 'package:prokit_flutter/dashboard/analytics/fragments/profile_fragment.dart';
-import 'package:prokit_flutter/dashboard/analytics/fragments/tools_fragment.dart';
-import 'package:prokit_flutter/dashboard/analytics/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/analytics/fragments/analytics_dashboard_fragment.dart';
+import 'package:access_maketicket/dashboard/analytics/fragments/explore_fragment.dart';
+import 'package:access_maketicket/dashboard/analytics/fragments/profile_fragment.dart';
+import 'package:access_maketicket/dashboard/analytics/fragments/tools_fragment.dart';
+import 'package:access_maketicket/dashboard/analytics/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class AnalyticsDashboard extends StatefulWidget {
   static String tag = '/analytics_dashboard';

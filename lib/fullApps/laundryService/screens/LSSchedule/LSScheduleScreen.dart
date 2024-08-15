@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSSchedule/LSCompleteComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSSchedule/LSDateTimeComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSSchedule/LSLocationComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/screens/LSSchedule/LSPaymentComponent.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSSchedule/LSCompleteComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSSchedule/LSDateTimeComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSSchedule/LSLocationComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/screens/LSSchedule/LSPaymentComponent.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class LSScheduleScreen extends StatefulWidget {
   static String tag = '/LSScheduleScreen';

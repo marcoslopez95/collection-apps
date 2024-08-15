@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
 
 part 'logicprovider.g.dart';
 

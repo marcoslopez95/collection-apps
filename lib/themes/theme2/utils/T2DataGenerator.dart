@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/themes/theme2/models/models.dart';
-import 'package:prokit_flutter/themes/theme2/utils/T2Strings.dart';
+import 'package:access_maketicket/themes/theme2/models/models.dart';
+import 'package:access_maketicket/themes/theme2/utils/T2Strings.dart';
 
 import 'T2Images.dart';
 import '../../../main/utils/AppConstant.dart';

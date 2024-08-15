@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/orapay/screens/op_myCards.dart';
-import 'package:prokit_flutter/fullApps/orapay/screens/op_transfer_screen.dart';
-import 'package:prokit_flutter/fullApps/orapay/utils/Colors.dart';
-import 'package:prokit_flutter/fullApps/orapay/utils/OPWidgets.dart';
+import 'package:access_maketicket/fullApps/orapay/screens/op_myCards.dart';
+import 'package:access_maketicket/fullApps/orapay/screens/op_transfer_screen.dart';
+import 'package:access_maketicket/fullApps/orapay/utils/Colors.dart';
+import 'package:access_maketicket/fullApps/orapay/utils/OPWidgets.dart';
 
 import 'op_atm_location_screen.dart';
 import 'op_home_fragment.dart';

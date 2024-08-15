@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/defaultTheme/screen/DTPaymentProcessScreen.dart';
-import 'package:prokit_flutter/defaultTheme/utils/ExpirationTextField.dart';
-import 'package:prokit_flutter/defaultTheme/utils/FlipCard.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/defaultTheme/screen/DTPaymentProcessScreen.dart';
+import 'package:access_maketicket/defaultTheme/utils/ExpirationTextField.dart';
+import 'package:access_maketicket/defaultTheme/utils/FlipCard.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import '../../main.dart';
 import 'DTDrawerWidget.dart';

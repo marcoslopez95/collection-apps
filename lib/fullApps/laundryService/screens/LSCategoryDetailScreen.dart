@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
 
 class LSCategoryDetailScreen extends StatefulWidget {
   static String tag = '/LSCategoryDetailScreen';

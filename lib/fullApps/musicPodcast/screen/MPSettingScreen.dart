@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/models/MusicModel.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPEditProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPTermsConditionScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPColors.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPImages.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/models/MusicModel.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPEditProfileScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPProfileScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPTermsConditionScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPColors.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPDataGenerator.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPImages.dart';
 
 class MPSettingScreen extends StatefulWidget {
   static String tag = '/MPSettingScreen';

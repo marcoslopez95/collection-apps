@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/fragments/NMPHomeFragment.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/fragments/NMPMoreFragment.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/fragments/NMPProfileFragment.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/fragments/NMPRankingsFragment.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/fragments/NMPSearchFragment.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPCommon.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/fragments/NMPHomeFragment.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/fragments/NMPMoreFragment.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/fragments/NMPProfileFragment.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/fragments/NMPRankingsFragment.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/fragments/NMPSearchFragment.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPCommon.dart';
+import 'package:access_maketicket/main.dart';
 
 class NMPDashboardScreen extends StatefulWidget {
   @override

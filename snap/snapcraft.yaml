@@ -13,5 +13,5 @@ parts:
 
 apps:
   prokit-flutter:
-    command: prokit_flutter
+    command: access_maketicket
     extensions: [flutter-master]

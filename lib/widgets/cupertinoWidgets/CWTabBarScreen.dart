@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/model/ListModels.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/model/ListModels.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'CWTabBarWidgets/CWTabBarScreen1.dart';
 import 'CWTabBarWidgets/CWTabBarScreen2.dart';

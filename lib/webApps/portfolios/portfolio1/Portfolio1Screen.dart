@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/webApps/portfolios/portfolio1/components/AvailableForHireWidget.dart';
-import 'package:prokit_flutter/webApps/portfolios/portfolio1/components/InfoWidget.dart';
-import 'package:prokit_flutter/webApps/portfolios/portfolio1/components/IntroductionWidget.dart';
-import 'package:prokit_flutter/webApps/portfolios/portfolio1/components/MySiteWidget.dart';
-import 'package:prokit_flutter/webApps/portfolios/portfolio1/components/SocialWidget.dart';
-import 'package:prokit_flutter/webApps/portfolios/portfolio1/components/ToDoWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/webApps/portfolios/portfolio1/components/AvailableForHireWidget.dart';
+import 'package:access_maketicket/webApps/portfolios/portfolio1/components/InfoWidget.dart';
+import 'package:access_maketicket/webApps/portfolios/portfolio1/components/IntroductionWidget.dart';
+import 'package:access_maketicket/webApps/portfolios/portfolio1/components/MySiteWidget.dart';
+import 'package:access_maketicket/webApps/portfolios/portfolio1/components/SocialWidget.dart';
+import 'package:access_maketicket/webApps/portfolios/portfolio1/components/ToDoWidget.dart';
 
 import 'components/GuideLineWidget.dart';
 

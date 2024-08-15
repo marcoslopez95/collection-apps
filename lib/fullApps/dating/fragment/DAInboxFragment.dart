@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/model/DatingAppModel.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAViewAllScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/screen/DAZoomingScreen.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAColors.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DADataGenerator.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/dating/model/DatingAppModel.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAViewAllScreen.dart';
+import 'package:access_maketicket/fullApps/dating/screen/DAZoomingScreen.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAColors.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DADataGenerator.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
 
 class DAInboxFragment extends StatefulWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:flutter/services.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/subscription_screens/scancard_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/subscription_screens/scancard_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
 
 class AddCardScreen extends StatefulWidget {
   State<AddCardScreen> createState() => AddCardScreenState();

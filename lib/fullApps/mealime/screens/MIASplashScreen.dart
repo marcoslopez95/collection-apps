@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/mia_store/MIAStore.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIAMealModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIAWelcomeScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIADataGenerator.dart';
+import 'package:access_maketicket/fullApps/mealime/mia_store/MIAStore.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIAMealModel.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIAWelcomeScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIADataGenerator.dart';
 
 MIAStore miaStore = MIAStore();
 

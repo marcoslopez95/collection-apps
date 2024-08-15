@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/model/Dashboard1Model.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/DashBoard1DataProvider.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/model/Dashboard1Model.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/DashBoard1DataProvider.dart';
 
 class DrawerComponentWidget extends StatefulWidget {
   @override

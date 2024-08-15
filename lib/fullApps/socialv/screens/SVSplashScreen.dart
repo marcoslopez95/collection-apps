@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/auth/screens/SVSignInScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/auth/screens/SVSignInScreen.dart';
 
 class SVSplashScreen extends StatefulWidget {
   static String tag = '/socialv';

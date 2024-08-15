@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/colors.dart';
+import 'package:access_maketicket/dashboard/banking/utils/colors.dart';
 
 Gradient primaryLinearGradient() {
   return LinearGradient(

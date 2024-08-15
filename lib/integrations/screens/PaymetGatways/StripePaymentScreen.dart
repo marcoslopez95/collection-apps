@@ -7,11 +7,11 @@ import 'package:html/parser.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/integrations/Component/CheckOutComponent.dart';
-import 'package:prokit_flutter/integrations/models/StripePayModel.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/integrations/Component/CheckOutComponent.dart';
+import 'package:access_maketicket/integrations/models/StripePayModel.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class StripePaymentScreen extends StatefulWidget {
   @override

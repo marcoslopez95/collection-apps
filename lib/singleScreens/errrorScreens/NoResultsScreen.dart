@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 class NoResultsScreen extends StatefulWidget {
   const NoResultsScreen({Key? key}) : super(key: key);

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizDashboard.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizVerifcation.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizWidget.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/codePicker/country_code_picker.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizDashboard.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizVerifcation.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizWidget.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/codePicker/country_code_picker.dart';
 
 class QuizMobileVerify extends StatefulWidget {
   static String tag = '/QuizMobileVerify';

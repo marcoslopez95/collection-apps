@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/profile/components/SVProfileHeaderComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/profile/components/SVProfilePostsComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVColors.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/profile/components/SVProfileHeaderComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/profile/components/SVProfilePostsComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVColors.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class SVGroupProfileScreen extends StatelessWidget {
   @override

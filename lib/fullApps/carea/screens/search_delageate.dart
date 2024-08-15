@@ -1,15 +1,15 @@
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/data_provider.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/images.dart';
-import 'package:prokit_flutter/fullApps/carea/components/filter_component.dart';
-import 'package:prokit_flutter/fullApps/carea/model/calling_model.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/details_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/store/logicprovider.dart';
-import 'package:prokit_flutter/fullApps/carea/store/search_delagete_ob.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/data_provider.dart';
+import 'package:access_maketicket/fullApps/carea/commons/images.dart';
+import 'package:access_maketicket/fullApps/carea/components/filter_component.dart';
+import 'package:access_maketicket/fullApps/carea/model/calling_model.dart';
+import 'package:access_maketicket/fullApps/carea/screens/details_screen.dart';
+import 'package:access_maketicket/fullApps/carea/store/logicprovider.dart';
+import 'package:access_maketicket/fullApps/carea/store/search_delagete_ob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../commons/colors.dart';
 

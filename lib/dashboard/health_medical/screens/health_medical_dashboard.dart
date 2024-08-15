@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/images.dart';
-import 'package:prokit_flutter/dashboard/health_medical/components/articles_component.dart';
-import 'package:prokit_flutter/dashboard/health_medical/components/doctor_info_component.dart';
-import 'package:prokit_flutter/dashboard/health_medical/model/doctor_dashboard_info_model.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/common.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/constant.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/images.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/scrolling_support_web.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/banking/utils/images.dart';
+import 'package:access_maketicket/dashboard/health_medical/components/articles_component.dart';
+import 'package:access_maketicket/dashboard/health_medical/components/doctor_info_component.dart';
+import 'package:access_maketicket/dashboard/health_medical/model/doctor_dashboard_info_model.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/colors.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/common.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/constant.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/images.dart';
+import 'package:access_maketicket/fullApps/carea/commons/scrolling_support_web.dart';
+import 'package:access_maketicket/main.dart';
 
 class HealthMedicalDashboard extends StatefulWidget {
   static String tag = '/health_medical';

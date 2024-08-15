@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:prokit_flutter/src/Model/Event.dart';
-import 'package:prokit_flutter/src/Model/UserAuth.dart';
+import 'package:access_maketicket/src/Model/Event.dart';
+import 'package:access_maketicket/src/Model/UserAuth.dart';
 
 class Helper
 {

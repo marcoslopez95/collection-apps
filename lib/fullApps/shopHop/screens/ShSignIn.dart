@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShHomeScreen.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShSignUp.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShColors.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShConstant.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShImages.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShStrings.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShHomeScreen.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShSignUp.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShColors.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShConstant.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShImages.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShStrings.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class ShSignIn extends StatefulWidget {
   static String tag = '/ShSignIn';

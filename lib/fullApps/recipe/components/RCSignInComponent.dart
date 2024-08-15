@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RcDashBoardScraan.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RcDashBoardScraan.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
 
 class RCSignInComponent extends StatelessWidget {
   FocusNode password = FocusNode();

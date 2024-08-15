@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/customPaint/customTemperatureWidget/modal/ItemModal.dart';
+import 'package:access_maketicket/customPaint/customTemperatureWidget/modal/ItemModal.dart';
 
 class Temperature extends Item {
   int speed;

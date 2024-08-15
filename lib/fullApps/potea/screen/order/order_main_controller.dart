@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/order/model/order_model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/order/model/order_model.dart';
 
 import '../../utils/image.dart';
 

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/panel.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/model/BHModel.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHDataProvider.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHImages.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/panel.dart';
+import 'package:access_maketicket/fullApps/hairSalon/model/BHModel.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHDataProvider.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHImages.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class BHNotifyScreen extends StatefulWidget {
   static String tag = '/SlideUpSheetScreen';

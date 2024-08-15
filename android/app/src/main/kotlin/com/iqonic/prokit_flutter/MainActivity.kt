@@ -1,4 +1,4 @@
-package com.iqonic.prokit_flutter
+package com.iqonic.access_maketicket
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.engine.FlutterEngine

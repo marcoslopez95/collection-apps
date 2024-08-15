@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/model/db4/Db4Model.dart';
-import 'package:prokit_flutter/dashboard/utils/Db4BubbleBotoomBar.dart';
-import 'package:prokit_flutter/dashboard/utils/Db4SliderWidget.dart';
-import 'package:prokit_flutter/dashboard/utils/DbColors.dart';
-import 'package:prokit_flutter/dashboard/utils/DbDataGenerator.dart';
-import 'package:prokit_flutter/dashboard/utils/DbImages.dart';
-import 'package:prokit_flutter/dashboard/utils/DbStrings.dart';
-import 'package:prokit_flutter/main/screens/ProKitLauncher.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/dashboard/model/db4/Db4Model.dart';
+import 'package:access_maketicket/dashboard/utils/Db4BubbleBotoomBar.dart';
+import 'package:access_maketicket/dashboard/utils/Db4SliderWidget.dart';
+import 'package:access_maketicket/dashboard/utils/DbColors.dart';
+import 'package:access_maketicket/dashboard/utils/DbDataGenerator.dart';
+import 'package:access_maketicket/dashboard/utils/DbImages.dart';
+import 'package:access_maketicket/dashboard/utils/DbStrings.dart';
+import 'package:access_maketicket/main/screens/ProKitLauncher.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class Dashboard4 extends StatefulWidget {
   static String tag = '/e_wallet';

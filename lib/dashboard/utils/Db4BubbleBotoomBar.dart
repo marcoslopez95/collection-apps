@@ -4,8 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/utils/DbColors.dart';
-import 'package:prokit_flutter/main/utils/auto_size_text/auto_size_text.dart';
+import 'package:access_maketicket/dashboard/utils/DbColors.dart';
+import 'package:access_maketicket/main/utils/auto_size_text/auto_size_text.dart';
 
 const double _kActiveFontSize = 14.0;
 const double _kBottomMargin = 8.0;

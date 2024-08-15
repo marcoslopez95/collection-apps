@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/split_bill/fragments/home_split_bill_fragment.dart';
+import 'package:access_maketicket/dashboard/split_bill/fragments/home_split_bill_fragment.dart';
 
 class ContactSplitBillFragment extends StatefulWidget {
   @override

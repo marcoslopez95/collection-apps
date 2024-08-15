@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/otp_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/otp_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
 
 import '../../../main.dart';
 import '../component/AppButton.dart';

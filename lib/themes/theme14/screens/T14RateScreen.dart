@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Colors.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Images.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Strings.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Widget.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Colors.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Images.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Strings.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Widget.dart';
 
 class T14RateScreen extends StatefulWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/provider_review_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/service_providers_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/service_screen.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/provider_review_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/service_providers_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/service_screen.dart';
 
 import '../custom_widget/space.dart';
 import '../models/services_model.dart';

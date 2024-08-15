@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/user_profile_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/user_profile_screen.dart';
 
 import '../model/movie_reviews_model.dart';
 

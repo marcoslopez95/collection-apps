@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/component/AppBarComponentWidget.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/component/MyFilesComponentWidget.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/component/RecentFilesComponentWidget.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/component/StorageFilesComponentWidget.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/component/AppBarComponentWidget.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/component/MyFilesComponentWidget.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/component/RecentFilesComponentWidget.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/component/StorageFilesComponentWidget.dart';
 
 class DashBoardComponentWidget extends StatelessWidget {
   const DashBoardComponentWidget({Key? key}) : super(key: key);

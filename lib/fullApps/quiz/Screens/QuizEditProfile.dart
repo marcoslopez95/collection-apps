@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizConstant.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizImages.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizConstant.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizImages.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class QuizEditProfile extends StatefulWidget {
   static String tag = '/QuizEditProfile';

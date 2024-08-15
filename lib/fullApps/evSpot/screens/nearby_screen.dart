@@ -1,14 +1,14 @@
 import 'dart:async';
-import 'package:prokit_flutter/fullApps/evSpot/components/app_ev_station_list_component.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
-import 'package:prokit_flutter/main.dart' as main;
-import 'package:prokit_flutter/fullApps/evSpot/models/ev_station_places_model.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/ev_station_info_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/constant.dart';
+import 'package:access_maketicket/fullApps/evSpot/components/app_ev_station_list_component.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/main.dart' as main;
+import 'package:access_maketicket/fullApps/evSpot/models/ev_station_places_model.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/ev_station_info_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/colors.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/colors.dart';
 
 import '../../../main.dart';
 

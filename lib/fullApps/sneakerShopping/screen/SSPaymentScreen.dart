@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/screen/SSOrderScreen.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSWidgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/screen/SSOrderScreen.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSWidgets.dart';
+import 'package:access_maketicket/main.dart';
 
 class SSPaymentScreen extends StatefulWidget {
   @override

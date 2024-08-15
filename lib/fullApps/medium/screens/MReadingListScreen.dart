@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/medium/modal/MModel.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MColors.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MDataProvider.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MWidget.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/medium/modal/MModel.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MColors.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MDataProvider.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MWidget.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class MReadingListScreen extends StatefulWidget {
   static String tag = '/MReadingListScreen';

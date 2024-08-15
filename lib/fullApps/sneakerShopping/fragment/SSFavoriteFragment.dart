@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/screen/SSDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/screen/SSDetailScreen.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
 
 class SSFavoriteFragment extends StatelessWidget {
   final List<SneakerShoppingModel> list = getAllFavorite();

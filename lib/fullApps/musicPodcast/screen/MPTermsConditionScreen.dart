@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPColors.dart';
-import 'package:prokit_flutter/main/utils/Lipsum.dart' as lipsum;
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPColors.dart';
+import 'package:access_maketicket/main/utils/Lipsum.dart' as lipsum;
 
 class MPTermsConditionScreen extends StatefulWidget {
   static String tag = '/MPTermsConditionScreen';

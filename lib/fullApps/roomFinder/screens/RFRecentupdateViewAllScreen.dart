@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/models/RoomFinderModel.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFWidget.dart';
+import 'package:access_maketicket/fullApps/roomFinder/models/RoomFinderModel.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFDataGenerator.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFWidget.dart';
 
 import '../components/RFRecentUpdateComponent.dart';
 

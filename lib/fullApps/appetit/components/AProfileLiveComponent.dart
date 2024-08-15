@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ACommon.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ADataProvider.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ACommon.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ADataProvider.dart';
 
 class AProfileLiveComponent extends StatelessWidget {
   const AProfileLiveComponent({Key? key}) : super(key: key);

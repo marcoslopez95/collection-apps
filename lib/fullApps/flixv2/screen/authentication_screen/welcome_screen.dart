@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/dashboard_screens/dashboard_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/constants.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/dashboard_screens/dashboard_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/constants.dart';
 
 class WelcomeScreen extends StatefulWidget {
   final title;

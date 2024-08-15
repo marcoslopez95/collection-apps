@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLHomeBottomComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLHomeTopComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLHomeBottomComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLHomeTopComponent.dart';
 
 class MLHomeFragment extends StatefulWidget {
   static String tag = '/MLHomeFragment';

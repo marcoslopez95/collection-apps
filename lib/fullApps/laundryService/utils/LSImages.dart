@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const LSWalk1 = '$BaseUrl/images/laundryService/ls_walk1.png';
 const LSBgWalk1 = '$BaseUrl/images/laundryService/ls_bgWalk1.png';

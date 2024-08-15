@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIAMealModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIASplashScreen.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIAMealModel.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIASplashScreen.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 void displayDeleteDialog(BuildContext context, MIAMealModel element) {
   showCupertinoDialog(

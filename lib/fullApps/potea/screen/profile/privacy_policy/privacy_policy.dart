@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/profile/privacy_policy/privacy_policy_controller.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/screen/profile/privacy_policy/privacy_policy_controller.dart';
 
 class PrivacyPolicy extends StatelessWidget {
   final PrivacyController controller = Get.put(PrivacyController());

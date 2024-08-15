@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Colors.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Strings.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Colors.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Strings.dart';
 
 class T14WalkThroughScreen4 extends StatefulWidget {
   @override

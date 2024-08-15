@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme7/utils/T7Colors.dart';
-import 'package:prokit_flutter/themes/theme7/utils/T7Constant.dart';
-import 'package:prokit_flutter/themes/theme7/utils/T7Images.dart';
-import 'package:prokit_flutter/themes/theme7/utils/T7Strings.dart';
-import 'package:prokit_flutter/themes/theme7/utils/T7Widget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme7/utils/T7Colors.dart';
+import 'package:access_maketicket/themes/theme7/utils/T7Constant.dart';
+import 'package:access_maketicket/themes/theme7/utils/T7Images.dart';
+import 'package:access_maketicket/themes/theme7/utils/T7Strings.dart';
+import 'package:access_maketicket/themes/theme7/utils/T7Widget.dart';
 
 class T7WalkThrough extends StatefulWidget {
   static String tag = '/T7WalkThrough';

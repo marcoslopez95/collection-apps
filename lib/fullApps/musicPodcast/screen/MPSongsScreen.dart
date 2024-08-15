@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 //import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/component/MPDrawerScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/models/MusicModel.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPNowPlayingScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/screen/MPSearchScreen.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPColors.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/musicPodcast/utils/MPWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/component/MPDrawerScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/models/MusicModel.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPNowPlayingScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/screen/MPSearchScreen.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPColors.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPDataGenerator.dart';
+import 'package:access_maketicket/fullApps/musicPodcast/utils/MPWidget.dart';
 
 class MPSongsScreen extends StatefulWidget {
   @override

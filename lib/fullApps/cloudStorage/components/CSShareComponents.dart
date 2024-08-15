@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/model/CSDataModel.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSColors.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSConstants.dart';
-import 'package:prokit_flutter/fullApps/cloudStorage/utils/CSWidgets.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/model/CSDataModel.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSColors.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSConstants.dart';
+import 'package:access_maketicket/fullApps/cloudStorage/utils/CSWidgets.dart';
 
 class CSShareComponents extends StatefulWidget {
   static String tag = '/CSShareComponents';

@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/flixv2/utils/constants.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/constants.dart';
 
 class WalkthroughModel {
   String? title;

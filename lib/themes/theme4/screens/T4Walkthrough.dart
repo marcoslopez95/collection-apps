@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/main/utils/dots_indicator/dots_indicator.dart';
-import 'package:prokit_flutter/themes/theme4/utils/T4Colors.dart';
-import 'package:prokit_flutter/themes/theme4/utils/T4Constant.dart';
-import 'package:prokit_flutter/themes/theme4/utils/T4Images.dart';
-import 'package:prokit_flutter/themes/theme4/utils/T4Strings.dart';
-import 'package:prokit_flutter/themes/theme4/utils/widgets/T4Button.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/main/utils/dots_indicator/dots_indicator.dart';
+import 'package:access_maketicket/themes/theme4/utils/T4Colors.dart';
+import 'package:access_maketicket/themes/theme4/utils/T4Constant.dart';
+import 'package:access_maketicket/themes/theme4/utils/T4Images.dart';
+import 'package:access_maketicket/themes/theme4/utils/T4Strings.dart';
+import 'package:access_maketicket/themes/theme4/utils/widgets/T4Button.dart';
 
 import '../../../main.dart';
 

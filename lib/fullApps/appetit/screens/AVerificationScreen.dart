@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/AVerifyPhoneScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/AVerifyPhoneScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class AVerificationScreen extends StatefulWidget {
   const AVerificationScreen({Key? key}) : super(key: key);

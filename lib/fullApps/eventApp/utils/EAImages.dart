@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const event_ic_logo = "const event_ic_logo";
 const event_ic_walk_through1 = "$BaseUrl/images/eventApp/pageview1.jpg";

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/banking/fragments/home_banking_fragment.dart';
+import 'package:access_maketicket/dashboard/banking/fragments/home_banking_fragment.dart';
 
 class CardsBankingFragment extends StatefulWidget {
   @override

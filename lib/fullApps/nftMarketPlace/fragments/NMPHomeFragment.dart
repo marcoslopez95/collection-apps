@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/components/NMPSellerItemComponent.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/fragments/NMPRankingsFragment.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/screens/NMPCategoriesDetailsScreen.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/screens/NMPNotableDropsDetailsScreen.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/screens/NMPTrendingCollectionsDetailsScreen.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPConstants.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPDataProvider.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/components/NMPSellerItemComponent.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/fragments/NMPRankingsFragment.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/screens/NMPCategoriesDetailsScreen.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/screens/NMPNotableDropsDetailsScreen.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/screens/NMPTrendingCollectionsDetailsScreen.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPConstants.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPDataProvider.dart';
 
 import '../utils/NMPCommon.dart';
 

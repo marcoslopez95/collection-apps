@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/dashboard/utility_tracker/utils/images.dart';
+import 'package:access_maketicket/dashboard/utility_tracker/utils/images.dart';
 
 class UtilityTrackerModel {
   String? userName;

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/banking/fragments/cards_banking_fragment.dart';
-import 'package:prokit_flutter/dashboard/banking/fragments/home_banking_fragment.dart';
-import 'package:prokit_flutter/dashboard/banking/fragments/repots_banking_fragment.dart';
-import 'package:prokit_flutter/dashboard/banking/fragments/settings_banking_fragment.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/banking/fragments/cards_banking_fragment.dart';
+import 'package:access_maketicket/dashboard/banking/fragments/home_banking_fragment.dart';
+import 'package:access_maketicket/dashboard/banking/fragments/repots_banking_fragment.dart';
+import 'package:access_maketicket/dashboard/banking/fragments/settings_banking_fragment.dart';
+import 'package:access_maketicket/dashboard/banking/utils/colors.dart';
+import 'package:access_maketicket/dashboard/banking/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class BankingDashboard extends StatefulWidget {
   static String tag = '/banking_dashboard';

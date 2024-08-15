@@ -1,13 +1,13 @@
-import 'package:prokit_flutter/fullApps/carea/commons/app_component.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/colors.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/home_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/store/user_signup.dart';
+import 'package:access_maketicket/fullApps/carea/commons/app_component.dart';
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/screens/home_screen.dart';
+import 'package:access_maketicket/fullApps/carea/store/user_signup.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../commons/images.dart';
 

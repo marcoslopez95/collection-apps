@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 
 class BrokenLinkScreen extends StatefulWidget {
   const BrokenLinkScreen({Key? key}) : super(key: key);

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/component/SSBestODWidget.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/screen/SSDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/screen/SSViewAllScreen.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/sneakerShopping/utils/SSWidgets.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/component/SSBestODWidget.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/model/SneakerShoppingModel.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/screen/SSDetailScreen.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/screen/SSViewAllScreen.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSDataGenerator.dart';
+import 'package:access_maketicket/fullApps/sneakerShopping/utils/SSWidgets.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 import '../../../main.dart';
 

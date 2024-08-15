@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/relixMusicApp/utils/constant.dart';
+import 'package:access_maketicket/fullApps/relixMusicApp/utils/constant.dart';
 
 import '../../components/app_scaffold.dart';
 import '../../components/common_app_button.dart';

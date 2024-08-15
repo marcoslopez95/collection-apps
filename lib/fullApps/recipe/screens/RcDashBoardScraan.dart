@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCHomeComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCProfileComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCSearchComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCHomeComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCProfileComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCSearchComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class RcDashBoardScraan extends StatefulWidget {
   String name;

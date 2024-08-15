@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShAdressManagerScreen.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShOffersScreen.dart';
-import 'package:prokit_flutter/fullApps/shopHop/screens/ShQuickPayCardsScreen.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShColors.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShConstant.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShImages.dart';
-import 'package:prokit_flutter/fullApps/shopHop/utils/ShStrings.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShAdressManagerScreen.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShOffersScreen.dart';
+import 'package:access_maketicket/fullApps/shopHop/screens/ShQuickPayCardsScreen.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShColors.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShConstant.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShImages.dart';
+import 'package:access_maketicket/fullApps/shopHop/utils/ShStrings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 import 'ShOrderListScreen.dart';
 

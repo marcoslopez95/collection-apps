@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/analytics/fragments/analytics_dashboard_fragment.dart';
+import 'package:access_maketicket/dashboard/analytics/fragments/analytics_dashboard_fragment.dart';
 
 class ExploreFragment extends StatefulWidget {
   @override

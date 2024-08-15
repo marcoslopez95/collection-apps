@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/model/AppModel.dart';
-import 'package:prokit_flutter/main/screens/ProKitScreenListing.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppImages.dart';
-import 'package:prokit_flutter/main/utils/AppStrings.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/model/AppModel.dart';
+import 'package:access_maketicket/main/screens/ProKitScreenListing.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppImages.dart';
+import 'package:access_maketicket/main/utils/AppStrings.dart';
 
 List<Color> colors = [appCat1, appCat2, appCat3];
 

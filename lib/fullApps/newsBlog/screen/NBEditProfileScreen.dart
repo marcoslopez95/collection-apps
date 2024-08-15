@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBImages.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBWidgets.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBImages.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBWidgets.dart';
 
 class NBEditProfileScreen extends StatefulWidget {
   static String tag = '/NBEditProfileScreen';

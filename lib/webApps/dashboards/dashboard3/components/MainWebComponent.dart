@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/screens/MyDrawer.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/screens/RecentOrderView.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/screens/SalesView.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/screens/MyDrawer.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/screens/RecentOrderView.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/screens/SalesView.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Colors.dart';
 
 class MainWebComponent extends StatefulWidget {
   @override

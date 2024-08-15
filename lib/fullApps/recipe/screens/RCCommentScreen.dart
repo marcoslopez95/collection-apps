@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCBackComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCCommentComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCBackComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCCommentComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class RCCommentScreen extends StatelessWidget {
   const RCCommentScreen({Key? key}) : super(key: key);

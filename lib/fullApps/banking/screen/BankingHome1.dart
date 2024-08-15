@@ -2,12 +2,12 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/banking/model/BankingModel.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingColors.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingContants.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingImages.dart';
-import 'package:prokit_flutter/fullApps/banking/utils/BankingWidget.dart';
+import 'package:access_maketicket/fullApps/banking/model/BankingModel.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingColors.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingContants.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingDataGenerator.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingImages.dart';
+import 'package:access_maketicket/fullApps/banking/utils/BankingWidget.dart';
 
 class BankingHome1 extends StatefulWidget {
   static String tag = '/BankingHome1';

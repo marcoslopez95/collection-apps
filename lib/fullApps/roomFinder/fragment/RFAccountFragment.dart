@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFAppliedHotelListComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/components/RFCommonAppComponent.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/models/RoomFinderModel.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFColors.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFImages.dart';
-import 'package:prokit_flutter/fullApps/roomFinder/utils/RFWidget.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFAppliedHotelListComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/components/RFCommonAppComponent.dart';
+import 'package:access_maketicket/fullApps/roomFinder/models/RoomFinderModel.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFColors.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFDataGenerator.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFImages.dart';
+import 'package:access_maketicket/fullApps/roomFinder/utils/RFWidget.dart';
+import 'package:access_maketicket/main.dart';
 
 class RFAccountFragment extends StatefulWidget {
   @override

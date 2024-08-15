@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/model/stock_invest_model.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/screens/edit_profile_screen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/screens/signin_screen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/colors.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/common.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/configs.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/data_generator.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/stockMarket/model/stock_invest_model.dart';
+import 'package:access_maketicket/fullApps/stockMarket/screens/edit_profile_screen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/screens/signin_screen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/colors.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/common.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/configs.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/data_generator.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class ProfileFragment extends StatefulWidget {

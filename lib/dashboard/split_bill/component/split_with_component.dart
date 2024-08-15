@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/images.dart';
-import 'package:prokit_flutter/dashboard/split_bill/model/split_bill_info_model.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/images.dart';
-import 'package:prokit_flutter/dashboard/split_bill/utils/constant.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/banking/utils/images.dart';
+import 'package:access_maketicket/dashboard/split_bill/model/split_bill_info_model.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/colors.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/images.dart';
+import 'package:access_maketicket/dashboard/split_bill/utils/constant.dart';
+import 'package:access_maketicket/main.dart';
 
 class SplitWithComponent extends StatelessWidget {
   const SplitWithComponent({

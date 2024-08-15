@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t14_KingIcon = "images/theme14/t14_kingIcon.png";
 const t14_google = "images/theme14/t14_google.png";

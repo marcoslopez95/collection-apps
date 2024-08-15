@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/model/walkthrough_model.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/dashboard_screens/dashboard_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/model/walkthrough_model.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/dashboard_screens/dashboard_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
 
 import '../../components/walkthrough_components/walkthrough_component.dart';
 import '../authentication_screen/startwith_screen.dart';

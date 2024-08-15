@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/models/JCBCommonModel.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/screens/JCBPaymentMethodScreen.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/models/JCBCommonModel.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/screens/JCBPaymentMethodScreen.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/main.dart';
 
 class JCBPickTimeBottomSheet extends StatefulWidget {
   const JCBPickTimeBottomSheet({Key? key}) : super(key: key);

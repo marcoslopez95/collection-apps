@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/NewQuiz.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizDetails.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizNewList.dart';
-import 'package:prokit_flutter/fullApps/quiz/Screens/QuizSearch.dart';
-import 'package:prokit_flutter/fullApps/quiz/model/QuizModels.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizColors.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizDataGenerator.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizStrings.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/NewQuiz.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizDetails.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizNewList.dart';
+import 'package:access_maketicket/fullApps/quiz/Screens/QuizSearch.dart';
+import 'package:access_maketicket/fullApps/quiz/model/QuizModels.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizColors.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizDataGenerator.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizStrings.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class QuizHome extends StatefulWidget {
   static String tag = '/QuizHome';

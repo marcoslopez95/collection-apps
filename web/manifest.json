@@ -1,6 +1,6 @@
 {
-    "name": "prokit_flutter",
-    "short_name": "prokit_flutter",
+    "name": "access_maketicket",
+    "short_name": "access_maketicket",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

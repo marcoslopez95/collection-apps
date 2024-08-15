@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ACommon.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/ADataProvider.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ACommon.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/ADataProvider.dart';
 
 class ASearchTopChefComponent extends StatelessWidget {
   const ASearchTopChefComponent({Key? key}) : super(key: key);

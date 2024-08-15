@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/home/components/SVStoryComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/profile/components/SVProfileHeaderComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/profile/components/SVProfilePostsComponent.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVConstants.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/home/components/SVStoryComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/profile/components/SVProfileHeaderComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/profile/components/SVProfilePostsComponent.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVConstants.dart';
 
 import '../../utils/SVColors.dart';
 

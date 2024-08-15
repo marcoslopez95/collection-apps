@@ -2,11 +2,11 @@ import 'package:country_calling_code_picker/picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/otp_verification_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/screens/sign_up_screen.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/constant.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/widgets.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/otp_verification_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/screens/sign_up_screen.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/constant.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/widgets.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../custom_widget/space.dart';
 import '../utils/colors.dart';

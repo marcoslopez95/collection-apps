@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const t7_ic_best_destination_japan = "$BaseUrl/images/theme7/t7_ic_best_destination_japan.png";
 const t7_ic_best_destination_london = "$BaseUrl/images/theme7/t7_ic_best_destination_london.png";

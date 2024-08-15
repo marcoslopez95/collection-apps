@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
 
 class EASettingScreen extends StatefulWidget {
   const EASettingScreen({Key? key}) : super(key: key);

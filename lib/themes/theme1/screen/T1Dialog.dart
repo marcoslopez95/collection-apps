@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme1/screen/T1Profile.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Colors.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Constant.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Images.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Strings.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme1/screen/T1Profile.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Colors.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Constant.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Images.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Strings.dart';
 
 import '../../../main.dart';
 

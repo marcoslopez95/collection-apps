@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLProfileFormComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLLoginScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLCommon.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLProfileFormComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLLoginScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLCommon.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLUpdateProfileScreen extends StatefulWidget {
   @override

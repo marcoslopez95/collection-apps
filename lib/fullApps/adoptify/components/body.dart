@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/adoptify/components/adoptify_loader.dart';
-import 'package:prokit_flutter/fullApps/adoptify/utils/color.dart';
+import 'package:access_maketicket/fullApps/adoptify/components/adoptify_loader.dart';
+import 'package:access_maketicket/fullApps/adoptify/utils/color.dart';
 
 class Body extends StatelessWidget {
   final Widget child;

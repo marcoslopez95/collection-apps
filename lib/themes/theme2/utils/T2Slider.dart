@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/themes/theme2/models/models.dart';
+import 'package:access_maketicket/themes/theme2/models/models.dart';
 
 import 'T2DataGenerator.dart';
 import 'T2SliderWidget.dart';

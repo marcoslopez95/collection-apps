@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/model/BHModel.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/hairSalon/model/BHModel.dart';
+import 'package:access_maketicket/main.dart';
 
 import 'BHColors.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/AppButton.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/review_summary_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/component/AppButton.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/review_summary_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
 
 import '../../../main.dart';
 import '../models/select_payment_screen_model.dart';

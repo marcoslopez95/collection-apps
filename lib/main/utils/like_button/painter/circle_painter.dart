@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main/utils/like_button/utils/like_button_model.dart';
-import 'package:prokit_flutter/main/utils/like_button/utils/like_button_util.dart';
+import 'package:access_maketicket/main/utils/like_button/utils/like_button_model.dart';
+import 'package:access_maketicket/main/utils/like_button/utils/like_button_util.dart';
 
 class CirclePainter extends CustomPainter {
   CirclePainter({required this.outerCircleRadiusProgress, required this.innerCircleRadiusProgress, this.circleColor = const CircleColor(start: Color(0xFFFF5722), end: Color(0xFFFFC107))}) {

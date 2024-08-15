@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/notification/notification_screen.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/special_offer_component/Special_offer_home_component.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/whishlist/whishlist_controller.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/home/whishlist/whishlist_screen.dart';
-import 'package:prokit_flutter/fullApps/potea/utils/common_base.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/notification/notification_screen.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/special_offer_component/Special_offer_home_component.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/whishlist/whishlist_controller.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/whishlist/whishlist_screen.dart';
+import 'package:access_maketicket/fullApps/potea/utils/common_base.dart';
 
 import '../../components/searchbar_widget.dart';
 import '../../utils/colors.dart';

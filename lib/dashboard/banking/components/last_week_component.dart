@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/banking/components/bottomSheet_component.dart';
-import 'package:prokit_flutter/dashboard/banking/models/banking_info_model.dart';
-import 'package:prokit_flutter/dashboard/banking/utils/colors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/banking/components/bottomSheet_component.dart';
+import 'package:access_maketicket/dashboard/banking/models/banking_info_model.dart';
+import 'package:access_maketicket/dashboard/banking/utils/colors.dart';
+import 'package:access_maketicket/main.dart';
 
 class LastWeekComponent extends StatelessWidget {
   const LastWeekComponent({

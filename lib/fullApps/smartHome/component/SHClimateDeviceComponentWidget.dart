@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/model/SHModel.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/fullApps/smartHome/model/SHModel.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 
 class SHClimateDeviceComponentWidget extends StatefulWidget {

@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/bottom_navigation_bar_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/sign_up_screen.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/bottom_navigation_bar_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/sign_up_screen.dart';
+import 'package:access_maketicket/main.dart';
 
 import '../component/logout_component.dart';
 import '../models/account_screen_model.dart';

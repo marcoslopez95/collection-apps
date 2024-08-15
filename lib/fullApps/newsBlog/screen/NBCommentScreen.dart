@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/model/NBModel.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBColors.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBDataProviders.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBImages.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBWidgets.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHComman.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/newsBlog/model/NBModel.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBColors.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBDataProviders.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBImages.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBWidgets.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHComman.dart';
+import 'package:access_maketicket/main.dart';
 
 class NBCommentScreen extends StatefulWidget {
   static String tag = '/NBCommentScreen';

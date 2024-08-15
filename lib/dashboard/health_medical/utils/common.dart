@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/health_medical/utils/colors.dart';
+import 'package:access_maketicket/dashboard/health_medical/utils/colors.dart';
 
 BoxDecoration boxDecoration({Color? color, BoxShape? shape}){
   return BoxDecoration(

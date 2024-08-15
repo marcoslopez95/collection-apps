@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/apartment_size_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/colors.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/fullApps/homeService/models/apartment_size_model.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/colors.dart';
 
 class ApartmentSizeComponent extends StatefulWidget {
   @override

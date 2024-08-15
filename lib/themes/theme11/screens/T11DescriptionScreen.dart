@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme11/model/T11Model.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11DataGenerator.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11Images.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11Strings.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11Widget.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme11/model/T11Model.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11DataGenerator.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11Images.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11Strings.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11Widget.dart';
 
 class T11DescriptionScreen extends StatefulWidget {
   static String tag = '/T11DescriptionScreen';

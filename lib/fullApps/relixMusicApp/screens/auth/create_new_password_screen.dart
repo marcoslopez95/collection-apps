@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/relixMusicApp/utils/string_extensions.dart';
+import 'package:access_maketicket/fullApps/relixMusicApp/utils/string_extensions.dart';
 
 import '../../components/app_scaffold.dart';
 import '../../components/blur_dialog_widget.dart';

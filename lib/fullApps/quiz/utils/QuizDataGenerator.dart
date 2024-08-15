@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/fullApps/quiz/model/QuizModels.dart';
-import 'package:prokit_flutter/fullApps/quiz/utils/QuizImages.dart';
+import 'package:access_maketicket/fullApps/quiz/model/QuizModels.dart';
+import 'package:access_maketicket/fullApps/quiz/utils/QuizImages.dart';
 
 List<NewQuizModel> getQuizData() {
   List<NewQuizModel> list = [];

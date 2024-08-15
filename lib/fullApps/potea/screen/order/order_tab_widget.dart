@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/order/model/order_model.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/order/tabbar/leave_a_review.dart';
-import 'package:prokit_flutter/fullApps/potea/screen/order/tabbar/track_order.dart';
+import 'package:access_maketicket/fullApps/potea/screen/order/model/order_model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/order/tabbar/leave_a_review.dart';
+import 'package:access_maketicket/fullApps/potea/screen/order/tabbar/track_order.dart';
 
 import '../../../../main.dart';
 import '../../utils/colors.dart';

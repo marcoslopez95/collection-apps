@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/data_provider.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/model/calling_model.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/all_transaction_list.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/wallet_price_screen.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/data_provider.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/model/calling_model.dart';
+import 'package:access_maketicket/fullApps/carea/screens/all_transaction_list.dart';
+import 'package:access_maketicket/fullApps/carea/screens/wallet_price_screen.dart';
 
 class WalletFragment extends StatefulWidget {
   @override

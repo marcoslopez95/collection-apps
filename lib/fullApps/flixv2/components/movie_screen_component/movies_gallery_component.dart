@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/flixv2/components/video_component.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/videosdata.dart';
+import 'package:access_maketicket/fullApps/flixv2/components/video_component.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/videosdata.dart';
 
 
 import '../../utils/common_widgets.dart';

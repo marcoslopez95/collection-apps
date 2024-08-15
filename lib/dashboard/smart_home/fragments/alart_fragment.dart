@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/dashboard/smart_home/fragments/dashboard_fragment.dart';
+import 'package:access_maketicket/dashboard/smart_home/fragments/dashboard_fragment.dart';
 
 class AlartFragment extends StatefulWidget {
   @override

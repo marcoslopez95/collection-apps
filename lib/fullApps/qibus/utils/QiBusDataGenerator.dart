@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/fullApps/qibus/model/QiBusModel.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusColors.dart';
+import 'package:access_maketicket/fullApps/qibus/model/QiBusModel.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusColors.dart';
 
 import 'QiBusImages.dart';
 import 'QiBusStrings.dart';

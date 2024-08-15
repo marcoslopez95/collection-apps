@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prokit_flutter/fullApps/potea/components/app_scaffold.dart';
+import 'package:access_maketicket/fullApps/potea/components/app_scaffold.dart';
 
 import 'friend_invite_controller.dart';
 import 'friend_tile.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard2/model/DashBoard2DataModel.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard2/model/DashBoard2DataModel.dart';
 
 List<DashBoard2DataModel> menuDrawerList() {
   List<DashBoard2DataModel> _drawerList = [

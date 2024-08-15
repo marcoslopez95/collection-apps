@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodColors.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodImages.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodString.dart';
-import 'package:prokit_flutter/fullApps/food/utils/FoodWidget.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodColors.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodImages.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodString.dart';
+import 'package:access_maketicket/fullApps/food/utils/FoodWidget.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class FoodProfile extends StatefulWidget {
   static String tag = '/FoodProfile';

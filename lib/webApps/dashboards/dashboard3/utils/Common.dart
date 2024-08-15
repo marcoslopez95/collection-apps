@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Constants.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Constants.dart';
 
 bool isHovered = false;
 

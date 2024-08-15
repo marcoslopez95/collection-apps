@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/themes/theme11/model/T11Model.dart';
-import 'package:prokit_flutter/themes/theme11/utils/T11Images.dart';
+import 'package:access_maketicket/themes/theme11/model/T11Model.dart';
+import 'package:access_maketicket/themes/theme11/utils/T11Images.dart';
 
 List<Music> generateAlbumMusic() {
   List<Music> album = [];

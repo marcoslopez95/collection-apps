@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/images.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/images.dart';
 
 class DashboardIcons {
   String? image;

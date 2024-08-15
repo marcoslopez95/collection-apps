@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/eventApp/utils/EAapp_widgets.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/model/NBModel.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBDataProviders.dart';
-import 'package:prokit_flutter/fullApps/newsBlog/utils/NBWidgets.dart';
+import 'package:access_maketicket/fullApps/eventApp/utils/EAapp_widgets.dart';
+import 'package:access_maketicket/fullApps/newsBlog/model/NBModel.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBDataProviders.dart';
+import 'package:access_maketicket/fullApps/newsBlog/utils/NBWidgets.dart';
 
 class NBCategoryScreen extends StatefulWidget {
   static String tag = '/NBCategoryScreen';

@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:prokit_flutter/integrations/screens/firebaseCrud/model/FBusermodel.dart';
+import 'package:access_maketicket/integrations/screens/firebaseCrud/model/FBusermodel.dart';
 
 class FirebaseUserService {
   FirebaseFirestore fireStore = FirebaseFirestore.instance;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:prokit_flutter/fullApps/flixv2/model/actor_data_model.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/actor_screens/actor_detail_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/model/actor_data_model.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/actor_screens/actor_detail_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
 
 class PopularActorsComponent extends StatefulWidget {
   State<PopularActorsComponent> createState() => PopularActorsComponentState();

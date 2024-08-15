@@ -1,8 +1,8 @@
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/workingApps/chatGPT/utils/constant.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/workingApps/chatGPT/utils/constant.dart';
 
 InputDecoration inputDecoration(
   BuildContext context, {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBFormTextField.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/components/JCBNoteDriverBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JBCColors.dart';
-import 'package:prokit_flutter/fullApps/juberCarBooking/utils/JCBConstants.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBFormTextField.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/components/JCBNoteDriverBottomSheet.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JBCColors.dart';
+import 'package:access_maketicket/fullApps/juberCarBooking/utils/JCBConstants.dart';
+import 'package:access_maketicket/main.dart';
 
 class JCBApplyPromoBottomSheet extends StatelessWidget {
   const JCBApplyPromoBottomSheet({Key? key}) : super(key: key);

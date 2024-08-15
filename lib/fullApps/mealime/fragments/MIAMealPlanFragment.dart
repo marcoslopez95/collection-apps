@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/components/MIAFavMealComponent.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIABuildMealScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIASingleMealScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIASplashScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIACommomWidgets.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIADialogs.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/mealime/components/MIAFavMealComponent.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIABuildMealScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIASingleMealScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIASplashScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIACommomWidgets.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIADialogs.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class MIAMealPlanFragment extends StatefulWidget {
   const MIAMealPlanFragment({Key? key}) : super(key: key);

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/analytics/model/analytics_info_model.dart';
-import 'package:prokit_flutter/dashboard/analytics/utils/colors.dart';
-import 'package:prokit_flutter/dashboard/analytics/utils/common.dart';
-import 'package:prokit_flutter/dashboard/analytics/utils/constant.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/dashboard/analytics/model/analytics_info_model.dart';
+import 'package:access_maketicket/dashboard/analytics/utils/colors.dart';
+import 'package:access_maketicket/dashboard/analytics/utils/common.dart';
+import 'package:access_maketicket/dashboard/analytics/utils/constant.dart';
+import 'package:access_maketicket/main.dart';
 
 class PageAnalyticsListComponent extends StatelessWidget {
   const PageAnalyticsListComponent({Key? key, this.data}) : super(key: key);

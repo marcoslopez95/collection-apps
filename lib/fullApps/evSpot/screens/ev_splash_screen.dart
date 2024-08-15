@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:prokit_flutter/fullApps/evSpot/components/app_logo_image_component.dart';
-import 'package:prokit_flutter/fullApps/evSpot/screens/sign_in_screen.dart';
-import 'package:prokit_flutter/fullApps/evSpot/utils/images.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/evSpot/components/app_logo_image_component.dart';
+import 'package:access_maketicket/fullApps/evSpot/screens/sign_in_screen.dart';
+import 'package:access_maketicket/fullApps/evSpot/utils/images.dart';
+import 'package:access_maketicket/main.dart';
 
 class EVSplashScreen extends StatefulWidget {
   static String tag = '/evspot';

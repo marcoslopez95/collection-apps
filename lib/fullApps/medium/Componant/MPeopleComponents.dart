@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/medium/modal/MModel.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MDataProvider.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MWidget.dart';
+import 'package:access_maketicket/fullApps/medium/modal/MModel.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MDataProvider.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MWidget.dart';
 
 class MPeopleComponents extends StatefulWidget {
   static String tag = '/MPeopleComponents';

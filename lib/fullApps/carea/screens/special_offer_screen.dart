@@ -1,10 +1,10 @@
-import 'package:prokit_flutter/fullApps/carea/commons/constants.dart';
-import 'package:prokit_flutter/fullApps/carea/commons/widgets.dart';
-import 'package:prokit_flutter/fullApps/carea/screens/top_deals_screen.dart';
-import 'package:prokit_flutter/fullApps/carea/store/logicprovider.dart';
+import 'package:access_maketicket/fullApps/carea/commons/constants.dart';
+import 'package:access_maketicket/fullApps/carea/commons/widgets.dart';
+import 'package:access_maketicket/fullApps/carea/screens/top_deals_screen.dart';
+import 'package:access_maketicket/fullApps/carea/store/logicprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/main.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class SpacialOfferScreen extends StatefulWidget {

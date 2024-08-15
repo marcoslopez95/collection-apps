@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusColors.dart';
-import 'package:prokit_flutter/fullApps/qibus/utils/QiBusImages.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
-import 'package:prokit_flutter/themes/theme1/utils/T1Colors.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusColors.dart';
+import 'package:access_maketicket/fullApps/qibus/utils/QiBusImages.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
+import 'package:access_maketicket/themes/theme1/utils/T1Colors.dart';
 
 import 'QIBusBooking.dart';
 import 'QIBusHome.dart';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSCompanyProfileScreens.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSColors.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSDataGenerator.dart';
-import 'package:prokit_flutter/main/utils/flutter_rating_bar.dart';
+import 'package:access_maketicket/fullApps/jobSearch/model/JSPopularCompanyModel.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSCompanyProfileScreens.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSColors.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSDataGenerator.dart';
+import 'package:access_maketicket/main/utils/flutter_rating_bar.dart';
 
 import '../utils/JSWidget.dart';
 

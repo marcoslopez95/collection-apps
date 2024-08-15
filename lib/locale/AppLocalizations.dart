@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/locale/LanguageEn.dart';
-import 'package:prokit_flutter/locale/LanguageFr.dart';
-import 'package:prokit_flutter/locale/Languages.dart';
+import 'package:access_maketicket/locale/LanguageEn.dart';
+import 'package:access_maketicket/locale/LanguageFr.dart';
+import 'package:access_maketicket/locale/Languages.dart';
 
 import 'LanguageAr.dart';
 import 'LanguageHi.dart';

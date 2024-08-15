@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/hairSalon/utils/BHColors.dart';
-import 'package:prokit_flutter/themes/theme14/model/T14Model.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Colors.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14DataGenerator.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Strings.dart';
-import 'package:prokit_flutter/themes/theme14/utils/T14Widget.dart';
+import 'package:access_maketicket/fullApps/hairSalon/utils/BHColors.dart';
+import 'package:access_maketicket/themes/theme14/model/T14Model.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Colors.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14DataGenerator.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Strings.dart';
+import 'package:access_maketicket/themes/theme14/utils/T14Widget.dart';
 
 class T14FinanceScreen1 extends StatefulWidget {
   @override

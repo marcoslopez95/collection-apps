@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:prokit_flutter/fullApps/proScan/component/rename_bottom_sheet_component.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/merge_pdf_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/screens/protect_pdf_screen.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/color.dart';
-import 'package:prokit_flutter/fullApps/proScan/utils/constant.dart';
+import 'package:access_maketicket/fullApps/proScan/component/rename_bottom_sheet_component.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/merge_pdf_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/screens/protect_pdf_screen.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/color.dart';
+import 'package:access_maketicket/fullApps/proScan/utils/constant.dart';
 
 import '../../../main.dart';
 import '../models/dashboard_model_class.dart';

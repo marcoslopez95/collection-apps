@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/smartHome/screens/SHDashBoardScreen.dart';
-import 'package:prokit_flutter/fullApps/smartHome/screens/SHForgotPasswordScreen.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHColors.dart';
-import 'package:prokit_flutter/fullApps/smartHome/utils/SHComman.dart';
+import 'package:access_maketicket/fullApps/smartHome/screens/SHDashBoardScreen.dart';
+import 'package:access_maketicket/fullApps/smartHome/screens/SHForgotPasswordScreen.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHColors.dart';
+import 'package:access_maketicket/fullApps/smartHome/utils/SHComman.dart';
 
 import 'SHSignUpScreen.dart';
 

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mealime/models/MIASelectOptionsModel.dart';
-import 'package:prokit_flutter/fullApps/mealime/screens/MIAAddGroceryScreen.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIABottomSheets.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIAColors.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIACommomWidgets.dart';
-import 'package:prokit_flutter/fullApps/mealime/utils/MIADataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mealime/models/MIASelectOptionsModel.dart';
+import 'package:access_maketicket/fullApps/mealime/screens/MIAAddGroceryScreen.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIABottomSheets.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIAColors.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIACommomWidgets.dart';
+import 'package:access_maketicket/fullApps/mealime/utils/MIADataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class MIAGroceryFragment extends StatefulWidget {
   const MIAGroceryFragment({Key? key}) : super(key: key);

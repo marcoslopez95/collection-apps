@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/customPaint/shape/ShapeScreen.dart';
+import 'package:access_maketicket/customPaint/shape/ShapeScreen.dart';
 
 class PainterScreenModal {
   String? shapeName;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/appetit/components/ARegisterFormComponent.dart';
-import 'package:prokit_flutter/fullApps/appetit/screens/ALoginScreen.dart';
-import 'package:prokit_flutter/fullApps/appetit/utils/AColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/appetit/components/ARegisterFormComponent.dart';
+import 'package:access_maketicket/fullApps/appetit/screens/ALoginScreen.dart';
+import 'package:access_maketicket/fullApps/appetit/utils/AColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class ARegisterScreen extends StatefulWidget {
   const ARegisterScreen({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/walletApp/model/WalletAppModel.dart';
-import 'package:prokit_flutter/fullApps/walletApp/screen/WASendMoneyViaLoopScreen.dart';
+import 'package:access_maketicket/fullApps/walletApp/model/WalletAppModel.dart';
+import 'package:access_maketicket/fullApps/walletApp/screen/WASendMoneyViaLoopScreen.dart';
 
 class WACardComponent extends StatefulWidget {
   static String tag = '/WACardComponent';

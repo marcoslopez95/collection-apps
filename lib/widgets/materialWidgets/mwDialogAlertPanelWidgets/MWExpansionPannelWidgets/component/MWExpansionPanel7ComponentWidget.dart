@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
 
 class MWExpansionPanel7ComponentWidget extends StatefulWidget {
   const MWExpansionPanel7ComponentWidget({Key? key}) : super(key: key);

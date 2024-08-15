@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/screens/proof_residency_screen.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/common.dart';
-import 'package:prokit_flutter/fullApps/stockMarket/utils/images.dart';
+import 'package:access_maketicket/fullApps/stockMarket/screens/proof_residency_screen.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/common.dart';
+import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
 
 class FaceIdScreen extends StatelessWidget {
   @override

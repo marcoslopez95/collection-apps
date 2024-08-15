@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/screens/JSCompleteProfileOneScreen.dart';
-import 'package:prokit_flutter/fullApps/jobSearch/utils/JSWidget.dart';
+import 'package:access_maketicket/fullApps/jobSearch/screens/JSCompleteProfileOneScreen.dart';
+import 'package:access_maketicket/fullApps/jobSearch/utils/JSWidget.dart';
 
 class JSSettingComponent extends StatefulWidget {
   const JSSettingComponent({Key? key}) : super(key: key);

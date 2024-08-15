@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLCountryPIckerComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLAuthenticationScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLColors.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLCommon.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLString.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLCountryPIckerComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLAuthenticationScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLColors.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLCommon.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLString.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class MLForgetPasswordScreen extends StatefulWidget {
   static String tag = '/MLForgetPasswordScreen';

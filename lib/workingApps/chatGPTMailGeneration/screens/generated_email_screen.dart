@@ -4,11 +4,11 @@ import 'package:chat_gpt_flutter/chat_gpt_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/workingApps/chatGPT/utils/constant.dart';
-import 'package:prokit_flutter/workingApps/chatGPTMailGeneration/components/common_app_icon_button.dart';
-import 'package:prokit_flutter/workingApps/chatGPTMailGeneration/models/email_generate_model.dart';
-import 'package:prokit_flutter/workingApps/chatGPTMailGeneration/utils/images.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/workingApps/chatGPT/utils/constant.dart';
+import 'package:access_maketicket/workingApps/chatGPTMailGeneration/components/common_app_icon_button.dart';
+import 'package:access_maketicket/workingApps/chatGPTMailGeneration/models/email_generate_model.dart';
+import 'package:access_maketicket/workingApps/chatGPTMailGeneration/utils/images.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../../../main/utils/AppColors.dart';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCWalkThroughComponents.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCWalkThroughModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCSignUpScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCWalkThroughComponents.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCWalkThroughModel.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCSignUpScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/main.dart';
 
 class RCWalkThroughScreen extends StatefulWidget {
   const RCWalkThroughScreen({Key? key}) : super(key: key);

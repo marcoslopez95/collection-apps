@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/workingApps/chatGPT/utils/images.dart';
+import 'package:access_maketicket/workingApps/chatGPT/utils/images.dart';
 
 class VoiceSearchComponent extends StatefulWidget {
   @override

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCBackComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCCircularWrapComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCReviewComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCVideoListComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCCollectionModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCHomeStoryModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCSearchModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCVideoModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCReviewScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCBottomSheet.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCBackComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCCircularWrapComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCReviewComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCVideoListComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCCollectionModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCHomeStoryModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCSearchModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCVideoModel.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCReviewScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCBottomSheet.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 class RCRecipeScreen extends StatefulWidget {
   RCHomeStoryModel element;

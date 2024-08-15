@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCCollectionComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCSortComponent.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCCollectionModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCShareNameModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCSortModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/models/RCVideoModel.dart';
-import 'package:prokit_flutter/fullApps/recipe/screens/RCVideoPlayerScreen.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCColors.dart';
-import 'package:prokit_flutter/fullApps/recipe/utils/RCCommon.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCCollectionComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCSortComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCCollectionModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCShareNameModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCSortModel.dart';
+import 'package:access_maketicket/fullApps/recipe/models/RCVideoModel.dart';
+import 'package:access_maketicket/fullApps/recipe/screens/RCVideoPlayerScreen.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCColors.dart';
+import 'package:access_maketicket/fullApps/recipe/utils/RCCommon.dart';
 
 List<RCShareNameModel> shareNameList = getShareNameList();
 

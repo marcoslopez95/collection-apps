@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMDashboardScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMLoginScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/screens/BMRegisterScreen.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMColors.dart';
-import 'package:prokit_flutter/fullApps/beautyMaster/utils/BMDataGenerator.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMDashboardScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMLoginScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/screens/BMRegisterScreen.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMColors.dart';
+import 'package:access_maketicket/fullApps/beautyMaster/utils/BMDataGenerator.dart';
+import 'package:access_maketicket/main.dart';
 
 class BMWalkThroughScreen extends StatefulWidget {
   const BMWalkThroughScreen({Key? key}) : super(key: key);

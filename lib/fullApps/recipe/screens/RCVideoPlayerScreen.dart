@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/recipe/components/RCBackComponent.dart';
+import 'package:access_maketicket/fullApps/recipe/components/RCBackComponent.dart';
 import 'package:video_player/video_player.dart';
 
 class RCVideoPlayerScreen extends StatefulWidget {

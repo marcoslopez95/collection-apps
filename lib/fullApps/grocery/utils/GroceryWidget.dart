@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryColors.dart';
-import 'package:prokit_flutter/fullApps/grocery/utils/GroceryConstant.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryColors.dart';
+import 'package:access_maketicket/fullApps/grocery/utils/GroceryConstant.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 Widget button(
   BuildContext context,

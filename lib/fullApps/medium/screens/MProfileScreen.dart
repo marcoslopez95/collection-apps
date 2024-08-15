@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/medium/screens/MEditProfileScreen.dart';
-import 'package:prokit_flutter/fullApps/medium/screens/MFollowersListScreen.dart';
-import 'package:prokit_flutter/fullApps/medium/screens/MFollowingScreen.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MColors.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MDataProvider.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MImages.dart';
-import 'package:prokit_flutter/fullApps/medium/utils/MWidget.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
+import 'package:access_maketicket/fullApps/medium/screens/MEditProfileScreen.dart';
+import 'package:access_maketicket/fullApps/medium/screens/MFollowersListScreen.dart';
+import 'package:access_maketicket/fullApps/medium/screens/MFollowingScreen.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MColors.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MDataProvider.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MImages.dart';
+import 'package:access_maketicket/fullApps/medium/utils/MWidget.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
 
 class MProfileScreen extends StatefulWidget {
   static String tag = '/MProfileScreen';

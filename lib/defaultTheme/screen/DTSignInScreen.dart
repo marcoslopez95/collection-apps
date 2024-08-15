@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/defaultTheme/screen/DTDashboardScreen.dart';
-import 'package:prokit_flutter/defaultTheme/screen/DTDrawerWidget.dart';
-import 'package:prokit_flutter/defaultTheme/screen/DTForgotPwdScreen.dart';
-import 'package:prokit_flutter/defaultTheme/screen/DTSignUpScreen.dart';
-import 'package:prokit_flutter/main.dart';
-import 'package:prokit_flutter/main/utils/AppColors.dart';
-import 'package:prokit_flutter/main/utils/AppWidget.dart';
+import 'package:access_maketicket/defaultTheme/screen/DTDashboardScreen.dart';
+import 'package:access_maketicket/defaultTheme/screen/DTDrawerWidget.dart';
+import 'package:access_maketicket/defaultTheme/screen/DTForgotPwdScreen.dart';
+import 'package:access_maketicket/defaultTheme/screen/DTSignUpScreen.dart';
+import 'package:access_maketicket/main.dart';
+import 'package:access_maketicket/main/utils/AppColors.dart';
+import 'package:access_maketicket/main/utils/AppWidget.dart';
 
 class DTSignInScreen extends StatefulWidget {
   static String tag = '/DTSignInScreen';

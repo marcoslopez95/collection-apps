@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/mediLab/components/MLPharmacyProductComponent.dart';
-import 'package:prokit_flutter/fullApps/mediLab/model/MLMedicationData.dart';
-import 'package:prokit_flutter/fullApps/mediLab/screens/MLOnlinePharmacyDetailScreen.dart';
-import 'package:prokit_flutter/fullApps/mediLab/utils/MLDataProvider.dart';
-import 'package:prokit_flutter/main.dart';
+import 'package:access_maketicket/fullApps/mediLab/components/MLPharmacyProductComponent.dart';
+import 'package:access_maketicket/fullApps/mediLab/model/MLMedicationData.dart';
+import 'package:access_maketicket/fullApps/mediLab/screens/MLOnlinePharmacyDetailScreen.dart';
+import 'package:access_maketicket/fullApps/mediLab/utils/MLDataProvider.dart';
+import 'package:access_maketicket/main.dart';
 
 class MLCategoryComponent extends StatefulWidget {
   static String tag = '/MLCategoryComponent';

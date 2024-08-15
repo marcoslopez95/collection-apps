@@ -1,7 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard1/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard1/utils/Colors.dart';
 
 class ChartComponentWidget extends StatefulWidget {
   const ChartComponentWidget({Key? key}) : super(key: key);

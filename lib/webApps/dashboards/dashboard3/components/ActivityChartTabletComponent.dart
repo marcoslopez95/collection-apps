@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Colors.dart';
-import 'package:prokit_flutter/webApps/dashboards/dashboard3/utils/Common.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Colors.dart';
+import 'package:access_maketicket/webApps/dashboards/dashboard3/utils/Common.dart';
 
 class ActivityChartTabletComponent extends StatelessWidget {
   const ActivityChartTabletComponent({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/auth/screens/SVOTPScreen.dart';
-import 'package:prokit_flutter/fullApps/socialv/screens/auth/screens/SVSignInScreen.dart';
-import 'package:prokit_flutter/fullApps/socialv/utils/SVCommon.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/auth/screens/SVOTPScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/screens/auth/screens/SVSignInScreen.dart';
+import 'package:access_maketicket/fullApps/socialv/utils/SVCommon.dart';
 
 class SVForgetPasswordScreen extends StatelessWidget {
   const SVForgetPasswordScreen({Key? key}) : super(key: key);

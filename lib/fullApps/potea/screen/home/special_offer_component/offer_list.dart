@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/fullApps/potea/screen/home/special_offer_component/special_offer_model.dart';
+import 'package:access_maketicket/fullApps/potea/screen/home/special_offer_component/special_offer_model.dart';
 
 import '../../../utils/image.dart';
 

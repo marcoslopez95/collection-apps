@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/components/NMPNotableTrendingComponent.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPConstants.dart';
-import 'package:prokit_flutter/fullApps/nftMarketPlace/utils/NMPDataProvider.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/components/NMPNotableTrendingComponent.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPConstants.dart';
+import 'package:access_maketicket/fullApps/nftMarketPlace/utils/NMPDataProvider.dart';
 
 import '../utils/NMPCommon.dart';
 

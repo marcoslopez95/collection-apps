@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/integrations/utils/flutterwave/core/transaction_status.dart';
+import 'package:access_maketicket/integrations/utils/flutterwave/core/transaction_status.dart';
 
 class ChargeResponse {
   String? status;

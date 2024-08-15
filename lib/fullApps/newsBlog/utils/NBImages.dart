@@ -1,4 +1,4 @@
-import 'package:prokit_flutter/main/utils/AppConstant.dart';
+import 'package:access_maketicket/main/utils/AppConstant.dart';
 
 const NBSplashImage = 'images/newsBlog/nb_splash_image.png';
 const NBWalkThroughImage1 = '$BaseUrl/images/newsBlog/nb_walk1.jpg';

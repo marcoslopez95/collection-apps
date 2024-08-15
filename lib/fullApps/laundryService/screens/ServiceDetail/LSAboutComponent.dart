@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/dating/utils/DAWidgets.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSColors.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSContstants.dart';
-import 'package:prokit_flutter/fullApps/laundryService/utils/LSImages.dart';
+import 'package:access_maketicket/fullApps/dating/utils/DAWidgets.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSColors.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSContstants.dart';
+import 'package:access_maketicket/fullApps/laundryService/utils/LSImages.dart';
 
 import '../../../../main.dart';
 

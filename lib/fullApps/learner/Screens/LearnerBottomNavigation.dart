@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerBottomNavigationBar.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerColors.dart';
-import 'package:prokit_flutter/fullApps/learner/utils/LearnerImages.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerBottomNavigationBar.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerColors.dart';
+import 'package:access_maketicket/fullApps/learner/utils/LearnerImages.dart';
 
 class LearnerBottomNavigation extends StatefulWidget {
   static String tag = '/T9BottomNavigation';

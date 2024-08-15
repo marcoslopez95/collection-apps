@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/main/component/WebComponent.dart';
-import 'package:prokit_flutter/main/model/AppModel.dart';
-import 'package:prokit_flutter/main/utils/AppDataProvider.dart';
+import 'package:access_maketicket/main/component/WebComponent.dart';
+import 'package:access_maketicket/main/model/AppModel.dart';
+import 'package:access_maketicket/main/utils/AppDataProvider.dart';
 
 class ProKitWebLauncher extends StatefulWidget {
   static String tag = '/ProKitWebLauncher';

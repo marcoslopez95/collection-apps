@@ -1,6 +1,6 @@
-import 'package:prokit_flutter/fullApps/homeService/models/provider_services_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/models/services_model.dart';
-import 'package:prokit_flutter/fullApps/homeService/utils/images.dart';
+import 'package:access_maketicket/fullApps/homeService/models/provider_services_model.dart';
+import 'package:access_maketicket/fullApps/homeService/models/services_model.dart';
+import 'package:access_maketicket/fullApps/homeService/utils/images.dart';
 
 List<ServiceProviderModel> likedProviders = getLikedServices();
 

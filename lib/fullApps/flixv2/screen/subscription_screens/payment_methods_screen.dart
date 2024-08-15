@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/subscription_screens/add_card_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/screen/subscription_screens/ordersummary_screen.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/common_widgets.dart';
-import 'package:prokit_flutter/fullApps/flixv2/utils/constants.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/subscription_screens/add_card_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/screen/subscription_screens/ordersummary_screen.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/common_widgets.dart';
+import 'package:access_maketicket/fullApps/flixv2/utils/constants.dart';
 
 class PaymentMethodsScreen extends StatefulWidget {
   String? premiumPlan;

@@ -1,5 +1,5 @@
-import 'package:prokit_flutter/themes/theme4/models/T4Models.dart';
-import 'package:prokit_flutter/themes/theme4/utils/T4Images.dart';
+import 'package:access_maketicket/themes/theme4/models/T4Models.dart';
+import 'package:access_maketicket/themes/theme4/utils/T4Images.dart';
 
 import 'T4Colors.dart';
 import '../../../main/utils/AppConstant.dart';

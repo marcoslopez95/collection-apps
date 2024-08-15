@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:prokit_flutter/dashboard/smart_home/models/smart_home_info_model.dart';
-import 'package:prokit_flutter/main.dart';
-import "package:prokit_flutter/dashboard/smart_home/utils/constant.dart";
+import 'package:access_maketicket/dashboard/smart_home/models/smart_home_info_model.dart';
+import 'package:access_maketicket/main.dart';
+import "package:access_maketicket/dashboard/smart_home/utils/constant.dart";
 
 class RoomsComponent extends StatelessWidget {
   const RoomsComponent({
