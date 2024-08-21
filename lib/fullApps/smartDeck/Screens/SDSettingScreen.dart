@@ -1,3 +1,4 @@
+import 'package:access_maketicket/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
@@ -10,6 +11,7 @@ class SDSettingScreen extends StatefulWidget {
 }
 
 class _SDSettingScreenState extends State<SDSettingScreen> {
+  Helper helper = Helper();
   @override
   void dispose() {
     super.dispose();
@@ -18,6 +20,7 @@ class _SDSettingScreenState extends State<SDSettingScreen> {
 
   @override
   Widget build(BuildContext context) {
+    helper.context = context;
     changeStatusColor(context.cardColor);
 
     Widget mOption(var icon, var heading) {
@@ -63,7 +66,7 @@ class _SDSettingScreenState extends State<SDSettingScreen> {
             mOption(Icons.help_outline, "Help Center"),
             mDivider(),*/
             mOption(Icons.launch, "Salir").onTap((){
-              
+              helper.goLogin();
             }),
           ],
         ),

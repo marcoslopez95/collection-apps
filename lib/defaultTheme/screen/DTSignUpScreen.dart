@@ -1,3 +1,4 @@
+import 'package:access_maketicket/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
@@ -16,6 +17,7 @@ class DTSignUpScreen extends StatefulWidget {
 }
 
 class DTSignUpScreenState extends State<DTSignUpScreen> {
+  Helper helper = Helper();
   bool obscureText = true;
   bool autoValidate = false;
   bool isTaped = false;
@@ -62,6 +64,7 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
 
   @override
   Widget build(BuildContext context) {
+    helper.context = context;
     return Scaffold(
       resizeToAvoidBottomInset: false,
       //appBar: appBar(context, 'Sign Up'),

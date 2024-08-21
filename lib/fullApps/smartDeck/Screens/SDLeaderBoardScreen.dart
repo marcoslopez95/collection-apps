@@ -1,3 +1,6 @@
+import 'package:access_maketicket/fullApps/carea/commons/colors.dart';
+import 'package:access_maketicket/src/Model/PurchaseOrder.dart';
+import 'package:access_maketicket/src/Services/PurchaseOrderService.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:access_maketicket/fullApps/smartDeck/ModelClass/SDLeaderboardModel.dart';
@@ -60,6 +63,10 @@ List<SDLeaderBoardModel> students = [
 
 // ignore: non_constant_identifier_names
 Widget SDLeaderboardScreen([BuildContext? context, Size? size]) {
+  PurchaseOrder? purchaseOrder = null;
+  PurchaseOrderService _purchaseOrderService = PurchaseOrderService();
+
+  var searchId = TextEditingController();
   return Column(
     children: [
       Container(
@@ -70,11 +77,11 @@ Widget SDLeaderboardScreen([BuildContext? context, Size? size]) {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            Text('Leaderboard', style: boldTextStyle(size: 18, color: Colors.white, letterSpacing: 0.5)),
+            Text('Detalle De Orden', style: boldTextStyle(size: 18, color: Colors.white, letterSpacing: 0.5)),
             Container(
               margin: EdgeInsets.only(top: 5),
               child: Text(
-                'Senior High School - 12th Grade',
+                'Por favor ingrese un ID de orden o escanee un acceso',
                 style: secondaryTextStyle(
                   size: 12,
                   color: Colors.white.withOpacity(0.7),
@@ -84,6 +91,31 @@ Widget SDLeaderboardScreen([BuildContext? context, Size? size]) {
           ],
         ),
       ),
+      Container(
+        padding: EdgeInsets.only(top: 25, left: 16, bottom: 16, right: 16),
+        width: size!.width,
+        child: TextFormField(
+          controller: searchId,
+          style: primaryTextStyle(),
+          decoration: InputDecoration(
+            labelText: 'ID de orden',
+            labelStyle: secondaryTextStyle(),
+            contentPadding: EdgeInsets.all(16),
+            border: OutlineInputBorder(),
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(8.0), borderSide: BorderSide(color: appColorPrimary)),
+          ),
+        )
+      ),
+      Container(
+        alignment: Alignment.center,
+        width: 150,
+        margin: EdgeInsets.only(top: 25, left: 50, bottom: 16, right: 50),
+        padding: EdgeInsets.only(top: 10, left: 16, bottom: 10, right: 16),
+        decoration: BoxDecoration(color: appColorPrimary, borderRadius: BorderRadius.circular(8), boxShadow: defaultBoxShadow()),
+        child: Text('Buscar', style: boldTextStyle(color: white, size: 18)),
+      ).onTap(() {
+        SDLeaderInfoScreen().launch(context!);
+      }),
       Expanded(
         child: ListView.builder(
           padding: EdgeInsets.only(bottom: 16),

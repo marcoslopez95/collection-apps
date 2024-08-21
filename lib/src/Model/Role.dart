@@ -18,7 +18,7 @@ class Role extends BaseModel
     return Role(
       id: json['id'],
       attributes: RoleAttributes.fromJson(json['attributes']),
-      relationships: json['relationships'] != null && json['relationships']['relationships'] != null ? RoleRelationships(permissions: json['relationships']['permissions']): null
+      relationships: json['relationships'] != null && json['relationships']['permissions'] != null ? RoleRelationships(permissions: json['relationships']['permissions']): null
       );
   }
 }

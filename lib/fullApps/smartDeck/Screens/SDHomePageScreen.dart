@@ -1,3 +1,4 @@
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDLeaderInfoScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:access_maketicket/helper.dart';
@@ -30,9 +31,9 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
     var size = MediaQuery.of(context).size;
     final tab = [
       SDDashboard(widget.event),
-      //SDExamCompletionBoardScreen(),
       QRViewExample(event: widget.event),
-      //SDLeaderboardScreen(context, size),
+      //SDExamCompletionBoardScreen(),
+      SDLeaderInfoScreen(),
       //SDChatScreen(),
       sdPRofileScreen(),
     ];
@@ -66,12 +67,12 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
                   activeIcon: Image.asset('images/smartDeck/images/sdexamcard.png', height: 28, width: 28, color: sdPrimaryColor),
                   label: 'a',
                 ),
-                /*BottomNavigationBarItem(
+                BottomNavigationBarItem(
                   icon: Image.asset('images/smartDeck/images/sdleaderboard.png', height: 28, width: 28, color: sdIconColor),
                   activeIcon: Image.asset('images/smartDeck/images/sdleaderboard.png', height: 28, width: 28, color: sdPrimaryColor),
                   label: 'a',
                 ),
-                BottomNavigationBarItem(
+                /*BottomNavigationBarItem(
                   icon: Stack(
                     children: <Widget>[
                       Image.asset('images/smartDeck/images/sdchats.png', height: 28, width: 28, color: sdIconColor),

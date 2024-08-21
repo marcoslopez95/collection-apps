@@ -1,3 +1,7 @@
+import 'package:access_maketicket/helper.dart';
+import 'package:access_maketicket/src/Model/PurchaseOrder.dart';
+import 'package:access_maketicket/src/Model/PurchaseOrderAccess.dart';
+import 'package:access_maketicket/src/Services/PurchaseOrderService.dart';
 import 'package:flutter/material.dart';
 
 import 'package:nb_utils/nb_utils.dart';
@@ -11,6 +15,11 @@ class SDLeaderInfoScreen extends StatefulWidget {
 }
 
 class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
+  Helper helper = Helper();
+  PurchaseOrder? purchaseOrder;
+  var query = TextEditingController();
+  PurchaseOrderService _purchaseOrderService = PurchaseOrderService();
+
   List<ScoreboardModel> mScoreList = [
     ScoreboardModel(
       title: 'Math Exam 2',
@@ -45,20 +54,30 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
   ];
 
   @override
+  void initState() {
+    super.initState();
+    init();
+  }
+
+  Future<void> init() async {
+    if(helper.event == null) return;
+  }
+  @override
   Widget build(BuildContext context) {
+    helper.context = context;
     var width = MediaQuery.of(context).size.width;
     Widget mOption(var mHeading, var mSubHeading) {
       return Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text(mHeading, style: primaryTextStyle()),
+          Text('${mHeading ?? ''}', style: primaryTextStyle()),
           SizedBox(height: 4),
-          Text(mSubHeading, style: secondaryTextStyle()),
+          Text('${mSubHeading ?? ''}', style: secondaryTextStyle()),
         ],
       );
     }
 
-    Widget mLeaderList(ScoreboardModel mScoreboardModel) {
+    Widget mLeaderList(PurchaseOrderAccess access) {
       return Container(
         decoration: boxDecorationRoundedWithShadow(16, backgroundColor: context.cardColor),
         padding: EdgeInsets.all(10),
@@ -69,14 +88,14 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(mScoreboardModel.title!, style: boldTextStyle(size: 16)),
-                Text(mScoreboardModel.subtitle!, style: secondaryTextStyle(size: 10)),
+                Text(access.relationships?.chair?.attributes.zone ?? '', style: boldTextStyle(size: 16)),
+                Text(access.relationships?.status?.attributes.name ?? '', style: secondaryTextStyle(size: 10)),
               ],
             ),
             CircleAvatar(
               radius: 15,
-              backgroundColor: (mScoreboardModel.status! > 70) ? sdSecondaryColorGreen.withOpacity(0.7) : sdSecondaryColorYellow.withOpacity(0.7),
-              child: Text(mScoreboardModel.status!.toInt().toString(), style: boldTextStyle(color: Colors.white, size: 16)),
+              backgroundColor: (access.relationships?.status?.id  == 1) ? sdSecondaryColorGreen.withOpacity(0.7) : sdSecondaryColorYellow.withOpacity(0.7),
+              child: Text(access.relationships?.status?.attributes.name ?? '', style: boldTextStyle(color: Colors.white, size: 16)),
             )
           ],
         ),
@@ -85,31 +104,42 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
 
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          leading: InkWell(
-            onTap: () {
-              finish(context);
-            },
-            child: Icon(Icons.arrow_back, color: Colors.white),
-          ),
-          actions: <Widget>[
-            Padding(padding: EdgeInsets.only(right: 16), child: Icon(Icons.favorite_border, color: Colors.white)),
-          ],
-          backgroundColor: sdPrimaryColor,
-          elevation: 0.0,
-          automaticallyImplyLeading: false,
-        ),
         body: SingleChildScrollView(
           child: Stack(
             children: [
-              Container(height: width * 0.3, color: sdPrimaryColor),
+              Container(height: width * 0.5, color: sdPrimaryColor),
               Container(
                 margin: EdgeInsets.only(left: 16, right: 16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Container(
+                      margin: EdgeInsets.only(left: 16, right: 16, top: 16, bottom:16),
+                      decoration: boxDecorations(radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
+                      child: TextField(
+                        controller: query,
+                        style: TextStyle(fontSize: 20),
+                        decoration: InputDecoration(
+                          border: InputBorder.none,
+                          hintText: 'Buscar',
+                          prefixIcon: Icon(Icons.search, color: Colors.black),
+
+                        ),
+                        onTapOutside: (pointer)async {
+                          int queryParse = int.parse(query.text);
+                            var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(queryParse,null);
+                            if(res == null) return;
+                            setState(() {
+                              purchaseOrder = res;
+                            });
+
+
+                        },
+                      ),
+                    ),
                     Row(
                       children: [
+
                         Container(
                           decoration: boxDecorations(bgColor: Colors.deepOrangeAccent.withOpacity(0.8)),
                           padding: EdgeInsets.all(16),
@@ -119,8 +149,8 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Good", style: primaryTextStyle(size: 16, color: Colors.white)),
-                            Text("Your progress", style: primaryTextStyle(size: 16, color: Colors.white)),
+                            Text("${purchaseOrder?.relationships?.event.attributes.name ?? 'Busque una orden'}", style: primaryTextStyle(size: 16, color: Colors.white)),
+                            Text("${purchaseOrder?.id ?? ''}", style: primaryTextStyle(size: 16, color: Colors.white)),
                           ],
                         )
                       ],
@@ -133,23 +163,25 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          mOption("Exam", "75"),
+                          mOption("Cedula", purchaseOrder?.relationships?.user.relationships.profile?.attributes.dni ?? ''),
                           Container(height: 22, color: sdViewColor, width: 1),
-                          mOption("Lessons", "80"),
+                          mOption("Nombre", purchaseOrder?.relationships?.user.attributes.name),
                           Container(height: 22, color: sdViewColor, width: 1),
-                          mOption("Pass", "75"),
                         ],
                       ),
                     ),
                     SizedBox(height: 16),
-                    Text("List of exams", style: secondaryTextStyle(size: 14, color: sdTextSecondaryColor)),
+                    Text("Lista de Accesos", style: secondaryTextStyle(size: 14, color: sdTextSecondaryColor)),
                     ListView.builder(
-                      itemCount: mScoreList.length,
+                      itemCount: purchaseOrder?.relationships?.accesses.length ?? 0,
                       shrinkWrap: true,
                       padding: EdgeInsets.only(bottom: 16),
                       physics: NeverScrollableScrollPhysics(),
                       itemBuilder: (BuildContext context, int index) {
-                        return mLeaderList(mScoreList[index]);
+                        if(purchaseOrder?.relationships?.accesses == null){
+                          return null;
+                        }
+                        return mLeaderList(purchaseOrder!.relationships!.accesses[index]);
                       },
                     )
                   ],

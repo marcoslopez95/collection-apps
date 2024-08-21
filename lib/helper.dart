@@ -1,6 +1,8 @@
 import 'dart:convert';
 
+import 'package:access_maketicket/defaultTheme/screen/DTSignUpScreen.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:access_maketicket/src/Model/Event.dart';
 import 'package:access_maketicket/src/Model/UserAuth.dart';
@@ -14,6 +16,7 @@ class Helper
 
   factory Helper() => _instance ??= Helper._();
 
+  late BuildContext context;
   late UserAuth userAuth;
   late Event? event = null;
   final storage = const FlutterSecureStorage();
@@ -34,5 +37,15 @@ class Helper
     return await storage.read(key: 'token');
   }
 
+  Future<void> removePermission()async {
+    await storage.delete(key: 'token');
+  }
 
+  Future<void> goLogin()async{
+    await removePermission();
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => DTSignUpScreen()),
+    );
+  }
 }

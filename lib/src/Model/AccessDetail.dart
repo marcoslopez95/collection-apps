@@ -1,11 +1,11 @@
 class AccessDetail{
-  final int access_status_id;
+  final int? access_status_id;
   final int event_id;
   final int total;
   final String access_status_name;
 
   AccessDetail({
-    required this.access_status_id,
+    this.access_status_id,
     required this.event_id,
     required this.total,
     required this.access_status_name,
