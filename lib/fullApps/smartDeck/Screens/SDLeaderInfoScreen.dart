@@ -1,4 +1,6 @@
 import 'package:access_maketicket/helper.dart';
+import 'package:access_maketicket/src/Enums/PaymentMethodEnum.dart';
+import 'package:access_maketicket/src/Enums/TypeArticleEnum.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrder.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrderAccess.dart';
 import 'package:access_maketicket/src/Services/PurchaseOrderService.dart';
@@ -78,6 +80,9 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
     }
 
     Widget mLeaderList(PurchaseOrderAccess access) {
+      String getName = TypeArticleEnum.FREE.value == access.relationships?.chair?.relationships.article.attributes.type_articles_id
+                    ? ''
+                    : (access.relationships?.chair?.relationships.article.attributes.name ?? '');
       return Container(
         decoration: boxDecorationRoundedWithShadow(16, backgroundColor: context.cardColor),
         padding: EdgeInsets.all(10),
@@ -85,18 +90,19 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
+            Expanded(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(access.relationships?.chair?.attributes.full_zone ?? '', style: boldTextStyle(size: 16)),
+                Text(getName, style: secondaryTextStyle(size: 10)),
+              ],
+            )),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(access.relationships?.chair?.attributes.zone ?? '', style: boldTextStyle(size: 16)),
-                Text(access.relationships?.status?.attributes.name ?? '', style: secondaryTextStyle(size: 10)),
+                Text(access.relationships?.status?.attributes.name ?? '', style: boldTextStyle(color: Colors.black, size: 16)),
               ],
             ),
-            CircleAvatar(
-              radius: 15,
-              backgroundColor: (access.relationships?.status?.id  == 1) ? sdSecondaryColorGreen.withOpacity(0.7) : sdSecondaryColorYellow.withOpacity(0.7),
-              child: Text(access.relationships?.status?.attributes.name ?? '', style: boldTextStyle(color: Colors.white, size: 16)),
-            )
           ],
         ),
       );
@@ -139,20 +145,20 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
                     ),
                     Row(
                       children: [
-
                         Container(
                           decoration: boxDecorations(bgColor: Colors.deepOrangeAccent.withOpacity(0.8)),
                           padding: EdgeInsets.all(16),
                           child: Text("71", style: primaryTextStyle(size: 18, color: Colors.white)),
                         ),
                         SizedBox(width: 16),
-                        Column(
+                        Expanded(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("${purchaseOrder?.relationships?.event.attributes.name ?? 'Busque una orden'}", style: primaryTextStyle(size: 16, color: Colors.white)),
                             Text("${purchaseOrder?.id ?? ''}", style: primaryTextStyle(size: 16, color: Colors.white)),
                           ],
-                        )
+                        ))
+
                       ],
                     ),
                     SizedBox(height: 16),

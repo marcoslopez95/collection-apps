@@ -28,6 +28,7 @@ class ChairAttributes extends Attributes {
   final String zone;
   final String row;
   final String number;
+  final String full_zone;
   final String? table;
 
   ChairAttributes({
@@ -37,12 +38,14 @@ class ChairAttributes extends Attributes {
     required this.zone,
     required this.row,
     required this.number,
+    required this.full_zone,
     this.table,
   });
 
   factory ChairAttributes.fromJson(Map<String, dynamic> json)
   {
     return ChairAttributes(
+      full_zone: json['full_zone'],
       event_id: json['event_id'],
       article_id: json['article_id'],
       uuid: json['uuid'],
