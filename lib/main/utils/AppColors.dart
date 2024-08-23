@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 List<Color> webColors = [appCat1, appCat2, appCat3];
 
 // Light Theme Colors
-const appColorPrimary = Color(0xFF5685EC);
+const appColorPrimary = Color(0xFFF04336);
 const appColorAccent = Color(0xFF03DAC5);
 const appTextColorPrimary = Color(0xFF212121);
 const iconColorPrimary = Color(0xFFFFFFFF);

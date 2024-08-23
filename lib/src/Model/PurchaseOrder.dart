@@ -58,13 +58,16 @@ class PurchaseOrderAttributes extends Attributes {
   });
 
   factory PurchaseOrderAttributes.fromJson(Map<String, dynamic> json) {
+    double amount = json['amount'] is double
+            ?json['amount']
+            : (json['amount'] as int).toDouble();
     return PurchaseOrderAttributes(
       user_id: json['user_id'],
       event_id: json['event_id'],
       order_status_id: json['order_status_id'],
       created_user_id: json['created_user_id'],
       order_type_id: json['order_type_id'],
-      amount: (json['amount'] as int).toDouble(),
+      amount: amount,
       ip: json['ip'],
       created_at: DateTime.parse(json['created_at']),
       updated_at: DateTime.parse(json['updated_at']),

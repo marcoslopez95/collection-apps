@@ -4,6 +4,7 @@ import 'package:access_maketicket/src/Enums/TypeArticleEnum.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrder.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrderAccess.dart';
 import 'package:access_maketicket/src/Services/PurchaseOrderService.dart';
+import 'package:access_maketicket/src/Views/ScannerQRScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:nb_utils/nb_utils.dart';
@@ -12,6 +13,7 @@ import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
 import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDStyle.dart';
 
 class SDLeaderInfoScreen extends StatefulWidget {
+
   @override
   _SDLeaderInfoScreenState createState() => _SDLeaderInfoScreenState();
 }
@@ -21,6 +23,16 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
   PurchaseOrder? purchaseOrder;
   var query = TextEditingController();
   PurchaseOrderService _purchaseOrderService = PurchaseOrderService();
+  String? uuid;
+
+  Future<void> setUuid(String value) async{
+    setState(() => uuid = value);
+    var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(null,value);
+    if(res == null) return;
+    setState(() {
+      purchaseOrder = res;
+    });
+  }
 
   List<ScoreboardModel> mScoreList = [
     ScoreboardModel(
@@ -113,35 +125,43 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
         body: SingleChildScrollView(
           child: Stack(
             children: [
-              Container(height: width * 0.5, color: sdPrimaryColor),
+              Container(height: width * 0.8, color: sdPrimaryColor),
               Container(
                 margin: EdgeInsets.only(left: 16, right: 16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Container(
-                      margin: EdgeInsets.only(left: 16, right: 16, top: 16, bottom:16),
-                      decoration: boxDecorations(radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
-                      child: TextField(
-                        controller: query,
-                        style: TextStyle(fontSize: 20),
-                        decoration: InputDecoration(
-                          border: InputBorder.none,
-                          hintText: 'Buscar',
-                          prefixIcon: Icon(Icons.search, color: Colors.black),
-
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Container(
+                          margin: EdgeInsets.only(left: 16, right: 16, top: 16, bottom:16),
+                          decoration: boxDecorations(radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
+                          child: TextField(
+                            controller: query,
+                            style: TextStyle(fontSize: 20),
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              hintText: 'Buscar',
+                              prefixIcon: Icon(Icons.search, color: Colors.black),
+                            ),
+                            onTapOutside: (pointer)async {
+                              int queryParse = int.parse(query.text);
+                              var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(queryParse,null);
+                              if(res == null) return;
+                              setState(() {
+                                purchaseOrder = res;
+                              });
+                            },
+                          ),
                         ),
-                        onTapOutside: (pointer)async {
-                          int queryParse = int.parse(query.text);
-                            var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(queryParse,null);
-                            if(res == null) return;
-                            setState(() {
-                              purchaseOrder = res;
-                            });
-
-
-                        },
-                      ),
+                        Container(
+                          margin: EdgeInsets.only(right: 16),
+                          child: Icon(Icons.qr_code, color: Colors.white).onTap((){
+                            ScannerQRScreen(setUuid: this.setUuid,).launch(context);
+                          }),
+                        ),
+                      ],
                     ),
                     Row(
                       children: [

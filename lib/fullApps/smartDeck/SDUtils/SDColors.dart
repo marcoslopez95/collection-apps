@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 const sdTextPrimaryColor = Color(0xFF000000);
 const sdTextSecondaryColor = Color(0xFF757575);
 
-const sdPrimaryColor = Color(0xFF3281FF);
+const sdPrimaryColor = Color(0xFFF24336);
 const sdSecondaryColorRed = Color(0xFFFF5C5C);
 const sdSecondaryColorYellow = Color(0xFFFFA635);
 const sdSecondaryColorGreen = Color(0xFF5DE094);

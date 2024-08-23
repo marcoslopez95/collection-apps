@@ -9,28 +9,24 @@ import 'package:access_maketicket/src/Services/MaketicketService.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:access_maketicket/src/Model/Event.dart';
 
-class QRViewExample extends StatefulWidget {
-  final Event? event;
+class ScannerQRScreen extends StatefulWidget {
+  final Function(String) setUuid;
 
-  const QRViewExample({
-    Key? key, this.event = null
+  const ScannerQRScreen({
+    required this.setUuid,
+    Key? key,
     }) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => _QRViewExampleState(event: event);
+  State<StatefulWidget> createState() => ScannerQRScreenState();
 }
 
-class _QRViewExampleState extends State<QRViewExample> {
+class ScannerQRScreenState extends State<ScannerQRScreen> {
   Barcode? result;
   var response;
-  final Event? event;
   String? message;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
-
-  _QRViewExampleState({
-    this.event
-});
 
   @override
   void setState(fn) {
@@ -67,14 +63,14 @@ class _QRViewExampleState extends State<QRViewExample> {
                 children: <Widget>[
                   if (result != null)
                     Text(
-                        '${response['message']} \n ${message}',
+                        ' \n ${message}',
                         style: TextStyle(
-                              color: response['success'] == true ? Colors.green : Colors.red,
+                              color: Colors.green,
                               fontWeight: FontWeight.bold
                            ),
                         )
                   else
-                    Text('${event != null ? event?.attributes.name : 'Escanea un código'}'),
+                    Text('Detalle de Orden'),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -155,11 +151,12 @@ class _QRViewExampleState extends State<QRViewExample> {
         MediaQuery.of(context).size.height < 400)
         ? 150.0
         : 300.0;
+
     // To ensure the Scanner view is properly sizes after rotation
     // we need to listen for Flutter SizeChanged notification and update controller
     return QRView(
       key: qrKey,
-      onQRViewCreated: _onQRViewCreated,
+      onQRViewCreated: (controller) => _onQRViewCreated(controller,context),
       overlay: QrScannerOverlayShape(
           borderColor: Colors.red,
           borderRadius: 10,
@@ -171,7 +168,7 @@ class _QRViewExampleState extends State<QRViewExample> {
   }
 
   MacketicketService _maketicketServive = MacketicketService();
-  void _onQRViewCreated(QRViewController controller) {
+  void _onQRViewCreated(QRViewController controller,BuildContext context) {
     setState(() {
       this.controller = controller;
     });
@@ -184,13 +181,10 @@ class _QRViewExampleState extends State<QRViewExample> {
         ${scanData.code}
         ------- end uuid --------
         ''');
+        res = scanData.code!;
         await controller.pauseCamera();
-        res = await _maketicketServive.scanUuid(scanData.code!);
-        await controller.resumeCamera();
-        if(res['success'] == true){
-          msg = res['data']['relationships']['user']['attributes']['name'];
-        }
-
+        widget.setUuid(scanData.code!);
+        Navigator.pop(context);
       }
       setState(() {
         result = scanData;

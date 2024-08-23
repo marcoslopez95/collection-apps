@@ -73,7 +73,7 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                     GestureDetector(
                       onTap: () {
                         fetchSearchResults(query.text);
-                        // finish(context);
+                        //finish(context);
                       },
                       child: Container(
                         margin: EdgeInsets.only(left: 10),

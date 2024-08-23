@@ -22,7 +22,7 @@ class ArticleAttributes extends Attributes {
   final int event_id;
   final int type_articles_id;
   final int article_status_id;
-  final int price;
+  final double price;
   final int worth;
   final int presale_id;
 
@@ -39,6 +39,7 @@ class ArticleAttributes extends Attributes {
   });
 
   factory ArticleAttributes.fromJson(Map<String, dynamic> json) {
+    double price = json['price'] is double ? json['price'] : (json['price'] as int).toDouble();
     return ArticleAttributes(
         name: json['name'],
         description: json['description'],
@@ -46,7 +47,7 @@ class ArticleAttributes extends Attributes {
         event_id: json['event_id'],
         type_articles_id: json['type_articles_id'],
         article_status_id: json['article_status_id'],
-        price: json['price'],
+        price: price,
         worth: json['worth'],
         presale_id: json['presale_id']);
   }
