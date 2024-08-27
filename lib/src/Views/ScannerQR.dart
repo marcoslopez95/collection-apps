@@ -89,7 +89,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                             child: FutureBuilder(
                               future: controller?.getFlashStatus(),
                               builder: (context, snapshot) {
-                                return Text('Flash: ${snapshot.data}');
+                                return Text('Flash ${snapshot.data! ? 'Activado' : 'Desactivado'}');
                               },
                             )),
                       ),
@@ -105,7 +105,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                               builder: (context, snapshot) {
                                 if (snapshot.data != null) {
                                   return Text(
-                                      'Camera facing ${describeEnum(snapshot.data!)}');
+                                      'Camera ${describeEnum(snapshot.data!) == 'front'? 'Frontal' : 'Trasera'}');
                                 } else {
                                   return const Text('loading');
                                 }

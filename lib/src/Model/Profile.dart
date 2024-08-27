@@ -49,7 +49,7 @@ class ProfileAttributes extends Attributes{
         phone_number: json['phone_number'],
         emergency_phone_number: json['emergency_phone_number'],
         email_recovery: json['email_recovery'],
-        age: json['age'],
+        age: json['age'] != '' ? int.parse(json['age']) : null,
         avatar_id: json['avatar_id'],
         birth_date: json['birth_date'],
     );

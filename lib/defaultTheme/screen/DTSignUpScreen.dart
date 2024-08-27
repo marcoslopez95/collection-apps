@@ -37,16 +37,23 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
       emailCont.text,
       passCont.text,
     );
-
+    setState(() {
+      isTaped = success;
+    });
+    print('success ${success}');
     if (success) {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => SDHomePageScreen()),
       );
     } else {
+      if(mounted){
+
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           content: Text('Fallo al iniciar sesión. Intente de nuevo')));
+      }
     }
+
   }
 
   @override
@@ -164,9 +171,6 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
                       if (!isTaped) {
                         _login();
                       }
-                      setState(() {
-                        isTaped = true;
-                      });
 
                       /// Remove comment if you want enable validation
                       /* if (formKey.currentState.validate()) {

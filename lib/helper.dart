@@ -39,13 +39,15 @@ class Helper
 
   Future<void> removePermission()async {
     await storage.delete(key: 'token');
+    await storage.delete(key: 'user');
   }
 
   Future<void> goLogin()async{
     await removePermission();
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(builder: (context) => DTSignUpScreen()),
+    Navigator.pushNamedAndRemoveUntil(
+      this.context,
+      '/',
+      (route) => false,
     );
   }
 }
