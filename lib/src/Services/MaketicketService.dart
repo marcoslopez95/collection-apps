@@ -9,10 +9,9 @@ import 'package:access_maketicket/src/Services/BaseService.dart';
 
 class MacketicketService extends BaseService {
 
-  Future<Map<String, dynamic>> scanUuid(String uuid,
-      {bool isConfirm = false}) async {
+  Future<Map<String, dynamic>> scanUuid(String uuid) async {
     String url =
-        '${BASE_URL}/events/accept-ticket/${uuid}?is_confirm=${isConfirm ? 1 : 0}';
+        '${BASE_URL}/events/accept-ticket/${uuid}';
 
     final Map<String, String> headers = await getHeaders();
     final response = await http.get(

@@ -31,7 +31,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
     var size = MediaQuery.of(context).size;
     final tab = [
       SDDashboard(widget.event),
-      QRViewExample(event: widget.event),
+      QRViewExample(event: (widget.event ?? null)),
       //SDExamCompletionBoardScreen(),
       SDLeaderInfoScreen(),
       //SDChatScreen(),

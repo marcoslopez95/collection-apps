@@ -25,6 +25,8 @@ class _QRViewExampleState extends State<QRViewExample> {
   var response;
   final Event? event;
   String? message;
+  int? color;
+  int? icon;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
 
@@ -65,11 +67,14 @@ class _QRViewExampleState extends State<QRViewExample> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
+                  // if (result != null) Icon(IconData(icon!)),
                   if (result != null)
                     Text(
                         '${response['message']} \n ${message}',
                         style: TextStyle(
-                              color: response['success'] == true ? Colors.green : Colors.red,
+                              color: response['success'] == true
+                                    ? Color(color!)
+                                    : Colors.red,
                               fontWeight: FontWeight.bold
                            ),
                         )
@@ -89,7 +94,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                             child: FutureBuilder(
                               future: controller?.getFlashStatus(),
                               builder: (context, snapshot) {
-                                return Text('Flash ${snapshot.data! ? 'Activado' : 'Desactivado'}');
+                                return Text('${snapshot.data! ? 'Desactivar' : 'Activar'} Flash ');
                               },
                             )),
                       ),
@@ -105,7 +110,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                               builder: (context, snapshot) {
                                 if (snapshot.data != null) {
                                   return Text(
-                                      'Camera ${describeEnum(snapshot.data!) == 'front'? 'Frontal' : 'Trasera'}');
+                                      'Camara ${describeEnum(snapshot.data!) == 'front'? 'Trasera' : 'Frontal'}');
                                 } else {
                                   return const Text('loading');
                                 }
@@ -190,11 +195,18 @@ class _QRViewExampleState extends State<QRViewExample> {
         if(res['success'] == true){
           msg = res['data']['relationships']['user']['attributes']['name'];
         }
-
+        print('''
+        --------- res --------
+        icon: ${res['icon']}
+        color: ${res['color']}
+        ------- end res --------
+        ''');
       }
       setState(() {
         result = scanData;
         response = res;
+        icon = int.parse(res['icon']);
+        color = int.parse(res['color']);
         message = msg ?? '';
       });
     });
