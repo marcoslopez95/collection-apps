@@ -209,6 +209,11 @@ class _QRViewExampleState extends State<QRViewExample> {
         color = int.parse(res['color']);
         message = msg ?? '';
       });
+      Future.delayed(Duration(seconds: 5),(){
+        setState((){
+          result = null;
+        });
+      });
     });
   }
 

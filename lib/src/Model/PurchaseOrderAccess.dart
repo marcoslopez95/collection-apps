@@ -1,6 +1,7 @@
 import 'package:access_maketicket/src/Model/Model.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrder/Chair.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrder/StatusAccess.dart';
+import 'package:access_maketicket/src/Model/User.dart';
 
 class PurchaseOrderAccess extends BaseModel {
   final int id;
@@ -34,12 +35,14 @@ class PurchaseOrderAccessAttributes extends Attributes {
 class PurchaseOrderAccessRelationships {
   final StatusAccess? status;
   final Chair? chair;
+  final User? user;
 
-  PurchaseOrderAccessRelationships({this.chair, this.status});
+  PurchaseOrderAccessRelationships({this.chair, this.status, this.user});
 
   factory PurchaseOrderAccessRelationships.fromJson(Map<String, dynamic> json) {
     return PurchaseOrderAccessRelationships(
         chair: json['chair'] != null ? Chair.fromJson(json['chair']) : null,
+        user: json['user'] != null ? User.fromJson(json['user']) : null,
         status: json['status'] != null ? StatusAccess.fromJson(json['status']) : null
     );
   }

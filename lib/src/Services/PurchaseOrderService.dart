@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 
 class PurchaseOrderService extends BaseService
 {
-  Future<PurchaseOrder?> getPurchaseOrderByIdOrUuid(int? id, String? uuid) async{
+  Future<PurchaseOrderResult?> getPurchaseOrderByIdOrUuid(int? id, String? uuid) async{
 
     String url = '${BASE_URL}/purchase-order?id=${id ?? ''}&uuid=${uuid ?? ''}';
 
@@ -25,15 +25,19 @@ class PurchaseOrderService extends BaseService
     }
     if(response.statusCode != 200){
       final jsonResponse = jsonDecode(response.body);
-      ScaffoldMessenger
-          .of(helper.context)
-          .showSnackBar(
-          SnackBar(content: Text('${jsonResponse['message']}'))
-      );
-      return null;
+      return PurchaseOrderResult(error: jsonResponse['message']);
     }
     final jsonResponse = jsonDecode(response.body);
-    print(jsonResponse);
-    return PurchaseOrder.fromJson(jsonResponse['data']);
+    return PurchaseOrderResult(purchaseOrder: PurchaseOrder.fromJson(jsonResponse['data']));
   }
+}
+
+class PurchaseOrderResult{
+  PurchaseOrder? purchaseOrder;
+  String? error;
+
+  PurchaseOrderResult({
+    this.purchaseOrder,
+    this.error,
+  });
 }

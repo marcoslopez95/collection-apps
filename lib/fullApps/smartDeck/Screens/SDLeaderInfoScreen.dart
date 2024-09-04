@@ -21,6 +21,7 @@ class SDLeaderInfoScreen extends StatefulWidget {
 class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
   Helper helper = Helper();
   PurchaseOrder? purchaseOrder;
+  String? message = 'Busque una orden';
   var query = TextEditingController();
   PurchaseOrderService _purchaseOrderService = PurchaseOrderService();
   String? uuid;
@@ -30,7 +31,7 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
     var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(null,value);
     if(res == null) return;
     setState(() {
-      purchaseOrder = res;
+      purchaseOrder = res.purchaseOrder;
     });
   }
 
@@ -139,20 +140,24 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
                           decoration: boxDecorations(radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
                           child: TextField(
                             controller: query,
+                            keyboardType: TextInputType.number,
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
                               border: InputBorder.none,
                               hintText: 'Buscar',
-                              prefixIcon: Icon(Icons.search, color: Colors.black),
+                              prefixIcon: Icon(Icons.search, color: Colors.black).onTap(()async {
+                                setState((){
+                                  message = 'Buscando...';
+                                });
+                                int queryParse = int.parse(query.text);
+                                var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(queryParse,null);
+                                if(res == null) return;
+                                setState(() {
+                                  message = res.error;
+                                  purchaseOrder = res.purchaseOrder;
+                                });
+                              }),
                             ),
-                            onTapOutside: (pointer)async {
-                              int queryParse = int.parse(query.text);
-                              var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(queryParse,null);
-                              if(res == null) return;
-                              setState(() {
-                                purchaseOrder = res;
-                              });
-                            },
                           ),
                         ),
                         Container(
@@ -174,7 +179,7 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
                         Expanded(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("${purchaseOrder?.relationships?.event.attributes.name ?? 'Busque una orden'}", style: primaryTextStyle(size: 16, color: Colors.white)),
+                            Text("${purchaseOrder?.relationships?.event.attributes.name ?? message}", style: primaryTextStyle(size: 16, color: Colors.white)),
                             Text("${purchaseOrder?.id ?? ''}", style: primaryTextStyle(size: 16, color: Colors.white)),
                           ],
                         ))
