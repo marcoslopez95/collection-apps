@@ -3,7 +3,7 @@ import 'package:nb_utils/nb_utils.dart';
 import 'package:access_maketicket/integrations/Component/CheckOutComponent.dart';
 import 'package:access_maketicket/main/utils/AppColors.dart';
 import 'package:access_maketicket/main/utils/AppWidget.dart';
-import 'package:razorpay_flutter/razorpay_flutter.dart';
+/*import 'package:razorpay_flutter/razorpay_flutter.dart';*/
 
 class RazorPayScreen extends StatefulWidget {
   static var tag = "/razor_pay";
@@ -17,7 +17,7 @@ class RazorPayScreen extends StatefulWidget {
 }
 
 class RazorPayScreenState extends State<RazorPayScreen> {
-  late Razorpay _razorpay;
+/*  late Razorpay _razorpay;*/
 
   @override
   void initState() {
@@ -26,11 +26,11 @@ class RazorPayScreenState extends State<RazorPayScreen> {
     afterBuildCreated(() {
       setStatusBarColor(Colors.transparent);
     });
-
+/*
     _razorpay = Razorpay();
     _razorpay.on(Razorpay.EVENT_PAYMENT_SUCCESS, _handlePaymentSuccess);
     _razorpay.on(Razorpay.EVENT_PAYMENT_ERROR, _handlePaymentError);
-    _razorpay.on(Razorpay.EVENT_EXTERNAL_WALLET, _handleExternalWallet);
+    _razorpay.on(Razorpay.EVENT_EXTERNAL_WALLET, _handleExternalWallet);*/
   }
 
   void openCheckout() async {
@@ -46,27 +46,27 @@ class RazorPayScreenState extends State<RazorPayScreen> {
       }
     };
     try {
-      _razorpay.open(options);
+     /* _razorpay.open(options);*/
     } catch (e) {
       debugPrint(e.toString());
     }
   }
-
+/*
   void _handlePaymentSuccess(PaymentSuccessResponse response) {
     toasty(context, "SUCCESS: " + response.paymentId.validate());
-  }
-
+  }*/
+/*
   void _handlePaymentError(PaymentFailureResponse response) {
     toasty(context, "ERROR: " + response.code.toString() + " - " + response.message.validate());
-  }
+  }*/
 
-  void _handleExternalWallet(ExternalWalletResponse response) {
+  /*void _handleExternalWallet(ExternalWalletResponse response) {
     toasty(context, "EXTERNAL_WALLET: " + response.walletName.validate());
-  }
+  }*/
 
   @override
   void dispose() {
-    _razorpay.clear();
+   /* _razorpay.clear();*/
     super.dispose();
   }
 
