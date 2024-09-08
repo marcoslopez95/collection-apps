@@ -59,8 +59,8 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
               currentIndex: currentIndex,
               items: [
                 BottomNavigationBarItem(
-                  icon: Icon(IconData(0xe3dc, fontFamily: 'MaterialIcons'), size: 28, color: sdIconColor),
-                  activeIcon: Icon(IconData(0xe3dc, fontFamily: 'MaterialIcons'), size: 28, color: sdPrimaryColor),
+                  icon: Icon(Icons.menu, size: 28, color: sdIconColor),
+                  activeIcon: Icon(Icons.menu, size: 28, color: sdPrimaryColor),
                   label: 'a',
                 ),
                 BottomNavigationBarItem(
