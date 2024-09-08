@@ -1,3 +1,4 @@
+import 'package:access_maketicket/fullApps/musicPodcast/component/MPDrawerScreen.dart';
 import 'package:access_maketicket/fullApps/smartDeck/Screens/SDLeaderInfoScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
@@ -23,16 +24,16 @@ class SDHomePageScreen extends StatefulWidget {
 }
 
 class _SDHomePageScreenState extends State<SDHomePageScreen> {
-  int currentIndex = 0;
+  int currentIndex = 1;
   Helper helper = Helper();
 
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     final tab = [
+      DrawerScreen(),
       SDDashboard(widget.event),
       QRViewExample(event: (widget.event ?? null)),
-      //SDExamCompletionBoardScreen(),
       SDLeaderInfoScreen(),
       //SDChatScreen(),
       sdPRofileScreen(),
@@ -57,6 +58,11 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
               showSelectedLabels: false,
               currentIndex: currentIndex,
               items: [
+                BottomNavigationBarItem(
+                  icon: Icon(IconData(0xe3dc, fontFamily: 'MaterialIcons'), size: 28, color: sdIconColor),
+                  activeIcon: Icon(IconData(0xe3dc, fontFamily: 'MaterialIcons'), size: 28, color: sdPrimaryColor),
+                  label: 'a',
+                ),
                 BottomNavigationBarItem(
                   icon: Image.asset('images/smartDeck/images/sdhome.png', height: 28, width: 28, color: sdIconColor),
                   activeIcon: Image.asset('images/smartDeck/images/sdhome.png', height: 28, width: 28, color: sdPrimaryColor),

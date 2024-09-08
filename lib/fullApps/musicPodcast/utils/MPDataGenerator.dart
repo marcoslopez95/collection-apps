@@ -1,3 +1,4 @@
+import 'package:access_maketicket/fullApps/smartDeck/Screens/SDProfileScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:access_maketicket/fullApps/musicPodcast/models/MusicModel.dart';
 import 'package:access_maketicket/fullApps/musicPodcast/screen/MPAlbumsScreen.dart';
@@ -14,15 +15,15 @@ import 'package:access_maketicket/main/utils/Lipsum.dart' as lipsum;
 
 List<DrawerList> getDrawerList() {
   List<DrawerList> drawerList = [];
-  drawerList.add(DrawerList(name: "Profile", widget: MPProfileScreen(isTab: true)));
-  drawerList.add(DrawerList(name: "Songs", widget: MPSongsScreen()));
-  drawerList.add(DrawerList(name: "Artists", widget: MPArtistsScreen(name: 'Artists')));
-  drawerList.add(DrawerList(name: "Albums", widget: MPAlbumsScreen(isTab: false)));
-  drawerList.add(DrawerList(name: "Podcasts", widget: MPPodCastScreen(name: 'Podcasts')));
-  drawerList.add(DrawerList(name: "News", widget: MPNewsScreen(name: 'News')));
-  drawerList.add(DrawerList(name: "Events", widget: MPEventsScreen(name: 'Events')));
-  drawerList.add(DrawerList(name: "Playlist", widget: MPPlayListScreen()));
-  drawerList.add(DrawerList(name: "Setting", widget: MPSettingScreen()));
+  drawerList.add(DrawerList(name: "Perfil", widget: sdPRofileScreen()));
+  // drawerList.add(DrawerList(name: "Songs", widget: MPSongsScreen()));
+  // drawerList.add(DrawerList(name: "Artists", widget: MPArtistsScreen(name: 'Artists')));
+  // drawerList.add(DrawerList(name: "Albums", widget: MPAlbumsScreen(isTab: false)));
+  // drawerList.add(DrawerList(name: "Podcasts", widget: MPPodCastScreen(name: 'Podcasts')));
+  // drawerList.add(DrawerList(name: "News", widget: MPNewsScreen(name: 'News')));
+  // drawerList.add(DrawerList(name: "Events", widget: MPEventsScreen(name: 'Events')));
+  // drawerList.add(DrawerList(name: "Playlist", widget: MPPlayListScreen()));
+  // drawerList.add(DrawerList(name: "Setting", widget: MPSettingScreen()));
 
   return drawerList;
 }

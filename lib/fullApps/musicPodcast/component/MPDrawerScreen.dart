@@ -1,3 +1,4 @@
+import 'package:access_maketicket/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:access_maketicket/fullApps/musicPodcast/models/MusicModel.dart';
@@ -14,7 +15,7 @@ class DrawerScreen extends StatefulWidget {
 
 class DrawerScreenState extends State<DrawerScreen> {
   List<DrawerList> drawerList = getDrawerList();
-
+  Helper helper = Helper();
   @override
   void initState() {
     super.initState();
@@ -32,6 +33,7 @@ class DrawerScreenState extends State<DrawerScreen> {
 
   @override
   Widget build(BuildContext context) {
+    helper.context = context;
     return Theme(
       data: ThemeData(canvasColor: mpAppBackGroundColor),
       child: Drawer(
@@ -45,18 +47,10 @@ class DrawerScreenState extends State<DrawerScreen> {
                 decoration: BoxDecoration(color: mpAppButtonColor),
                 child: Column(
                   children: [
-                    Align(
-                      alignment: Alignment.topLeft,
-                      child: IconButton(
-                        icon: Icon(Icons.close, color: white),
-                        onPressed: () {
-                          finish(context);
-                        },
-                      ),
-                    ),
+                    16.height,
                     commonCacheImageWidget(mpImages_2, 100, width: 100, fit: BoxFit.cover).cornerRadiusWithClipRRect(50),
                     16.height,
-                    Text('Smith Josh', style: boldTextStyle(color: Colors.white, size: 18)),
+                    Text('Menu', style: boldTextStyle(color: Colors.white, size: 18)),
                   ],
                 ),
               ),
@@ -83,12 +77,13 @@ class DrawerScreenState extends State<DrawerScreen> {
                   ).paddingAll(8),
                   16.height,
                   AppButton(
-                    child: Text('Sign Out', style: boldTextStyle(color: Colors.white, size: 14)),
+                    child: Text('Salir', style: boldTextStyle(color: Colors.white, size: 14)),
                     color: mpAppButtonColor,
                     width: 140,
                     padding: EdgeInsets.only(top: 8, bottom: 8),
                     onTap: () {
-                      showAlertDialog(context);
+                      helper.goLogin();
+                      // showAlertDialog(context);
                     },
                   ).cornerRadiusWithClipRRect(16).center(),
                 ],

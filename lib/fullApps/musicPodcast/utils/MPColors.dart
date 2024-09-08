@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const mpAppButtonColor = Color(0xFF1ECFF5);
+const mpAppButtonColor = Color(0xFFC43528);
 const mpAppBackGroundColor = Color(0xFF181B2C);
 const mpAppTextColor = Color(0xFF71798C);
 const mpFacebookBtnBgColor = Color(0xff3B64B6);

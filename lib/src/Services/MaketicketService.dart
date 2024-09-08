@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:access_maketicket/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:access_maketicket/constants.dart';
 import 'package:http/http.dart' as http;
@@ -8,10 +9,10 @@ import 'package:access_maketicket/src/Model/Event.dart';
 import 'package:access_maketicket/src/Services/BaseService.dart';
 
 class MacketicketService extends BaseService {
-
+  Helper helper = Helper();
   Future<Map<String, dynamic>> scanUuid(String uuid) async {
     String url =
-        '${BASE_URL}/events/accept-ticket/${uuid}';
+        '${BASE_URL}/events/accept-ticket/${uuid}?event_id=${helper.event?.id ?? ''}';
 
     final Map<String, String> headers = await getHeaders();
     final response = await http.get(
@@ -51,8 +52,7 @@ class MacketicketService extends BaseService {
   }
 
   Future<List<AccessDetail>> getAccessDetailByEvent(int event_id) async {
-    String url = '${BASE_URL}/events/get/Acces/Detail/${event_id}';
-
+    String url = '${BASE_URL}/events/${event_id}/acces-detail';
     final Map<String, String> headers = await getHeaders();
     final response = await http.get(
       Uri.parse(url),

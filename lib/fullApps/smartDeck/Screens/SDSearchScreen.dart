@@ -23,10 +23,10 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
   var query = TextEditingController();
 
   Future<void> fetchSearchResults(String query) async {
-      var results = await macketicketService.getEventsSearch(query: query);
-      setState(() {
-        events = results;
-      });
+    var results = await macketicketService.getEventsSearch(query: query);
+    setState(() {
+      events = results;
+    });
   }
 
   @override
@@ -58,7 +58,8 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                   children: <Widget>[
                     Expanded(
                       child: Container(
-                        decoration: boxDecorations(radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
+                        decoration: boxDecorations(
+                            radius: 6, bgColor: sdViewColor.withOpacity(0.8)),
                         child: TextField(
                           controller: query,
                           style: TextStyle(fontSize: 20),
@@ -77,75 +78,98 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                       },
                       child: Container(
                         margin: EdgeInsets.only(left: 10),
-                        child: Text("Buscar", style: primaryTextStyle(color: sdPrimaryColor)),
+                        child: Text("Buscar", style: primaryTextStyle(
+                            color: sdPrimaryColor)),
                       ),
                     )
                   ],
                 ),
               ),
-             /* Container(
+              /* Container(
                 margin: EdgeInsets.only(left: 16),
                 child: Text("Search history", style: secondaryTextStyle()),
               ),*/
-              ListView.builder(
-                itemCount: events.length,
-                shrinkWrap: true,
-                padding: EdgeInsets.only(top: 16),
-                physics: NeverScrollableScrollPhysics(),
-                itemBuilder: (BuildContext context, int index) {
-                  return GestureDetector(
-                    onTap: () {
-                      helper.event = events[index];
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(builder: (context) => SDHomePageScreen(event: events[index])),
-                      );
-                    },
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(16, 0, 16, 0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: <Widget>[
-                              Row(
-                                children: <Widget>[
-                                  Container(
-                                    decoration: BoxDecoration(shape: BoxShape.circle, color: sdSecondaryColorRed),
-                                    padding: EdgeInsets.all(4),
-                                    child: Icon(Icons.star, color: Colors.white, size: 12),
-                                  ),
-                                  16.width,
-                                  SizedBox(
-                                    width: 200.0,
-                                    child: Text(
-                                      events[index].attributes.name!,
-                                      maxLines: 1,
-                                      overflow: TextOverflow.ellipsis,
-                                      softWrap: false,
-                                      style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20.0),
+              if(events.length > 0)
+                ListView.builder(
+                  itemCount: events.length,
+                  shrinkWrap: true,
+                  padding: EdgeInsets.only(top: 16),
+                  physics: NeverScrollableScrollPhysics(),
+                  itemBuilder: (BuildContext context, int index) {
+                    return GestureDetector(
+                      onTap: () {
+                        helper.event = events[index];
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) =>
+                              SDHomePageScreen(event: events[index])),
+                        );
+                      },
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Padding(
+                            padding: EdgeInsets.fromLTRB(16, 0, 16, 0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Row(
+                                  children: <Widget>[
+                                    Container(
+                                      decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          color: sdSecondaryColorRed),
+                                      padding: EdgeInsets.all(4),
+                                      child: Icon(
+                                          Icons.star, color: Colors.white,
+                                          size: 12),
                                     ),
-                                  ),
-                                  //Text(events[index].attributes.name!, style: primaryTextStyle(),overflow: TextOverflow.ellipsis),
-                                ],
-                              ),
-                              Icon(Icons.keyboard_arrow_right, color: sdIconColor)
-                            ],
+                                    16.width,
+                                    SizedBox(
+                                      width: 200.0,
+                                      child: Text(
+                                        events[index].attributes.name!,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                        softWrap: false,
+                                        style: TextStyle(color: Colors.black,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20.0),
+                                      ),
+                                    ),
+                                    //Text(events[index].attributes.name!, style: primaryTextStyle(),overflow: TextOverflow.ellipsis),
+                                  ],
+                                ),
+                                Icon(Icons.keyboard_arrow_right,
+                                    color: sdIconColor)
+                              ],
 
+                            ),
                           ),
-                        ),
-                        Container(
-                          color: sdViewColor,
-                          height: 1,
-                          margin: EdgeInsets.only(top: 16, bottom: 16),
-                        )
-                      ],
-                    ),
-                  );
-                },
-              ),
+                          Container(
+                            color: sdViewColor,
+                            height: 1,
+                            margin: EdgeInsets.only(top: 16, bottom: 16),
+                          )
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              if(events.length == 0)
+                Container(
+                  child: Text(
+                    'Evento no encontrado',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    softWrap: false,
+                    style: TextStyle(color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0),
+                  )
+                )
+
             ],
           ),
         ),
