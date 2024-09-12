@@ -12,13 +12,25 @@ import 'package:access_maketicket/src/Services/MaketicketService.dart';
 import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
 
 class SDSearchScreen extends StatefulWidget {
+  Future<void> Function(List<int>) onSearch;
+
+  SDSearchScreen({
+    required this.onSearch
+  });
+
   @override
-  _SDSearchScreenState createState() => _SDSearchScreenState();
+  _SDSearchScreenState createState() => _SDSearchScreenState(onSearch: onSearch);
 }
 
 class _SDSearchScreenState extends State<SDSearchScreen> {
+  Future<void> Function(List<int>) onSearch;
+  _SDSearchScreenState({
+    required this.onSearch
+  });
   List<Event> events = [];
+  List<int> event_ids = [];
   Helper helper = Helper();
+
   final MacketicketService macketicketService = MacketicketService();
   var query = TextEditingController();
 
@@ -85,10 +97,7 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                   ],
                 ),
               ),
-              /* Container(
-                margin: EdgeInsets.only(left: 16),
-                child: Text("Search history", style: secondaryTextStyle()),
-              ),*/
+
               if(events.length > 0)
                 ListView.builder(
                   itemCount: events.length,
@@ -99,11 +108,25 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                     return GestureDetector(
                       onTap: () {
                         helper.event = events[index];
-                        Navigator.pushReplacement(
+
+                        if(event_ids.contains(events[index].id)){
+                          helper.events.remove(events[index]);
+                          event_ids.remove(events[index].id);
+                          setState(() {
+                            event_ids.remove(events[index].id);
+                          });
+                        }else{
+                          helper.events.add(events[index]);
+                          setState(() {
+                            event_ids.add(events[index].id);
+                          });
+                        }
+                        /*Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(builder: (context) =>
                               SDHomePageScreen(event: events[index])),
-                        );
+                        );*/
+
                       },
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -119,10 +142,12 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                                     Container(
                                       decoration: BoxDecoration(
                                           shape: BoxShape.circle,
-                                          color: sdSecondaryColorRed),
+                                          color: event_ids.contains(events[index].id) ? sdSecondaryColorGreen : sdSecondaryColorRed
+                                      ),
                                       padding: EdgeInsets.all(4),
                                       child: Icon(
-                                          Icons.star, color: Colors.white,
+                                          Icons.star,
+                                          color: Colors.white,
                                           size: 12),
                                     ),
                                     16.width,
@@ -157,6 +182,17 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                     );
                   },
                 ),
+              if(event_ids.length > 0)
+               Container(
+                margin: EdgeInsets.only(left: 16),
+                child: Text(
+                    "Ver el detalle (${event_ids.length})",
+                    style: secondaryTextStyle( color: Colors.red, decoration: TextDecoration.underline)
+                ).onTap(()async {
+                  await this.onSearch(event_ids);
+                  finish(context);
+                }),
+              ),
               if(events.length == 0)
                 Container(
                   child: Text(

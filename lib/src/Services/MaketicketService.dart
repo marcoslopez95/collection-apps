@@ -11,8 +11,9 @@ import 'package:access_maketicket/src/Services/BaseService.dart';
 class MacketicketService extends BaseService {
   Helper helper = Helper();
   Future<Map<String, dynamic>> scanUuid(String uuid) async {
+    String eventsQuery = helper.events.map((Event event) => 'event_id[]=${event.id}').join('&');
     String url =
-        '${BASE_URL}/events/accept-ticket/${uuid}?event_id=${helper.event?.id ?? ''}';
+        '${BASE_URL}/events/accept-ticket/${uuid}?${eventsQuery}';
 
     final Map<String, String> headers = await getHeaders();
     final response = await http.get(
@@ -51,7 +52,7 @@ class MacketicketService extends BaseService {
     return data.map((item) => Event.fromJson(item)).toList();
   }
 
-  Future<List<AccessDetail>> getAccessDetailByEvent(int event_id) async {
+  Future<List<AccessDetail>> getAccessDetailByEvent(String event_id) async {
     String url = '${BASE_URL}/events/${event_id}/acces-detail';
     final Map<String, String> headers = await getHeaders();
     final response = await http.get(

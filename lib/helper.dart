@@ -19,6 +19,7 @@ class Helper
   late BuildContext context;
   late UserAuth userAuth;
   late Event? event = null;
+  late List<Event> events = [];
   final storage = const FlutterSecureStorage();
 
   Future<UserAuth> getUserAuth() async {

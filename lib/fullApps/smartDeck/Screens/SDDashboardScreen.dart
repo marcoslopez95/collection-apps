@@ -54,20 +54,26 @@ class SDDashboardState extends State<SDDashboard> {
   Future<void> init() async {
     await getGreat();
     changeStatusColor(appStore.isDarkModeOn ? scaffoldDarkColor : white);
+    List<int> event_ids = helper.events.map((Event event) => event.id).toList();
+    onSearch(event_ids);
+  }
 
-    if (widget.event != null) {
-      var details =
-          await macketicketService.getAccessDetailByEvent(widget.event!.id);
+  Future<void> onSearch(List<int> event_ids)async {
+    var details = await macketicketService.getAccessDetailByEvent(event_ids.join("-"));
 
-      setState(() {
-        accessDetails = details;
-      });
-    }
+    setState(() {
+      accessDetails = details;
+    });
   }
 
   @override
   void setState(fn) {
     if (mounted) super.setState(fn);
+  }
+
+  String getEventName(){
+    if(helper.events.length == 0) return 'Seleccione eventos';
+    return helper.events.map((Event event) => event.attributes.name).join(',');
   }
 
   @override
@@ -95,7 +101,8 @@ class SDDashboardState extends State<SDDashboard> {
                             autofocus: false,
                             readOnly: true,
                             onTap: () {
-                              SDSearchScreen().launch(context);
+                              helper.events = [];
+                              SDSearchScreen(onSearch: onSearch).launch(context);
                             },
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
@@ -137,7 +144,7 @@ class SDDashboardState extends State<SDDashboard> {
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Text(
-                    '${widget.event != null ? widget.event!.attributes.name : 'Seleccione un evento'}',
+                      getEventName(),
                       style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),
@@ -147,10 +154,10 @@ class SDDashboardState extends State<SDDashboard> {
                 ),*/
                 SizedBox(height: 15),
                 Container(
-                  height: 250,
+                  height: 300,
                   child: ListView.builder(
                     padding: EdgeInsets.only(right: 16),
-                    scrollDirection: Axis.horizontal,
+                   /* scrollDirection: Axis.horizontal,*/
                     itemCount: accessDetails.length,
                     /*itemCount: cards.length,accessDetails*/
                     itemBuilder: (BuildContext context, int index) {
@@ -159,34 +166,29 @@ class SDDashboardState extends State<SDDashboard> {
                           /*SDExamScreen(cards[index].examName, cards[index].image, cards[index].startColor, cards[index].endColor).launch(context);*/
                         },
                         child: Container(
-                          width: 180.0,
-                          margin: EdgeInsets.only(left: 16),
+                          width: 90,
+                          margin: EdgeInsets.only(left: 16,bottom: 16),
                           padding: EdgeInsets.all(10),
                           decoration: boxDecorationWithRoundedCorners(
                             borderRadius: BorderRadius.circular(8),
                             gradient: LinearGradient(
-                                colors: [Color(0xFF2889EB), Color(0xFF0B56CB)]),
+                                colors: [Colors.redAccent, Colors.red]),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget>[
-                              /* CircleAvatar(
-                                radius: 40,
-                                backgroundColor: Colors.white30,
-                                child: Image.asset(cards[index].image!, height: 60, width: 60),
-                              ),*/
                               Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text('${accessDetails[index].total}',
+                                  Text(accessDetails[index].access_status_name,
                                       style: secondaryTextStyle(
                                           color: Colors.white54, size: 20)),
                                 ],
                               ),
                               SizedBox(height: 15),
-                              Text(accessDetails[index].access_status_name,
+                              Text('${accessDetails[index].total}',
                                   style: secondaryTextStyle(
                                       color: Colors.white, size: 20)),
                               SizedBox(height: 15),

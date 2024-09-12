@@ -36,7 +36,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
       QRViewExample(event: (widget.event ?? null)),
       SDLeaderInfoScreen(),
       //SDChatScreen(),
-      sdPRofileScreen(),
+      // sdPRofileScreen(),
     ];
 
     return SafeArea(
@@ -101,7 +101,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
                   ),
                   label: 'a',
                 ),*/
-                BottomNavigationBarItem(
+                /*BottomNavigationBarItem(
                   icon: Container(
                     decoration: BoxDecoration(shape: BoxShape.circle),
                     height: 30,
@@ -132,7 +132,7 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
                     ),
                   ),
                   label: 'a',
-                ),
+                ),*/
               ],
               onTap: (index) {
                 setState(
