@@ -69,8 +69,8 @@ class _SDHomePageScreenState extends State<SDHomePageScreen> {
                   label: 'a',
                 ),
                 BottomNavigationBarItem(
-                  icon: Image.asset('images/smartDeck/images/sdexamcard.png', height: 28, width: 28, color: sdIconColor),
-                  activeIcon: Image.asset('images/smartDeck/images/sdexamcard.png', height: 28, width: 28, color: sdPrimaryColor),
+                  icon: Icon(Icons.qr_code, size: 28, color: sdIconColor),
+                  activeIcon: Icon(Icons.qr_code, size: 28, color: sdPrimaryColor),
                   label: 'a',
                 ),
                 BottomNavigationBarItem(

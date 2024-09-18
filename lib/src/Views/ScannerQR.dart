@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'dart:io';
 
+import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
@@ -67,7 +68,7 @@ class _QRViewExampleState extends State<QRViewExample> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  // if (result != null) Icon(IconData(icon!)),
+                  if (result != null) Icon(IconData(icon!,fontFamily: 'MaterialIcons'),size: 42, color: Color(color!)),
                   if (result != null)
                     Text(
                         '${response['message']} \n ${message}',

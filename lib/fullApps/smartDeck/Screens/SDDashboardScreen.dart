@@ -58,8 +58,10 @@ class SDDashboardState extends State<SDDashboard> {
     onSearch(event_ids);
   }
 
-  Future<void> onSearch(List<int> event_ids)async {
-    var details = await macketicketService.getAccessDetailByEvent(event_ids.join("-"));
+  Future<void> onSearch(List<int> event_ids) async {
+    if (event_ids.length == 0) return;
+    var details =
+        await macketicketService.getAccessDetailByEvent(event_ids.join("-"));
 
     setState(() {
       accessDetails = details;
@@ -71,8 +73,8 @@ class SDDashboardState extends State<SDDashboard> {
     if (mounted) super.setState(fn);
   }
 
-  String getEventName(){
-    if(helper.events.length == 0) return 'Seleccione eventos';
+  String getEventName() {
+    if (helper.events.length == 0) return 'Seleccione eventos';
     return helper.events.map((Event event) => event.attributes.name).join(',');
   }
 
@@ -102,7 +104,8 @@ class SDDashboardState extends State<SDDashboard> {
                             readOnly: true,
                             onTap: () {
                               helper.events = [];
-                              SDSearchScreen(onSearch: onSearch).launch(context);
+                              SDSearchScreen(onSearch: onSearch)
+                                  .launch(context);
                             },
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
@@ -114,38 +117,13 @@ class SDDashboardState extends State<SDDashboard> {
                           ),
                         ),
                       ),
-                      /* Stack(
-                        children: <Widget>[
-                          Container(
-                            margin: EdgeInsets.only(left: 10),
-                            padding: EdgeInsets.only(left: 10, top: 5, right: 15),
-                            child: InkWell(
-                              onTap: () {
-                                SDNotificationScreen().launch(context);
-                              },
-                              child: Icon(Icons.notifications_none, size: 30, color: appStore.isDarkModeOn ? white : black),
-                            ),
-                          ),
-                          Positioned(
-                            right: 9,
-                            top: 0,
-                            child: CircleAvatar(
-                              radius: 10,
-                              backgroundColor: Colors.red,
-                              child: Text('3', style: secondaryTextStyle(color: Colors.white)),
-                            ),
-                          )
-                        ],
-                      ),*/
                     ],
                   ),
                 ),
                 SizedBox(height: 25),
                 Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text(
-                      getEventName(),
-                      style: boldTextStyle(size: 20)),
+                  child: Text(getEventName(), style: boldTextStyle(size: 20)),
                 ),
                 SizedBox(height: 10),
                 /* Container(
@@ -154,20 +132,16 @@ class SDDashboardState extends State<SDDashboard> {
                 ),*/
                 SizedBox(height: 15),
                 Container(
-                  height: 300,
-                  child: ListView.builder(
-                    padding: EdgeInsets.only(right: 16),
-                   /* scrollDirection: Axis.horizontal,*/
-                    itemCount: accessDetails.length,
-                    /*itemCount: cards.length,accessDetails*/
-                    itemBuilder: (BuildContext context, int index) {
-                      return GestureDetector(
-                        onTap: () {
-                          /*SDExamScreen(cards[index].examName, cards[index].image, cards[index].startColor, cards[index].endColor).launch(context);*/
-                        },
-                        child: Container(
-                          width: 90,
-                          margin: EdgeInsets.only(left: 16,bottom: 16),
+                  height: context.height(),
+                  padding: EdgeInsets.only(bottom: 16),
+                  child: GridView.count(
+                    crossAxisCount: 2,
+                    children: [
+                      for (int i = 0; i < accessDetails.length; i++)
+                        Container(
+                          height: 100.0,
+                          margin:
+                              EdgeInsets.only(left: 16, bottom: 16, right: 16),
                           padding: EdgeInsets.all(10),
                           decoration: boxDecorationWithRoundedCorners(
                             borderRadius: BorderRadius.circular(8),
@@ -176,34 +150,23 @@ class SDDashboardState extends State<SDDashboard> {
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget>[
                               Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text(accessDetails[index].access_status_name,
+                                  Text(accessDetails[i].access_status_name,
                                       style: secondaryTextStyle(
                                           color: Colors.white54, size: 20)),
                                 ],
                               ),
-                              SizedBox(height: 15),
-                              Text('${accessDetails[index].total}',
+                              Text('${accessDetails[i].total}',
                                   style: secondaryTextStyle(
                                       color: Colors.white, size: 20)),
-                              SizedBox(height: 15),
-                              /* Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(cards[index].time!, style: secondaryTextStyle(color: Colors.white54, size: 18)),
-                                  cards[index].icon!,
-                                ],
-                              ),*/
                             ],
                           ),
-                        ),
-                      );
-                    },
+                        )
+                    ],
                   ),
                 ),
                 /*SizedBox(height: 25),
