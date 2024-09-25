@@ -19,6 +19,7 @@ class Event extends BaseModel{
 
 class EventAttributes extends Attributes{
   final String? name;
+  final String? image;
   final String? description;
   final bool active;
   final int? event_type_id;
@@ -27,6 +28,7 @@ class EventAttributes extends Attributes{
   EventAttributes({
     required this.name,
     required this.description,
+    this.image,
     this.active = false,
     this.event_type_id,
     this.deleted_at,
@@ -36,6 +38,7 @@ class EventAttributes extends Attributes{
     return EventAttributes(
     name: json['name'],
     description: json['description'],
+    image: json['image'],
     active: json['active'] == 1 ? true : false,
     event_type_id: json['event_type_id'],
     deleted_at: json['deleted_at'],

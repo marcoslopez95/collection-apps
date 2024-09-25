@@ -125,14 +125,21 @@ class SDDashboardState extends State<SDDashboard> {
                   margin: EdgeInsets.only(left: 16, right: 16),
                   child: Text(getEventName(), style: boldTextStyle(size: 20)),
                 ),
-                SizedBox(height: 10),
-                /* Container(
+                SizedBox(height: 15),
+                if(helper.events.length != 0 && helper.events[0].attributes.image != null)
+                Container(
                   margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Text('You have 3 exams pending', style: secondaryTextStyle(size: 14)),
-                ),*/
+                  child: CachedNetworkImage(
+                    placeholder: placeholderWidgetFn() as Widget Function(BuildContext, String)?,
+                    imageUrl: helper.events[0].attributes.image!,
+                    fit: BoxFit.cover,
+                    height: 70,
+                    width: context.width(),
+                  ),
+                ),
                 SizedBox(height: 15),
                 Container(
-                  height: context.height(),
+                  height: 300,
                   padding: EdgeInsets.only(bottom: 16),
                   child: GridView.count(
                     crossAxisCount: 2,
@@ -168,6 +175,11 @@ class SDDashboardState extends State<SDDashboard> {
                         )
                     ],
                   ),
+                ),
+                SizedBox(height: 10),
+                Container(
+                  margin: EdgeInsets.only(left: 16, right: 16),
+                  child: Text('Información suministrada por QRScanner', style: primaryTextStyle(size: 18), textAlign: TextAlign.center,),
                 ),
                 /*SizedBox(height: 25),
                 Container(
