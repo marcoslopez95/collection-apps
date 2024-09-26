@@ -24,11 +24,18 @@ class PurchaseOrderAccess extends BaseModel {
 
 class PurchaseOrderAccessAttributes extends Attributes {
   final String uuid;
+  final int? available;
 
-  PurchaseOrderAccessAttributes({required this.uuid});
+  PurchaseOrderAccessAttributes({
+    required this.uuid,
+    this.available
+  });
 
   factory PurchaseOrderAccessAttributes.fromJson(Map<String, dynamic> json) {
-    return PurchaseOrderAccessAttributes(uuid: json['uuid']);
+    return PurchaseOrderAccessAttributes(
+        uuid: json['uuid'],
+        available: json['available']
+    );
   }
 }
 

@@ -10,8 +10,10 @@ import 'package:access_maketicket/src/Services/BaseService.dart';
 
 class MacketicketService extends BaseService {
   Helper helper = Helper();
-  Future<Map<String, dynamic>> scanUuid(String uuid) async {
-    String eventsQuery = helper.events.map((Event event) => 'event_id[]=${event.id}').join('&');
+  Future<Map<String, dynamic>> scanUuid(String uuid, {int? event_id = null}) async {
+    String eventsQuery = event_id != null
+        ? 'event_id[]=${event_id}'
+        : helper.events.map((Event event) => 'event_id[]=${event.id}').join('&');
     String url =
         '${BASE_URL}/events/accept-ticket/${uuid}?${eventsQuery}';
 

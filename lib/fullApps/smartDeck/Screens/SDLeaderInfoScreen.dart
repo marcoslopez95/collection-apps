@@ -3,9 +3,11 @@ import 'package:access_maketicket/src/Enums/PaymentMethodEnum.dart';
 import 'package:access_maketicket/src/Enums/TypeArticleEnum.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrder.dart';
 import 'package:access_maketicket/src/Model/PurchaseOrderAccess.dart';
+import 'package:access_maketicket/src/Services/MaketicketService.dart';
 import 'package:access_maketicket/src/Services/PurchaseOrderService.dart';
 import 'package:access_maketicket/src/Views/ScannerQRScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 import 'package:nb_utils/nb_utils.dart';
 import 'package:access_maketicket/fullApps/smartDeck/ModelClass/ScoreboardAvailableModel.dart';
@@ -20,8 +22,10 @@ class SDLeaderInfoScreen extends StatefulWidget {
 
 class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
   Helper helper = Helper();
+  bool isLoading = false;
   PurchaseOrder? purchaseOrder;
   String? message = 'Busque una orden';
+  MacketicketService _maketicketService = MacketicketService();
   var query = TextEditingController();
   PurchaseOrderService _purchaseOrderService = PurchaseOrderService();
   String? uuid;
@@ -108,14 +112,38 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
               children: [
                 Text(access.relationships?.chair?.attributes.full_zone ?? '', style: boldTextStyle(size: 16)),
                 Text(getName, style: secondaryTextStyle(size: 10)),
+                Text('Canjes Disponibles: ${access.attributes.available ?? 0}', style: secondaryTextStyle(size: 10)),
               ],
             )),
+            SizedBox(width: 10,),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(access.relationships?.status?.attributes.name ?? '', style: boldTextStyle(color: Colors.black, size: 16)),
               ],
             ),
+            SizedBox(width: 25,),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Icon(Icons.check_box,color: Colors.green),
+                Text('Permitir', style: boldTextStyle(color: textSecondaryColor, size: 12)),
+              ],
+            ).onTap(()async {
+              int purchaseOrderId = purchaseOrder!.id;
+              int event_id = purchaseOrder!.attributes.event_id;
+              setState((){
+                message = 'Actualizando';
+                purchaseOrder = null;
+              });
+              await _maketicketService.scanUuid(access.attributes.uuid,event_id: event_id);
+              var res = await _purchaseOrderService.getPurchaseOrderByIdOrUuid(purchaseOrderId,null);
+              if(res == null) return;
+              setState(() {
+                message = res.error;
+                purchaseOrder = res.purchaseOrder;
+              });
+            }),
           ],
         ),
       );
