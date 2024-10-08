@@ -21,8 +21,8 @@ class DTSignUpScreenState extends State<DTSignUpScreen> {
   bool obscureText = true;
   bool autoValidate = false;
   bool isTaped = false;
-  var emailCont = TextEditingController(text: 'testing@c.c');
-  var passCont = TextEditingController(text: 'sologuillermo');
+  var emailCont = TextEditingController(text: '');
+  var passCont = TextEditingController(text: '');
   var nameCont = TextEditingController();
   String? messageError;
 

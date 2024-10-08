@@ -30,6 +30,27 @@ class PurchaseOrderService extends BaseService
     final jsonResponse = jsonDecode(response.body);
     return PurchaseOrderResult(purchaseOrder: PurchaseOrder.fromJson(jsonResponse['data']));
   }
+
+  Future<BaseResponse<PurchaseOrder>?> acceptTicketBatch(int purchase_order_id, List<String> uuids) async{
+    String url = '${BASE_URL}/events/accept-ticket/batch';
+    Object body = jsonEncode({
+      "purchase_order_id": purchase_order_id,
+      "uuids": uuids
+    });
+    final Map<String, String> headers = await getHeaders();
+    final response = await http.post(
+      Uri.parse(url),
+      headers: headers,
+      body: body
+    );
+
+    if(response.statusCode == 401){
+      await goLogin();
+      return null;
+    }
+    final jsonResponse = jsonDecode(response.body);
+    return BaseResponse<PurchaseOrder>.fromJson(jsonResponse, (json) => PurchaseOrder.fromJson(json));
+  }
 }
 
 class PurchaseOrderResult{
