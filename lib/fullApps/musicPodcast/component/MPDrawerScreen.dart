@@ -1,3 +1,4 @@
+import 'package:access_maketicket/constants.dart';
 import 'package:access_maketicket/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
@@ -51,6 +52,8 @@ class DrawerScreenState extends State<DrawerScreen> {
                     commonCacheImageWidget(mpImages_2, 100, width: 100, fit: BoxFit.cover).cornerRadiusWithClipRRect(50),
                     16.height,
                     Text('Menu', style: boldTextStyle(color: Colors.white, size: 18)),
+                    20.height,
+                    Text(APP_VERSION, style: boldTextStyle(color: Colors.white, size: 18)),
                   ],
                 ),
               ),

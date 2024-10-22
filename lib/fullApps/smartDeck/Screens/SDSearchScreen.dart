@@ -186,8 +186,8 @@ class _SDSearchScreenState extends State<SDSearchScreen> {
                Container(
                 margin: EdgeInsets.only(left: 16),
                 child: Text(
-                    "Ver el detalle (${event_ids.length})",
-                    style: secondaryTextStyle( color: Colors.red, decoration: TextDecoration.underline)
+                    "ACCEDER AL EVENTO (${event_ids.length})",
+                    style: primaryTextStyle( color: Colors.red, decoration: TextDecoration.underline)
                 ).onTap(()async {
                   await this.onSearch(event_ids);
                   finish(context);
