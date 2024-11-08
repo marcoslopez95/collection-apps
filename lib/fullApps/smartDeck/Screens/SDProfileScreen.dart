@@ -20,7 +20,7 @@ class sdPRofileScreen extends StatefulWidget {
 class _sdPRofileScreenState extends State<sdPRofileScreen> {
   Helper helper = Helper();
   UserAuth? _userAuth;
-  QrScans? _QrScans;
+  List<QrScans> _QrScans = [];
   ProfileService _profileService = ProfileService();
   _generateData() {
     var taskData = [
@@ -108,53 +108,32 @@ class _sdPRofileScreenState extends State<sdPRofileScreen> {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 16, right: 16),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Expanded(
-                        flex: 1,
-                        child: Container(
-                          margin: EdgeInsets.only(top: 320.00 - 50),
-                          padding: EdgeInsets.all(20),
+                  margin: EdgeInsets.only(left: 16, right: 16,top: 320.00 - 50),
+                  height: 600,
+                  child:
+                  GridView.count(
+                    crossAxisCount: 2,
+                    scrollDirection: Axis.vertical,
+                    children: [
+                      for (int index = 0;  index < _QrScans.length; index++)
+                        Container(
+                          margin: EdgeInsets.all(2),
+                          padding: EdgeInsets.all(10),
                           decoration: BoxDecoration(color: context.cardColor, borderRadius: BorderRadius.circular(8)),
                           child: Column(
                             mainAxisSize: MainAxisSize.min,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              Text('Escaneado', style: boldTextStyle(size: 16)),
+                              Text('${_QrScans[index].name}', style: boldTextStyle(size: 16)),
                               8.height,
-                              Text('${_QrScans?.scans_count ?? ''}', style: boldTextStyle(color: Colors.green.withOpacity(0.8), size: 26)),
+                              Text('${_QrScans[index].value ?? ''}', style: boldTextStyle(color: Colors.green.withOpacity(0.8), size: 26)),
                               8.height,
-                              Text('Codigos', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
                             ],
                           ),
                         ),
-                      ),
-                      SizedBox(width: 15),
-                      Expanded(
-                        flex: 1,
-                        child: Container(
-                          margin: EdgeInsets.only(top: 320.00 - 50),
-                          padding: EdgeInsets.all(20),
-                          decoration: BoxDecoration(color: context.cardColor, borderRadius: BorderRadius.circular(8)),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text('Eventos Asignados', style: boldTextStyle(size: 16)),
-                              8.height,
-                              Text('67', style: boldTextStyle(color: sdSecondaryColorYellow.withOpacity(0.7), size: 26)),
-                              8.height,
-                              Text('eventos', style: secondaryTextStyle(color: Colors.grey.withOpacity(0.7), size: 14)),
-                            ],
-                          ),
-                        ),
-                      ),
                     ],
-                  ),
+                  )
                 ),
               ],
             ),

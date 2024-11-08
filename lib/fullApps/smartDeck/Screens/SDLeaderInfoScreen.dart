@@ -123,17 +123,25 @@ class _SDLeaderInfoScreenState extends State<SDLeaderInfoScreen> {
                 Text(getName, style: secondaryTextStyle(size: 10)),
                 Text('Canjes Disponibles: ${access.attributes.available ?? 0}',
                     style: secondaryTextStyle(size: 10)),
+
               ],
             )),
             SizedBox(
               width: 10,
             ),
+            Expanded(
+              child:
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(access.relationships?.status?.attributes.name ?? '',
                     style: boldTextStyle(color: Colors.black, size: 16)),
+                Text('Ultimo escaneo: ${access.relationships?.history_scans != null ? access.relationships!.history_scans![0].user.attributes.name : ''}',
+                    style: secondaryTextStyle(size: 10)),
+                Text('Fecha escaneo: ${access.relationships?.history_scans != null ? access.relationships!.history_scans![0].created_at : ''}',
+                    style: secondaryTextStyle(size: 10)),
               ],
+            ),
             ),
             SizedBox(
               width: 25,

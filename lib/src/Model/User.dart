@@ -18,7 +18,11 @@ class User extends BaseModel
     return User(
       id: json['id'],
       attributes: UserAttributes.fromJson(json['attributes']),
-      relationships: UserRelationships.fromJson(json['relationships'])
+      relationships:  UserRelationships.fromJson(
+          json['relationships'] is List<dynamic>
+              ? {}
+              : json['relationships']
+      )
     );
   }
 }

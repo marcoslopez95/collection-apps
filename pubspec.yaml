@@ -240,6 +240,7 @@ flutter:
     - assets/shophop_data/
     - assets/integrations/
     - assets/medium/
+    - assets/media/
     - assets/integrations/lang/
     - images/shophop/img/products/
     - images/shophop/img/products/shoes/

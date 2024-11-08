@@ -2,11 +2,14 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:access_maketicket/fullApps/smartDeck/SDUtils/SDColors.dart';
+import 'package:access_maketicket/src/Model/PurchaseOrder.dart';
+import 'package:access_maketicket/src/Model/PurchaseOrderAccess.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
 import 'package:access_maketicket/fullApps/stockMarket/utils/images.dart';
 import 'package:access_maketicket/src/Services/MaketicketService.dart';
+import 'package:just_audio/just_audio.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:access_maketicket/src/Model/Event.dart';
 
@@ -30,10 +33,25 @@ class _QRViewExampleState extends State<QRViewExample> {
   int? icon;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
+  final player = AudioPlayer();
 
   _QRViewExampleState({
     this.event
 });
+  Future<void> playSound()async{
+    print('''
+        ****************************************
+        Comenzando reproduccion
+        ****************************************
+        ''');
+    await player.setUrl('asset:///assets/media/camera-250776.mp3');
+    await player.play();
+    print('''
+        ****************************************
+        termino reproduccion
+        ****************************************
+        ''');
+  }
 
   @override
   void setState(fn) {
@@ -182,6 +200,7 @@ class _QRViewExampleState extends State<QRViewExample> {
       this.controller = controller;
     });
     controller.scannedDataStream.listen((scanData) async {
+      await playSound();
       var res;
       var msg;
       if(scanData.code != ''){
@@ -192,9 +211,10 @@ class _QRViewExampleState extends State<QRViewExample> {
         ''');
         await controller.pauseCamera();
         res = await _maketicketServive.scanUuid(scanData.code!);
+        PurchaseOrderAccess access = PurchaseOrderAccess.fromJson(res['data']);
         await controller.resumeCamera();
         if(res['success'] == true){
-          msg = res['data']['relationships']['user']['attributes']['name'];
+          msg = '${access.relationships?.chair?.attributes.full_zone}';
         }
         print('''
         --------- res --------

@@ -1,13 +1,18 @@
 class QrScans
 {
-  final int scans_count;
+  final String name;
+  final int value;
 
   QrScans({
-    required this.scans_count
+    required this.name,
+    required this.value
   });
 
-  factory QrScans.fromJson(int scans_count)
+  factory QrScans.fromJson(Map<String, dynamic> json)
   {
-    return QrScans(scans_count: scans_count);
+    return QrScans(
+      name: json['name'],
+      value: json['value']
+    );
   }
 }

@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'dart:io';
-
+import 'package:just_audio/just_audio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:access_maketicket/fullApps/smartDeck/Screens/SDHomePageScreen.dart';
@@ -27,6 +27,22 @@ class ScannerQRScreenState extends State<ScannerQRScreen> {
   String? message;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
+  final player = AudioPlayer();
+
+  Future<void> playSound()async{
+    print('''
+        ****************************************
+        Comenzando reproduccion
+        ****************************************
+        ''');
+    await player.setUrl('asset:///assets/media/camera-250776.mp3');
+    await player.play();
+    print('''
+        ****************************************
+        termino reproduccion
+        ****************************************
+        ''');
+  }
 
   @override
   void setState(fn) {
@@ -173,6 +189,7 @@ class ScannerQRScreenState extends State<ScannerQRScreen> {
       this.controller = controller;
     });
     controller.scannedDataStream.listen((scanData) async {
+      await playSound();
       var res;
       var msg;
       if(scanData.code != ''){

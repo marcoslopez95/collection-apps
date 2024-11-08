@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 class ProfileService extends BaseService
 {
-  Future<QrScans> getTotalScans() async{
+  Future<List<QrScans>> getTotalScans() async{
     String url = '${BASE_URL}/qr-scans';
 
     final Map<String, String> headers = await getHeaders();
@@ -15,7 +15,8 @@ class ProfileService extends BaseService
       Uri.parse(url),
       headers: headers,
     );
-    final jsonResponse = jsonDecode(response.body);
-    return QrScans(scans_count: jsonResponse['scans_count']);
+    final List<Map<String,dynamic>> jsonResponse = (jsonDecode(response.body) as List<dynamic>).map((el) => el as Map<String,dynamic>).toList();
+
+    return jsonResponse.map((i) => QrScans.fromJson(i)).toList();
   }
 }
