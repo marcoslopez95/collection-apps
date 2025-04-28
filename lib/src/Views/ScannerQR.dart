@@ -16,9 +16,7 @@ import 'package:access_maketicket/src/Model/Event.dart';
 class QRViewExample extends StatefulWidget {
   final Event? event;
 
-  const QRViewExample({
-    Key? key, this.event = null
-    }) : super(key: key);
+  const QRViewExample({Key? key, this.event = null}) : super(key: key);
 
   @override
   State<StatefulWidget> createState() => _QRViewExampleState(event: event);
@@ -35,10 +33,9 @@ class _QRViewExampleState extends State<QRViewExample> {
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
   final player = AudioPlayer();
 
-  _QRViewExampleState({
-    this.event
-});
-  Future<void> playSound()async{
+  _QRViewExampleState({this.event});
+
+  Future<void> playSound() async {
     print('''
         ****************************************
         Comenzando reproduccion
@@ -59,9 +56,10 @@ class _QRViewExampleState extends State<QRViewExample> {
   }
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
   }
+
   // In order to get hot reload to work we need to pause the camera if the platform
   // is android, or resume the camera if the platform is iOS.
   @override
@@ -86,63 +84,67 @@ class _QRViewExampleState extends State<QRViewExample> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  if (result != null) Icon(IconData(icon!,fontFamily: 'MaterialIcons'),size: 42, color: Color(color!)),
+                  if (result != null)
+                    Icon(IconData(icon!, fontFamily: 'MaterialIcons'),
+                        size: 42, color: Color(color!)),
                   if (result != null)
                     Text(
-                        '${response['message']} \n ${message}',
-                        style: TextStyle(
-                              color: response['success'] == true
-                                    ? Color(color!)
-                                    : Colors.red,
-                              fontWeight: FontWeight.bold
-                           ),
-                        )
+                      '${response['message']} \n ${message}',
+                      style: TextStyle(
+                          color: response['success'] == true
+                              ? Color(color!)
+                              : Colors.red,
+                          fontWeight: FontWeight.bold),
+                    )
                   else
-                    Text('${event != null ? event?.attributes.name : 'Escanea un código'}'),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Container(
-                        margin: const EdgeInsets.all(8),
-                        child: ElevatedButton(
-                            onPressed: () async {
-                              await controller?.toggleFlash();
-                              setState(() {});
-                            },
-                            child: FutureBuilder(
-                              future: controller?.getFlashStatus(),
-                              builder: (context, snapshot) {
-                                return Text('${snapshot.data! ? 'Desactivar' : 'Activar'} Flash ');
+                    Text(
+                        '${event != null ? event?.attributes.name : 'Escanea un código'}'),
+                  if (controller != null)
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.all(8),
+                          child: ElevatedButton(
+                              onPressed: () async {
+                                await controller!.toggleFlash();
+                                setState(() {});
                               },
-                            )),
-                      ),
-                      Container(
-                        margin: const EdgeInsets.all(8),
-                        child: ElevatedButton(
-                            onPressed: () async {
-                              await controller?.flipCamera();
-                              setState(() {});
-                            },
-                            child: FutureBuilder(
-                              future: controller?.getCameraInfo(),
-                              builder: (context, snapshot) {
-                                if (snapshot.data != null) {
+                              child: FutureBuilder(
+                                future: controller!.getFlashStatus(),
+                                builder: (context, snapshot) {
                                   return Text(
-                                      'Camara ${describeEnum(snapshot.data!) == 'front'? 'Trasera' : 'Frontal'}');
-                                } else {
-                                  return const Text('loading');
-                                }
+                                      '${snapshot.data! ? 'Desactivar' : 'Activar'} Flash ');
+                                },
+                              )),
+                        ),
+                        Container(
+                          margin: const EdgeInsets.all(8),
+                          child: ElevatedButton(
+                              onPressed: () async {
+                                await controller?.flipCamera();
+                                setState(() {});
                               },
-                            )),
-                      )
-                    ],
-                  ),
+                              child: FutureBuilder(
+                                future: controller?.getCameraInfo(),
+                                builder: (context, snapshot) {
+                                  if (snapshot.data != null) {
+                                    return Text(
+                                        'Camara ${describeEnum(snapshot.data!) == 'front' ? 'Trasera' : 'Frontal'}');
+                                  } else {
+                                    return const Text('loading');
+                                  }
+                                },
+                              )),
+                        )
+                      ],
+                    ),
                   /*Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
-                      *//*Container(
+                      */ /*Container(
                         margin: const EdgeInsets.all(8),
                         child: ElevatedButton(
                           onPressed: () async {
@@ -151,7 +153,7 @@ class _QRViewExampleState extends State<QRViewExample> {
                           child: const Text('pause',
                               style: TextStyle(fontSize: 20)),
                         ),
-                      ),*//*
+                      ),*/ /*
                       Container(
                         margin: const EdgeInsets.all(8),
                         child: ElevatedButton(
@@ -176,7 +178,7 @@ class _QRViewExampleState extends State<QRViewExample> {
   Widget _buildQrView(BuildContext context) {
     // For this example we check how width or tall the device is and change the scanArea and overlay accordingly.
     var scanArea = (MediaQuery.of(context).size.width < 400 ||
-        MediaQuery.of(context).size.height < 400)
+            MediaQuery.of(context).size.height < 400)
         ? 150.0
         : 300.0;
     // To ensure the Scanner view is properly sizes after rotation
@@ -195,6 +197,7 @@ class _QRViewExampleState extends State<QRViewExample> {
   }
 
   MacketicketService _maketicketServive = MacketicketService();
+
   void _onQRViewCreated(QRViewController controller) {
     setState(() {
       this.controller = controller;
@@ -203,7 +206,7 @@ class _QRViewExampleState extends State<QRViewExample> {
       await playSound();
       var res;
       var msg;
-      if(scanData.code != ''){
+      if (scanData.code != '') {
         print('''
         --------- uuid --------
         ${scanData.code}
@@ -213,7 +216,7 @@ class _QRViewExampleState extends State<QRViewExample> {
         res = await _maketicketServive.scanUuid(scanData.code!);
         PurchaseOrderAccess access = PurchaseOrderAccess.fromJson(res['data']);
         await controller.resumeCamera();
-        if(res['success'] == true){
+        if (res['success'] == true) {
           msg = '${access.relationships?.chair?.attributes.full_zone}';
         }
         print('''
@@ -230,8 +233,8 @@ class _QRViewExampleState extends State<QRViewExample> {
         color = int.parse(res['color']);
         message = msg ?? '';
       });
-      Future.delayed(Duration(seconds: 5),(){
-        setState((){
+      Future.delayed(Duration(seconds: 5), () {
+        setState(() {
           result = null;
         });
       });
